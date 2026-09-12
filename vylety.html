@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Malorca 2026 – Katalog výletů</title>
-<meta name="description" content="82 výletů a aktivit na Mallorce pro 5 dospělých a 7 dětí od 25. 10. do 2. 11. 2026: filtry podle regionu, typu, počasí a věku dětí, plus osobní výběr, který pošlete do WhatsAppu.">
+<meta name="description" content="82 výletů a aktivit na Mallorce pro 5 dospělých a 7 dětí od 25. 10. do 2. 11. 2026: filtry podle regionu, typu, počasí a věku dětí, plus osobní poznámkový výběr.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%2317405e'/><circle cx='50' cy='36' r='13' fill='%23f4efe6'/><path d='M12 66q12-9 24 0t24 0 24 0 16-4' stroke='%23f4efe6' stroke-width='7' fill='none' stroke-linecap='round'/></svg>">
 <link rel="stylesheet" href="assets/style.css">
 <style>
@@ -84,7 +84,7 @@
   <div class="wrap">
     <div class="eyebrow">Katalog · 25. 10. – 2. 11. 2026 · 12 lidí</div>
     <h1>Výlety<br><em>a můj výběr</em></h1>
-    <p class="lead">82 aktivit z rešerše, seřazených podle regionu. U každé je, co to je, jak to sedne dětem 4–11, kolik to stojí, jestli je to v našem termínu otevřené a jak daleko je to ze čtyř uvažovaných základen. Filtry nahoře, hvězdička na kartě přidá položku do vlastního výběru — ten pak zkopírujete jedním tlačítkem do skupinového chatu.</p>
+    <p class="lead">82 aktivit z rešerše, seřazených podle regionu. U každé je, co to je, jak to sedne dětem 4–11, kolik to stojí, jestli je to v našem termínu otevřené a jak daleko je to ze čtyř uvažovaných základen. Filtry nahoře, hvězdička na kartě přidá položku do vlastního výběru — ten si pak jedním tlačítkem zkopírujete jako text.</p>
     <div class="stats">
       <div class="stat"><b>82</b><span>aktivit v katalogu</span></div>
       <div class="stat"><b>20–23 °C</b><span>denní teplota, ~7 deštivých dní</span></div>
@@ -102,9 +102,9 @@
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="kicker">Jak se hlasuje</span>
-        <h2>Hlasuje se ve WhatsAppu, web je katalog</h2>
-        <p>Tenhle web je statická stránka na GitHubu bez serveru, takže hlasy nikam neukládá. Postup: projděte karty, zapněte ☆ u toho, co chcete, a dole v sekci <a href="#shortlist">Můj výběr</a> pošlete seznam tlačítkem <b>„Poslat do WhatsAppu“</b> (otevře WhatsApp s předvyplněným textem, vy jen vyberete skupinu). Až se sejdou výběry všech, založí někdo ve skupině <b>WhatsApp anketu</b> z nejčastějších položek – to je finální hlasování. Hvězdičky se pamatují jen v tomto prohlížeči, tak vybírejte na jednom zařízení.</p>
+        <span class="kicker">Jak s katalogem pracovat</span>
+        <h2>Katalog a osobní výběr, hlasování zatím neřešíme</h2>
+        <p>Tenhle web je statická stránka bez serveru. Karty projděte, zapněte ☆ u toho, co vás láká, a dole v sekci <a href="#shortlist">Můj výběr</a> si seznam zkopírujete jako text pro vlastní potřebu. Hvězdičky se pamatují jen v tomto prohlížeči. O způsobu společného rozhodování se ještě domluvíme; web sám hlasování neřeší.</p>
       </div>
     </div>
     <div class="callout"><b>Stav k 12. 9. 2026.</b> Otevírací doby a ceny jsou z rešerše, ne z živého dotazu na provozovatele. Ceníky a zimní kalendáře se aktualizují na podzim — u všeho, co má rezervaci nebo omezené hodiny (Drach, Tren de Sóller, Cabrera, Marineland, Jungle Parc), ověřte stav 2–3 týdny před odletem.</div>
@@ -185,7 +185,7 @@
   <div class="wrap">
     <div class="sec-head">
       <div>
-        <span class="kicker">Hlasování</span>
+        <span class="kicker">Poznámky</span>
         <h2>Můj výběr</h2>
         <p>Klikněte na ☆ u karet, které chcete. Pořadí odpovídá pořadí, v jakém jste hvězdičky zapnuli.</p>
       </div>
@@ -193,7 +193,6 @@
     <div class="sl">
       <div class="row">
         <input type="text" id="voter" placeholder="Vaše jméno (např. Janča)" autocomplete="name">
-        <a class="btn primary" id="sl-wa" href="#" target="_blank" rel="noopener">Poslat do WhatsAppu</a>
         <button class="btn light" type="button" id="sl-copy">Zkopírovat jako text</button>
         <button class="btn light" type="button" id="sl-clear">Vymazat výběr</button>
         <span class="msg" id="sl-msg"></span>
@@ -1130,12 +1129,6 @@
     return out;
   }
 
-  var wa = document.getElementById('sl-wa');
-  wa.addEventListener('click', function (e) {
-    if (!picks.length) { e.preventDefault(); msg.textContent = 'Nejdřív něco vyberte.'; return; }
-    wa.href = 'https://wa.me/?text=' + encodeURIComponent(asText() + '\n' + location.origin + location.pathname);
-  });
-
   document.getElementById('sl-copy').addEventListener('click', function () {
     if (!picks.length) { msg.textContent = 'Nejdřív něco vyberte.'; return; }
     var txt = asText(), ta = document.getElementById('sl-fallback');
@@ -1146,7 +1139,7 @@
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(txt).then(function () {
         ta.classList.add('hidden');
-        msg.textContent = 'Zkopírováno – vložte do chatu.';
+        msg.textContent = 'Zkopírováno.';
         setTimeout(function () { msg.textContent = ''; }, 4000);
       }, fallback);
     } else fallback();
