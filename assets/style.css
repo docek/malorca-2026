@@ -418,3 +418,16 @@ table.week td.meet { background: #fbf5e6; }
 .combo .meetp { font-size: 14px; background: #e9f5ec; border-radius: 8px; padding: 8px 10px; }
 .combo .why { font-size: 14px; color: var(--ink-2); margin: 8px 0 0; }
 .combo .foot { margin-top: auto; padding-top: 8px; font-size: 13px; }
+
+/* ---------- malorca: per-day food & extension blocks ---------- */
+.day .more, .combo .more { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 12px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.combo .more { grid-template-columns: 1fr; }
+@media (max-width: 960px) { .day .more { grid-template-columns: 1fr; } }
+.day .more > div, .combo .more > div { background: var(--paper-2); border-radius: 12px; padding: 12px 14px; font-size: 13.5px; color: var(--ink-2); }
+.day .more h4, .combo .more h4 { font-family: var(--font-body); font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); margin: 0 0 6px; display: flex; align-items: center; gap: 6px; }
+.day .more ul, .combo .more ul { margin: 0; padding-left: 16px; list-style: disc; }
+.day .more li, .combo .more li { display: list-item; grid-template-columns: none; margin: 3px 0; padding: 0; border-top: 0; font-size: 13.5px; }
+.day .more b, .combo .more b { color: var(--ink); }
+.more .pick { color: var(--forest); font-weight: 700; }
+.more .n { color: var(--muted); font-size: 12.5px; }
+.day .more .ext, .combo .more .ext { background: #fbf5e6; }
