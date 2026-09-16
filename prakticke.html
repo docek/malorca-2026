@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f5a82">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Malorca 2026">
 <title>Malorca 2026 – Všeobecné a praktické informace</title>
 <meta name="description" content="Doklady, zdraví, peníze, svátky a otevírací doby, řízení, půjčovny aut a transfer, počasí a balení pro cestu pěti dospělých a sedmi dětí na Mallorku 25. 10. – 2. 11. 2026.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%2317405e'/><circle cx='50' cy='36' r='13' fill='%23f4efe6'/><path d='M12 66q12-9 24 0t24 0 24 0 16-4' stroke='%23f4efe6' stroke-width='7' fill='none' stroke-linecap='round'/></svg>">
@@ -865,6 +871,7 @@ section h3 { font-size: 20px; }
   <div class="wrap">
     <span>Malorca 2026 · Maradovi, Pavlasovi, Podařilovi · stav k 14. 9. 2026</span>
     <span>Zdroj: <a href="https://docek.github.io/malorca-2026">docek.github.io/malorca-2026</a></span>
+    <span class="appbar"><button type="button" data-pwa-help>📱 Web jako aplikace na telefonu</button><button type="button" data-offline title="Uloží stránky, data a fotky karet do prohlížeče">⬇ Uložit pro offline</button></span>
   </div>
 </footer>
 
@@ -898,5 +905,6 @@ section h3 { font-size: 20px; }
   update();
 })();
 </script>
+<script src="assets/places.js" defer></script>
 </body>
 </html>

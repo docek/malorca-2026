@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f5a82">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Malorca 2026">
 <title>Malorca 2026 – plán cesty 25. 10. – 2. 11. 2026</title>
 <meta name="description" content="Tři rodiny, dvanáct lidí, osm nocí na Malorce o podzimních prázdninách 2026. Základna Cal Tio v Sa Pobla, pevné body a výletní menu, historický vlak do Sólleru, mapa dojezdů a zdroje.">
 <meta property="og:title" content="Malorca 2026 – plán cesty 25. 10. – 2. 11. 2026">
@@ -48,6 +54,8 @@
       <a class="btn primary" href="#mapa">Mapa</a>
       <a class="btn ghost" href="#program">Program</a>
       <a class="btn ghost" href="vylety.html">Katalog výletů</a>
+      <button class="btn light" type="button" data-offline title="Uloží stránky, data a fotky karet do prohlížeče">⬇ Uložit pro offline</button>
+      <button class="btn light" type="button" data-pwa-help>📱 Jak na plochu telefonu</button>
     </div>
   </div>
 </div>
@@ -519,7 +527,7 @@
     <div class="grid c2">
       <div class="card">
         <div class="ico">🏨</div>
-        <h3>Noc 1: Casthotels Tierramar</h3>
+        <h3>Noc 1: Casthotels Tierramar <button class="pl detail" type="button" data-pl="ubyt-tierramar">Detail</button></h3>
         <p>Carrer de Berlín 9, El Arenal · ne 25. → po 26. 10. · <a href="https://www.booking.com/hotel/es/hostal-tierramar.html?checkin=2026-10-25&amp;checkout=2026-10-26&amp;group_adults=5&amp;group_children=7&amp;age=4&amp;age=5&amp;age=6&amp;age=7&amp;age=9&amp;age=11&amp;age=11">Booking</a> · <a href="https://www.google.com/maps/search/?api=1&amp;query=Casthotels+Tierramar%2C+Carrer+de+Berl%C3%ADn+9%2C+07600+El+Arenal%2C+Illes+Balears">Google Maps</a></p>
         <ul class="todo">
           <li><b>4 pokoje ≈ 7 555 Kč</b> (2× třílůžkový, 2× třílůžkový s balkonem), <b>nevratná</b> cena, bez snídaně; snídaně 243 Kč/os. volitelně<sup class="cite"><a href="#src-2">2</a></sup></li>
@@ -534,7 +542,7 @@
 
       <div class="card accent tint">
         <div class="ico">🏡</div>
-        <h3>Noci 2–8: Cal Tio, Sa Pobla</h3>
+        <h3>Noci 2–8: Cal Tio, Sa Pobla <button class="pl detail" type="button" data-pl="ubyt-cal-tio">Detail</button></h3>
         <p>Ideal Property Mallorca – Cal Tio, Calle Renou 166a · po 26. 10. – po 2. 11. · <a href="https://www.booking.com/hotel/es/cal-tio-id-83662.html?checkin=2026-10-26&amp;checkout=2026-11-02&amp;group_adults=5&amp;group_children=7&amp;age=4&amp;age=5&amp;age=6&amp;age=7&amp;age=9&amp;age=11&amp;age=11">Booking</a> · <a href="https://www.google.com/maps/search/?api=1&amp;query=39.765646,3.020726">Google Maps</a></p>
         <div class="statgrid" style="margin:12px 0">
           <div><b>40 610 Kč</b><span>7 nocí, Genius</span></div>
@@ -565,35 +573,35 @@
         <thead><tr><th>Místo</th><th>km</th><th>autem</th><th>co tam</th></tr></thead>
         <tbody>
           <tr class="grp"><th colspan="4">Do 30 minut</th></tr>
-          <tr><th>Coves de Campanet</th><td>7 km</td><td><b>~13 min</b></td><td>jeskyně, rain-day</td></tr>
-          <tr><th>Inca</th><td>14 km</td><td><b>~17 min</b></td><td>čtvrteční trh, kryté tržnice</td></tr>
-          <tr><th>Playa de Muro</th><td>13 km</td><td><b>~20 min</b></td><td>široká mělká pláž</td></tr>
-          <tr><th>Pollença</th><td>15 km</td><td><b>~21 min</b></td><td>nedělní trh, schody Calvari</td></tr>
-          <tr><th>Port d'Alcúdia</th><td>14 km</td><td><b>~22 min</b></td><td>pláž a přístav</td></tr>
-          <tr><th>Alcúdia</th><td>16 km</td><td><b>~22 min</b></td><td>hradby, staré město</td></tr>
-          <tr><th>Sineu</th><td>17 km</td><td><b>~22 min</b></td><td>středeční trh se zvířaty</td></tr>
-          <tr><th>S'Albufera</th><td>10 km</td><td><b>~24 min</b></td><td>mokřad, ptáci (vstup Sa Roca)</td></tr>
-          <tr><th>Cala Sant Vicenç</th><td>21 km</td><td><b>~28 min</b></td><td>zátoky pod skalami</td></tr>
-          <tr><th>Port de Pollença</th><td>21 km</td><td><b>~29 min</b></td><td>promenáda, mělká pláž</td></tr>
+          <tr><th><span data-pl-name="Coves de Campanet">Coves de Campanet</span></th><td>7 km</td><td><b>~13 min</b></td><td>jeskyně, rain-day</td></tr>
+          <tr><th><span data-pl-name="Inca">Inca</span></th><td>14 km</td><td><b>~17 min</b></td><td>čtvrteční trh, kryté tržnice</td></tr>
+          <tr><th><span data-pl-name="Playa de Muro">Playa de Muro</span></th><td>13 km</td><td><b>~20 min</b></td><td>široká mělká pláž</td></tr>
+          <tr><th><span data-pl-name="Pollença">Pollença</span></th><td>15 km</td><td><b>~21 min</b></td><td>nedělní trh, schody Calvari</td></tr>
+          <tr><th><span data-pl-name="Port d'Alcúdia">Port d'Alcúdia</span></th><td>14 km</td><td><b>~22 min</b></td><td>pláž a přístav</td></tr>
+          <tr><th><span data-pl-name="Alcúdia">Alcúdia</span></th><td>16 km</td><td><b>~22 min</b></td><td>hradby, staré město</td></tr>
+          <tr><th><span data-pl-name="Sineu">Sineu</span></th><td>17 km</td><td><b>~22 min</b></td><td>středeční trh se zvířaty</td></tr>
+          <tr><th><span data-pl-name="S'Albufera">S'Albufera</span></th><td>10 km</td><td><b>~24 min</b></td><td>mokřad, ptáci (vstup Sa Roca)</td></tr>
+          <tr><th><span data-pl-name="Cala Sant Vicenç">Cala Sant Vicenç</span></th><td>21 km</td><td><b>~28 min</b></td><td>zátoky pod skalami</td></tr>
+          <tr><th><span data-pl-name="Port de Pollença">Port de Pollença</span></th><td>21 km</td><td><b>~29 min</b></td><td>promenáda, mělká pláž</td></tr>
           <tr class="grp"><th colspan="4">30–60 minut</th></tr>
-          <tr><th>Els Calderers</th><td>25 km</td><td><b>~36 min</b></td><td>statek se zvířaty</td></tr>
-          <tr><th>Natura Parc</th><td>35 km</td><td><b>~40 min</b></td><td>malá zoo, st–ne</td></tr>
-          <tr><th>Lluc</th><td>24 km</td><td><b>~44 min</b></td><td>klášter v horách, rain-day</td></tr>
-          <tr><th>Palma Aquarium</th><td>50 km</td><td><b>~44 min</b></td><td>akvárium, kousek od letiště</td></tr>
-          <tr><th>Artà</th><td>36 km</td><td><b>~45 min</b></td><td>městečko s poutním kostelem</td></tr>
-          <tr><th>Palma katedrála</th><td>44 km</td><td><b>~49 min</b></td><td>staré město; vlakem 55 min</td></tr>
-          <tr><th>Valldemossa</th><td>50 km</td><td><b>~54 min</b></td><td>kartouza, uličky</td></tr>
-          <tr><th>Sóller</th><td>52 km</td><td><b>~55 min</b></td><td>vlak a tramvaj, viz sobota</td></tr>
-          <tr><th>Coves del Drach</th><td>46 km</td><td><b>~56 min</b></td><td>jeskyně s jezerem, rezervovat</td></tr>
-          <tr><th>Formentor maják</th><td>41 km</td><td><b>~58 min</b></td><td>maják a vyhlídky</td></tr>
-          <tr><th>Puig de Randa</th><td>42 km</td><td><b>~58 min</b></td><td>klášter a výhled na ostrov</td></tr>
-          <tr><th>Coves d'Artà</th><td>47 km</td><td><b>~59 min</b></td><td>jeskyně nad Canyamelem</td></tr>
-          <tr><th>Cala Agulla</th><td>46 km</td><td><b>~60 min</b></td><td>přírodní pláž s dunami</td></tr>
+          <tr><th><span data-pl-name="Els Calderers">Els Calderers</span></th><td>25 km</td><td><b>~36 min</b></td><td>statek se zvířaty</td></tr>
+          <tr><th><span data-pl-name="Natura Parc">Natura Parc</span></th><td>35 km</td><td><b>~40 min</b></td><td>malá zoo, st–ne</td></tr>
+          <tr><th><span data-pl-name="Lluc">Lluc</span></th><td>24 km</td><td><b>~44 min</b></td><td>klášter v horách, rain-day</td></tr>
+          <tr><th><span data-pl-name="Palma Aquarium">Palma Aquarium</span></th><td>50 km</td><td><b>~44 min</b></td><td>akvárium, kousek od letiště</td></tr>
+          <tr><th><span data-pl-name="Artà">Artà</span></th><td>36 km</td><td><b>~45 min</b></td><td>městečko s poutním kostelem</td></tr>
+          <tr><th><span data-pl-name="Palma katedrála">Palma katedrála</span></th><td>44 km</td><td><b>~49 min</b></td><td>staré město; vlakem 55 min</td></tr>
+          <tr><th><span data-pl-name="Valldemossa">Valldemossa</span></th><td>50 km</td><td><b>~54 min</b></td><td>kartouza, uličky</td></tr>
+          <tr><th><span data-pl-name="Sóller">Sóller</span></th><td>52 km</td><td><b>~55 min</b></td><td>vlak a tramvaj, viz sobota</td></tr>
+          <tr><th><span data-pl-name="Coves del Drach">Coves del Drach</span></th><td>46 km</td><td><b>~56 min</b></td><td>jeskyně s jezerem, rezervovat</td></tr>
+          <tr><th><span data-pl-name="Formentor maják">Formentor maják</span></th><td>41 km</td><td><b>~58 min</b></td><td>maják a vyhlídky</td></tr>
+          <tr><th><span data-pl-name="Puig de Randa">Puig de Randa</span></th><td>42 km</td><td><b>~58 min</b></td><td>klášter a výhled na ostrov</td></tr>
+          <tr><th><span data-pl-name="Coves d'Artà">Coves d'Artà</span></th><td>47 km</td><td><b>~59 min</b></td><td>jeskyně nad Canyamelem</td></tr>
+          <tr><th><span data-pl-name="Cala Agulla">Cala Agulla</span></th><td>46 km</td><td><b>~60 min</b></td><td>přírodní pláž s dunami</td></tr>
           <tr class="grp"><th colspan="4">Přes 60 minut</th></tr>
-          <tr><th>Safari Zoo</th><td>50 km</td><td><b>~63 min</b></td><td>zvířata z auta</td></tr>
-          <tr><th>Santanyí</th><td>58 km</td><td><b>~71 min</b></td><td>sobotní trh</td></tr>
-          <tr><th>Sa Calobra</th><td>44 km</td><td><b>~75 min</b></td><td>vynechat – daleko a klikatě</td></tr>
-          <tr><th>Es Trenc</th><td>56 km</td><td><b>~81 min</b></td><td>bílá pláž na jihu</td></tr>
+          <tr><th><span data-pl-name="Safari Zoo">Safari Zoo</span></th><td>50 km</td><td><b>~63 min</b></td><td>zvířata z auta</td></tr>
+          <tr><th><span data-pl-name="Santanyí">Santanyí</span></th><td>58 km</td><td><b>~71 min</b></td><td>sobotní trh</td></tr>
+          <tr><th><span data-pl-name="Sa Calobra">Sa Calobra</span></th><td>44 km</td><td><b>~75 min</b></td><td>vynechat – daleko a klikatě</td></tr>
+          <tr><th><span data-pl-name="Es Trenc">Es Trenc</span></th><td>56 km</td><td><b>~81 min</b></td><td>bílá pláž na jihu</td></tr>
         </tbody>
       </table>
     </div>
@@ -878,6 +886,7 @@
   <div class="wrap">
     <span>Malorca 2026 · Maradovi, Pavlasovi, Podařilovi · stav k 14. 9. 2026</span>
     <span>Zdroj: <a href="https://docek.github.io/malorca-2026">docek.github.io/malorca-2026</a> · <a href="vylety.html">Výlety</a> · <a href="jidlo.html">Jídlo</a> · <a href="prakticke.html">Praktické</a></span>
+    <span class="appbar"><button type="button" data-pwa-help>📱 Web jako aplikace na telefonu</button><button type="button" data-offline title="Uloží stránky, data a fotky karet do prohlížeče">⬇ Uložit pro offline</button></span>
   </div>
 </footer>
 
@@ -920,7 +929,7 @@ spots.push(...[["S'Albufereta", 39.859, 3.1035, 16, 20, "ptačí okruh 1,5 km, p
 
 const coords = {};
 const baseLayer = L.layerGroup(), spotLayer = L.layerGroup(), routeLayer = L.layerGroup();
-const pop = (title, line) => '<div class="pop"><b class="nm">' + title + '</b><span class="ln">' + line + '</span></div>';
+const pop = (title, line, name) => '<div class="pop"><b class="nm">' + title + '</b><span class="ln">' + line + '</span>' + (name ? '<button class="pl detail" type="button" data-pl-name="' + name + '">Detail</button>' : '') + '</div>';
 
 bases.forEach(b => {
   coords[b[0]] = [b[1], b[2]];
@@ -928,7 +937,7 @@ bases.forEach(b => {
   const icon = home
     ? L.divIcon({ className: '', html: '<div class="home-marker">⌂</div>', iconSize: [38, 38], iconAnchor: [19, 19] })
     : L.divIcon({ className: '', html: '<div class="base-marker sq" style="background:' + css(b[3] === 'PMI' || b[3] === 'HOTEL' ? '--ink' : '--terra') + '">' + b[3] + '</div>', iconSize: [30, 26], iconAnchor: [15, 13] });
-  const m = L.marker([b[1], b[2]], { icon, zIndexOffset: home ? 1000 : 600 }).bindPopup(pop(b[0], b[4])).addTo(baseLayer);
+  const m = L.marker([b[1], b[2]], { icon, zIndexOffset: home ? 1000 : 600 }).bindPopup(pop(b[0], b[4], b[0])).addTo(baseLayer);
   if (home) m.bindTooltip('Cal Tio', { permanent: true, direction: 'right', offset: [20, 0], className: 'home-label' });
 });
 
@@ -936,7 +945,7 @@ spots.forEach(s => {
   coords[s[0]] = [s[1], s[2]];
   const col = s[4] <= 30 ? css('--ok') : (s[4] <= 60 ? css('--sand') : css('--terra'));
   L.circleMarker([s[1], s[2]], { radius: 7, color: '#fff', weight: 1.5, fillColor: col, fillOpacity: 1 })
-    .bindPopup(pop(s[0] + ' – z Cal Tia ~' + s[4] + ' min', s[5] + ' · ' + s[3] + ' km')).addTo(spotLayer);
+    .bindPopup(pop(s[0] + ' – z Cal Tia ~' + s[4] + ' min', s[5] + ' · ' + s[3] + ' km', s[0])).addTo(spotLayer);
 });
 
 // Monday: Tierramar -> Palma (car, garage) -> Cal Tio (car); schematic
@@ -972,5 +981,6 @@ document.querySelectorAll('[data-pts] .fly').forEach(a => a.addEventListener('cl
   secs.forEach(s => io.observe(s));
 })();
 </script>
+<script src="assets/places.js" defer></script>
 </body>
 </html>
