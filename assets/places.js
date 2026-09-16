@@ -26,10 +26,11 @@
 
   // ---------- data ----------
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
-  let places = {}, byName = [], aliases = {}, terms = {};
+  let places = {}, byName = [], aliases = {}, rawAliases = {}, terms = {};
   const ready = fetch('assets/places.json').then(r => r.json()).then(d => {
     d.places.forEach(p => { places[p.id] = p; byName.push([norm(p.name), p.id]); });
     aliases = Object.fromEntries(Object.entries(d.aliases || {}).map(([k, v]) => [norm(k), v]));
+    rawAliases = d.aliases || {};
     terms = d.terms || {};
     byName.sort((a, b) => b[0].length - a[0].length);
     return places;
@@ -139,6 +140,56 @@
       if (n.nodeType !== 1) return;
       n.querySelectorAll('.pl[data-pl-name]:not([data-pl])').forEach(el => { const id = resolveName(el.dataset.plName); if (id) el.dataset.pl = id; else el.remove(); });
     }))).observe(document.body, { childList: true, subtree: true });
+  });
+
+  // ---------- auto-link place names in prose (first occurrence per block) ----------
+  const NO_AUTOLINK = new Set(['sóller', 'pmi', 'lukostřelba', 'laser tag', 'kola']);
+  const BLOCKS = '.act, .venue, .card, .mod, .combo, .day, .callout, .risk, .verdict > div, .sec-head p, table.cmp td, table.week td, .check li, .prog-note, .quick div, .top5 li';
+  const SKIP_TAGS = new Set(['A', 'BUTTON', 'SCRIPT', 'STYLE', 'H1', 'H2', 'SUP', 'INPUT', 'SELECT', 'TEXTAREA', 'LABEL']);
+  const escRx = x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  function annotate(blocks, entries, cls, dataKey, opts) {
+    // entries: [{key, id, forms:[...]}] sorted longest first; wraps first hit per block
+    const END = "(?:y|u|e|ou|ě|em|ám|ách|ami|i)?(?!\\p{L})";
+    const alts = entries.map(e => '(?:' + e.forms.map(escRx).join('|') + ')' + END).join('|');
+    const rx = new RegExp('(^|[^\\p{L}])(' + alts + ')', 'iu');
+    const fold = x => x.toLowerCase();
+    const keyOf = w => { const lw = fold(w); return entries.find(e => e.forms.some(f => lw.startsWith(fold(f)))); };
+    for (const b of blocks) {
+      if (b.closest('.hero, .modal, footer, .nav, .subnav, .chips, .tracklines')) continue;
+      const seen = new Set();
+      const walker = document.createTreeWalker(b, NodeFilter.SHOW_TEXT, { acceptNode: n => {
+        let el = n.parentElement;
+        while (el && el !== b) { if (SKIP_TAGS.has(el.tagName) || (opts.skipH && /^H[3-5]$/.test(el.tagName)) || el.classList.contains('pl') || el.classList.contains('gl') || el.classList.contains('chip')) return NodeFilter.FILTER_REJECT; el = el.parentElement; }
+        return NodeFilter.FILTER_ACCEPT; } });
+      const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const n of nodes) {
+        const text = n.nodeValue; let last = 0, m, changed = false, guard = 0;
+        const out = document.createDocumentFragment();
+        while ((m = rx.exec(text.slice(last))) && guard++ < 40) {
+          const e = keyOf(m[2]); const start = last + m.index + m[1].length, end = start + m[2].length;
+          if (!e || seen.has(e.id)) { last = end; continue; }
+          seen.add(e.id);
+          out.appendChild(document.createTextNode(text.slice(last, start)));
+          const s = document.createElement('span'); s.className = cls; s.dataset[dataKey] = e.id; s.tabIndex = 0; s.setAttribute('role', 'button'); s.textContent = text.slice(start, end); out.appendChild(s);
+          last = end; changed = true;
+        }
+        if (changed) { out.appendChild(document.createTextNode(text.slice(last))); n.parentNode.replaceChild(out, n); }
+      }
+    }
+  }
+  ready.then(() => {
+    const entries = [];
+    const add = (form, id) => { const f = form.trim(); if (f.length < 4 || NO_AUTOLINK.has(f.toLowerCase())) return; entries.push({ id, forms: [f] }); };
+    Object.values(places).forEach(p => {
+      add(p.name, p.id);
+      const short = p.name.split(/\s[–(:+]|\s\(|, /)[0];
+      if (short !== p.name) add(short, p.id);
+    });
+    Object.entries(rawAliases).forEach(([k, id]) => add(k, id));
+    // one entry per distinct form; longest first
+    const byForm = new Map(); entries.forEach(e => { const f = e.forms[0].toLowerCase(); if (!byForm.has(f)) byForm.set(f, e); });
+    const list = [...byForm.values()].sort((a, b) => b.forms[0].length - a.forms[0].length);
+    annotate(document.querySelectorAll(BLOCKS), list, 'pl auto', 'pl', { skipH: false });
   });
 
   // ---------- glossary of Catalan / Mallorcan terms ----------

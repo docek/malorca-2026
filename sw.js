@@ -1,5 +1,5 @@
 /* Malorca 2026 – offline service worker */
-const VERSION = 'v5';
+const VERSION = 'v6';
 const CORE = ['./', 'index.html', 'vylety.html', 'jidlo.html', 'prakticke.html',
   'assets/style.css', 'assets/places.js', 'assets/places.json', 'assets/icon.svg', 'manifest.webmanifest',
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css',

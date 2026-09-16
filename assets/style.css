@@ -521,3 +521,5 @@ footer .appbar button:hover { background: #fff; }
 @media (max-width: 720px) { .track { grid-template-columns: 1fr; gap: 4px; } .track .tl { grid-column: 1; } }
 .tracklines { list-style: none; padding: 0; margin: 0 0 10px; display: grid; gap: 6px; font-size: 14px; color: var(--ink-2); }
 .tracklines .who { margin-right: 6px; }
+.pl.auto { font-weight: inherit; }
+.act .pl.auto, .venue .pl.auto { color: inherit; text-decoration-color: color-mix(in srgb, var(--forest-2) 30%, transparent); }
