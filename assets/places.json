@@ -741,11 +741,11 @@
    "kids": "Ok — kombinace interiéru a zahrady, nejmenší spíš zahrada.",
    "card_facts": {
     "Čas": "1,5–2 h",
-    "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "jen po domluvě — ověřit; oficiální web nadace se při rešerši nenačetl, historicky jen na objednávku a v omezené dny; msbb.org uvádí od 1. 11. Út–So do 17:00"
+    "Cena": "sochařský park 7 €, Nins a Sokrates 12 €, kompletní prohlídka s domem 38 € (ověřit); do 7 let zdarma",
+    "Otevřeno v našem termínu": "Út–So 10:00–17:30 (od listopadu), Ne a Po zavřeno bez ohledu na rezervaci – tedy i 1. 11.; park a Nins/Sokrates bez rezervace, prohlídka domu jen s rezervací"
    },
    "drive": "z Cal Tia ~40 min · 22 km",
-   "verdict": "Bez potvrzené domluvy nejezdit; v neděli 1. 11. zavřeno.",
+   "verdict": "Út–So do sochařského parku bez domluvy, dům jen s rezervací; neděle 1. 11. a pondělí zavřeno.",
    "card_links": [],
    "id": "museu-sa-bassa-blanca-alcudia",
    "why": "Muzeum založili sběratelé Yannick a Ben Jakober, hlavní budovu navrhl egyptský architekt Hassan Fathy - kombinace moderního umění, dětských portrétů (sbírka Nins) a sochařského parku nad zálivem Alcúdia.",
@@ -1644,7 +1644,7 @@
    "card_facts": {
     "Čas": "areál 45–60 min, muzeum 30–45 min",
     "Cena": "4 €, 8–25 let 2,50 €, do 7 zdarma",
-    "Otevřeno v našem termínu": "muzeum Út–So 9:00–15:00, Po, Ne a svátky zavřeno (1. 11. zavřeno); areál má ověřený jen letní řád 2026 — zimní ověřit"
+    "Otevřeno v našem termínu": "do 31. 10. muzeum Út–So 9:00–15:00, Po, Ne a svátky zavřeno; od listopadu zimní řád (Út–Pá 10:00–16:00, So–Ne 10:00–14:00, Po zavřeno) – zdroje se rozcházejí, 1. 11. a zimní hodiny ověřit"
    },
    "drive": "z Cal Tia ~20 min · 15 km",
    "verdict": "Kulturní doplněk k hradbám Alcúdie, pro velké. Dopoledne Út–So.",
@@ -7491,7 +7491,7 @@
    "typ": "farma",
    "rain": "ano",
    "kids4": "ano",
-   "what": "Fungující olejárna s muzeem: od sklizně přes lisování po stáčení, historické kamenné lisy, ochutnávka a obchod.",
+   "what": "Fungující olejárna s expozicí: od sklizně přes lisování po stáčení, ochutnávka a obchod. Je to moderní provoz (od roku 2002) s ukázkou tradičního zpracování, ne historický mlýn.",
    "kids": "Pro všechny — lisy a olivy děti zajímají, krátká prohlídka.",
    "card_facts": {
     "Čas": "45–60 min",
@@ -7975,12 +7975,12 @@
    "name": "Sa Tafona de Caimari",
    "kind": "výrobce",
    "page": "jidlo.html",
-   "what": "Fungující olejárna s muzeem – sklizeň, lisování, stáčení",
+   "what": "Fungující olejárna s expozicí – sklizeň, lisování, stáčení; moderní provoz od 2002",
    "card_facts": {
     "Kde": "silnice Inca–Lluc km 6, Caimari · Google Maps",
     "Dojezd z Cal Tia": "~25 min, 14 km – po cestě do Lluku",
     "Cena": "na webu neuvedena, ověřit",
-    "Pro děti": "pro všechny – kamenné lisy a olivy zaujmou i čtyřletou; prohlídka je krátká",
+    "Pro děti": "pro všechny – lisy a olivy zaujmou i čtyřletou; prohlídka je krátká",
     "Kdy u nás": "kterýkoli den kromě pondělí, nejlépe jako zastávka k dni v Lluku nebo k deštivému dni v Campanetu",
     "Otevřeno": "út–ne 9:00–22:00, pondělí zavřeno (ověřeno); konec října je sklizeň, živá výroba je pravděpodobná, ne jistá"
    },
@@ -7992,7 +7992,7 @@
    ],
    "area": "za jídlem k výrobci",
    "status": "ověřeno",
-   "why_card": "Nejbližší „ochutnat a vidět, jak to vzniká“ z celého týdne – 25 minut od domu a celé pod střechou, takže se hodí i na den, kdy prší. Historické lisy, ochutnávka oleje a obchod.",
+   "why_card": "Nejbližší „ochutnat a vidět, jak to vzniká“ z celého týdne – 25 minut od domu a celé pod střechou, takže se hodí i na den, kdy prší. Není to historický mlýn, ale výrobna z roku 2002 s ukázkou tradičního lisování, ochutnávkou oleje a obchodem.",
    "id": "g-tafona-caimari",
    "why": "Sa Tafona de Caimari je fungující olejárna s restaurací u paty Tramuntany – jediné místo v okolí, kde lze vidět lisování oliv i rovnou ochutnat, co z něj vzniklo.",
    "experience": "Prohlídka historických kamenných lisů je krátká, následuje degustace olivového oleje s chlebem; v restauraci se servíruje grilované maso a rýžové pokrmy na terase s výhledem na hory. Skupina 12 lidí se vejde, ale na jídlo je lepší rezervovat.",
@@ -10640,11 +10640,11 @@
    "page": "jidlo.html",
    "what": "Pekárna: croissanty, napolitanky, koláče",
    "card_facts": {
-    "Adresa": "Carrer de Formentor / Carrer Joan XXIII, Port de Pollença · Google Maps",
+    "Adresa": "Carrer de Formentor / Carrer Joan XXIII, Port de Pollença (jiný zdroj: Carrer de Sant Pere 5, Pollença – ověřit, o kterou pobočku jde) · Google Maps",
     "Cena": "€",
     "Pro děti": "sladké pečivo",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "pondělí; sezónní přestávka 31. 10.–15. 3.",
+    "26. 10.–2. 11.": "jen út 27. – pá 30. 10., pak zavřeno"
    },
    "card_links": [
     [
@@ -10653,8 +10653,8 @@
     ]
    ],
    "area": "Lluc a Formentor",
-   "status": "ověřit",
-   "why_card": "Sladké na piknik před cestou na Formentor.",
+   "status": "jen do 30. 10.",
+   "why_card": "Sladké na piknik před cestou na Formentor – jen když Formentor vyjde do pátku 30. 10., jinak The Store.",
    "id": "v-payeras",
    "why": "Rodinná pekárna vedená čtvrtou generací rodiny Payeras, specializuje se na tradiční slané pečivo panades a cocarrois i na mallorskou ensaïmadu.",
    "experience": "Malý obchod s pultem, bez posezení – koupíte croissanty, napolitanky a koláče na piknik před výjezdem na Formentor. Odbavení skupiny zabere pár minut.",
@@ -10804,11 +10804,11 @@
    "page": "jidlo.html",
    "what": "Středomořská a různá kuchyně",
    "card_facts": {
-    "Adresa": "Passeig Infanta Carlota 200, Porto Cristo (neověřeno) · Google Maps",
+    "Adresa": "Passeig Infanta Carlota 200, Porto Cristo Novo · Google Maps",
     "Cena": "střední",
     "Pro děti": "dětský koutek",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "pondělí; Út–Ne jen 20:00–23:00",
+    "26. 10.–2. 11.": "otevírá až ve 20:00 – na oběd po jeskyních nepoužitelné, jen večeře"
    },
    "card_links": [
     [
@@ -10817,7 +10817,7 @@
     ]
    ],
    "area": "Východ: Porto Cristo a Artà",
-   "status": "ověřit",
+   "status": "jen večer",
    "why_card": "Nejlepší fit pro 5 dospělých a 7 dětí po jeskyních.",
    "id": "v-15fifteen",
    "why": "Cantina se zahradní terasou přímo na promenádě Porto Cristo, středomořská kuchyně s asijskými prvky; oblíbené jsou ceviche a mořský vlk v tombetu.",
