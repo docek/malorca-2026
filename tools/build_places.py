@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "places.json"
 EXTRA = ROOT / "tools" / "extra_places.json"
 TERMS = ROOT / "tools" / "terms.json"
-ENRICH_KEYS = ["why", "experience", "access", "tips", "warning", "facts", "links", "commons_query", "fun", "note", "anchor"]
+ENRICH_KEYS = ["why", "experience", "access", "tips", "warning", "facts", "links", "commons_query", "fun", "note", "anchor", "photo_is_area", "what_long"]
 CARD_KEYS = ["name", "kind", "page", "region", "typ", "rain", "kids4", "what", "kids", "card_facts", "drive", "verdict", "card_links", "area", "status", "why_card"]
 
 ALIASES = {

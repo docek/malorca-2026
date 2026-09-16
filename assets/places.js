@@ -46,7 +46,7 @@
   function placeHtml(p) {
     let img = '';
     if (p.img && p.img.file) {
-      img = `<img src="${imgUrl(p.img.file, 900)}" alt="${esc(p.name)}"><div class="credit">Foto: ${esc(p.img.author)}, ${esc(p.img.license)}, <a href="${fileUrl(p.img.file)}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`;
+      img = `<img src="${imgUrl(p.img.file, 900)}" alt="${esc(p.name)}"><div class="credit">${p.photo_is_area ? 'Ilustrační foto okolí. ' : ''}Foto: ${esc(p.img.author)}, ${esc(p.img.license)}, <a href="${fileUrl(p.img.file)}" target="_blank" rel="noopener">Wikimedia Commons</a></div>`;
     }
     const sec = (t, v) => v ? `<h4>${esc(t)}</h4><p>${esc(v)}</p>` : '';
     const call = (cls, t, v) => v ? `<div class="pcall ${cls}"><b>${esc(t)}</b>${esc(v)}</div>` : '';
@@ -64,10 +64,10 @@
     const gal = (p.gallery || []).map(g => `<a class="th" href="${fileUrl(g.file)}" target="_blank" rel="noopener" title="${esc(g.author)}, ${esc(g.license)}"><img src="${imgUrl(g.file, 480)}" alt="" loading="lazy"><span>${esc(g.author)} · ${esc(g.license)}</span></a>`).join('');
     const galHtml = gal ? `<h4>Další fotky (Wikimedia Commons)</h4><div class="gallery">${gal}</div>` : '';
     const body = p.kind === 'výlet'
-      ? sec('Co to je', p.what) + sec('Pro děti 4–11', p.kids) + sec('Proč tam', p.why) + sec('Co zažijeme', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + call('note', 'Verdikt', p.verdict)
+      ? sec('Co to je', p.what_long || p.what) + sec('Pro děti 4–11', p.kids) + sec('Proč tam', p.why) + sec('Co zažijeme', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + call('note', 'Verdikt', p.verdict)
       : p.kind === 'ubytování'
-        ? sec('Co to je', p.what) + sec('Proč tady', p.why) + sec('Co nás čeká', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + sec('Dostupnost a storno', p.booking) + sec('Kontakt', p.contact) + sec('Hodnocení', p.rating)
-        : sec('Co to je', p.what) + sec('Proč zrovna tady', p.why) + sec('Co si dát a jak to tam vypadá', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + call('note', 'Z rešerše', p.why_card);
+        ? sec('Co to je', p.what_long || p.what) + sec('Proč tady', p.why) + sec('Co nás čeká', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + sec('Dostupnost a storno', p.booking) + sec('Kontakt', p.contact) + sec('Hodnocení', p.rating)
+        : sec('Co to je', p.what_long || p.what) + sec('Proč zrovna tady', p.why) + sec('Co si dát a jak to tam vypadá', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + call('note', 'Z rešerše', p.why_card);
     return `${img}<div class="in"><h3>${esc(p.name)}</h3><div class="kind">${esc(meta)}${status}</div>${factsHtml}${call('warn', 'Pozor', p.warning)}${body}${call('fun', 'Kuriozita pro děti', p.fun)}<div class="links">${links.join('')}</div>${galHtml}</div>`;
   }
 
@@ -84,7 +84,7 @@
       return;
     }
     if (e.metaKey || e.ctrlKey || e.shiftKey || t.target === '_blank') return;
-    const m = (t.getAttribute('href') || '').match(/^(?:vylety|jidlo)\.html#([a-z0-9-]+)$/);
+    const m = (t.getAttribute('href') || '').match(/^(?:(?:vylety|jidlo|index)\.html)?#([a-z0-9-]+)$/);
     if (m && places[m[1]] && !t.classList.contains('card-link')) { e.preventDefault(); openPlace(m[1]); }
   });
   document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.classList && e.target.classList.contains('pl')) e.target.click(); });

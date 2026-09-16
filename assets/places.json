@@ -305,7 +305,7 @@
    "card_facts": {
     "Čas": "3–4 h tam a zpět z Alcúdie",
     "Cena": "zdarma (parkovné)",
-    "Otevřeno v našem termínu": "celoročně; zákaz vjezdu aut platil 15. 5.–15. 10., v našem termínu už ne — ověřit na dgt.es těsně před cestou"
+    "Otevřeno v našem termínu": "celoročně; zákaz vjezdu aut platil v roce 2026 15. 5.–18. 10. (10:00–22:00), v našem termínu už ne"
    },
    "drive": "z Cal Tia ~60 min · 41 km",
    "verdict": "Must-see, ale půldenní až celodenní výlet. Za mlhy vyhlídky nemají cenu.",
@@ -315,12 +315,12 @@
    "experience": "Klikatá 13,5 km silnice s řadou vyhlídek, hlavní zastávka Mirador d'es Colomer (parkoviště, plošina, bez stínu). Dál k samotnému majáku na špici mysu, kde je menší parkoviště a sezónní občerstvení. Celá trasa se zastávkami a fotkami zabere půl dne.",
    "access": "Ze Sa Pobly přes Port de Pollença po silnici Ma-2210, úzká vozovka s mnoha serpentinami a míjecími místy. Parkování u mirador d'es Colomer i u majáku zdarma, ale kapacita omezená.",
    "tips": "Vyrazit brzy ráno kvůli parkování a světlu do zad na vyhlídkách, vzít bundu - na mysu často fouká. Kombinovat se zastávkou v Port de Pollença.",
-   "warning": "Silnice má ostré serpentiny bez svodidel a srázy - nevhodné pro cestující se závratí, řidič potřebuje soustředění. Historicky platil 15. 5.-15. 10. zákaz vjezdu soukromých aut (jen bus/kolo/pěšky); v termínu cesty by už neměl platit, ale stav pro rok 2026 ověřit na dgt.es nebo webu ajuntament de Pollença těsně před cestou.",
+   "warning": "Silnice má ostré serpentiny bez svodidel a srázy – nevhodné pro cestující se závratí, řidič potřebuje soustředění. Zákaz vjezdu soukromých aut platil v roce 2026 od 15. 5. do 18. 10. (10:00–22:00), v termínu cesty už neplatí.",
    "facts": [
     "Silnice: 13,5 km, postavena 1925 (inženýr Antonio Parietti)",
     "Maják: dokončen 1863 (Emili Pou), 210 m n. m., dosvit 21 námořních mil",
     "Hlavní vyhlídka: Mirador d'es Colomer",
-    "Sezónní zákaz vjezdu soukromých aut: historicky 15. 5.-15. 10. (ověřit pro 2026)"
+    "Sezónní zákaz vjezdu soukromých aut 2026: 15. 5.–18. 10., 10:00–22:00 (Consell de Mallorca)"
    ],
    "links": [
     {
@@ -724,10 +724,41 @@
     "Otevírací doba, ceny, telefon: (neověřeno)"
    ],
    "links": [],
-   "commons_query": null,
+   "commons_query": "Son Serra de Marina",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Seegras am Ufer von Son Serra de Marina.jpg",
+    "author": "https://www.auf-nach-mallorca.info/",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Bar El Sol und Parkplatz bei Son Serra de Marina.jpg",
+     "author": "Auf nach Mallorca GmbH",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "S'Arenal de Sa Canova vom Parkplatz Son Serra de Marina.jpg",
+     "author": "https://www.auf-nach-mallorca.info/",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Son Serra de Marina, (Barb) 03.jpg",
+     "author": "Der Barbar",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Platja de Son Serra de Marina 03.jpg",
+     "author": "Olaf Tausch",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Platja de Son Serra de Marina 08.jpg",
+     "author": "Olaf Tausch",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Museu Sa Bassa Blanca (Alcúdia)",
@@ -1347,7 +1378,7 @@
     "Ocenění: Modrá vlajka (Blue Flag)",
     "Délka pláže: cca 900 m–1 km",
     "Parkoviště: placené, cca 300 míst, otevřeno celoročně",
-    "Omezení vjezdu aut na Formentor 2026 platí jen 15. 5.–15. 10., v termínu cesty (25. 10.–2. 11.) neplatí"
+    "Omezení vjezdu aut na Formentor 2026 platilo 15. 5.–18. 10. (10:00–22:00), v termínu cesty neplatí"
    ],
    "links": [
     {
@@ -1425,9 +1456,14 @@
      "url": "https://en.wikipedia.org/wiki/Port_de_Pollen%C3%A7a"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Port de Pollença promenade",
    "fun": null,
-   "img": null,
+   "photo_is_area": true,
+   "img": {
+    "file": "061 Exploring the pine walk.JPG",
+    "author": "Lesjsin",
+    "license": "CC BY-SA 3.0"
+   },
    "gallery": []
   },
   {
@@ -1465,9 +1501,14 @@
      "url": "https://en.wikipedia.org/wiki/Alc%C3%BAdia"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia Barcarès",
    "fun": null,
-   "img": null,
+   "photo_is_area": true,
+   "img": {
+    "file": "Es Barcarès.jpg",
+    "author": "Davidpar",
+    "license": "CC BY-SA 3.0"
+   },
    "gallery": []
   },
   {
@@ -1504,10 +1545,21 @@
      "url": "https://en.wikipedia.org/wiki/Santa_Margalida"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Can Picafort Son Bauló",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Son Baulo, 07458 Can Picafort, Balearic Islands, Spain - panoramio.jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Can Picafort Platja de Son Baulo R01.jpg",
+     "author": "Marc Ryckaert (MJJR)",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Kartingmania (motokáry, Port d'Alcúdia)",
@@ -1626,10 +1678,36 @@
      "url": "https://2gocycling.com/en/rent-bike-puerto-pollensa/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Port de Pollença bay",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "ISS064-E-406 - View of Mallorca - North coast - Serra de Tramuntana - Puig Major - Puig de ses Vinyes - Vall de Cúber lakes - Puig de Massanella - Puig de sa Rateta - Sóller - Port de Pollença - Cap de Formentor (cropped).jpg",
+    "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Ce",
+    "license": "Public domain"
+   },
+   "gallery": [
+    {
+     "file": "Porta Pollença Sunrise Bird.jpg",
+     "author": "Mark Kelly",
+     "license": "CC BY 2.0"
+    },
+    {
+     "file": "Cycle Path in North Mallorca.JPG",
+     "author": "CFiesta",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Port de Poüillance et rade de Larcudy en lisle de mayorque - par M. de Cogoulin, chef d'escadre - btv1b532884049 (2 of 2).jpg",
+     "author": "Cogolin, de (1621-1700 ; chef d'escadre). Cartographe",
+     "license": "Public domain"
+    },
+    {
+     "file": "Port de Poüillance et rade de Larcudy en lisle de mayorque - par M. de Cogoulin, chef d'escadre - btv1b532884049 (1 of 2).jpg",
+     "author": "Cogolin, de (1621-1700 ; chef d'escadre). Cartographe",
+     "license": "Public domain"
+    }
+   ]
   },
   {
    "name": "Pollentia + Museu Monogràfic (Alcúdia)",
@@ -3101,10 +3179,40 @@
      "url": "https://www.caib.es/sites/espaisnaturalsprotegits/es/finca_pablica_de_menut"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Menut Escorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "img": {
+    "file": "Can Menut - P1070530.jpg",
+    "author": "Pere López Brosa",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Can Menut i Can Piquer - P1070531.jpg",
+     "author": "Pere López Brosa",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Can Menut i Can Piquer - P1070529.jpg",
+     "author": "Pere López Brosa",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Can Menut - Montcada i Reixac - P1100671.jpg",
+     "author": "Pere López Brosa",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Can Menut - Montcada i Reixac - P1100670.jpg",
+     "author": "Pere López Brosa",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Cal Menut - Pins - P1120627.jpg",
+     "author": "Pere López Brosa",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Es Pixarells (piknik v lese, Escorca)",
@@ -3142,8 +3250,9 @@
      "url": "https://www.mallorca.com/en/directory/business/zona-dacampada-es-pixarells-ibanat-escorca-v_r1_ykg"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Lluc Escorca forest",
    "fun": null,
+   "photo_is_area": true,
    "img": null,
    "gallery": []
   },
@@ -3183,10 +3292,41 @@
      "url": "https://candet.es/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Puig Major – „koule“ radaru z cesty Ma-10",
@@ -3893,7 +4033,7 @@
      "url": "https://tickets.katmanduparks.com/WebStore/shop/viewitems.aspx?CG=RS&C=RTickets&language=2"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Katmandu Park Magaluf",
    "fun": "Dům parku stojí vzhůru nohama s nábytkem a autem přilepeným ke stropu – uvnitř to působí, jako by se chodilo po stropě.",
    "img": null,
    "gallery": []
@@ -3937,10 +4077,40 @@
      "url": "https://www.marineland.es/mallorca/informacion/calendario/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Marineland Mallorca",
    "fun": "Marineland Mallorca patří ke stejné rodině parků jako zaniklé francouzské a kanadské pobočky, ale na rozdíl od nich delfinárium dál funguje.",
-   "img": null,
-   "gallery": []
+   "img": {
+    "file": "Delfinarium Mallorca 2006.jpg",
+    "author": "Silar",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Delfin im Marineland Mallorca.jpg",
+     "author": "Hombre",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Delfinschow im Marineland Mallorca.jpg",
+     "author": "Hombre",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Der Hai im Marineland Mallorca.jpg",
+     "author": "Hombre",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Flamingos im Marineland Mallorca.jpg",
+     "author": "Hombre",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Mallorca 2002 (061).jpg",
+     "author": "Hombre",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Jungle Parc (Santa Ponça)",
@@ -3983,10 +4153,41 @@
      "url": "https://www.jungleparc.es/en/schedules-rates"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santa Ponça Mallorca",
    "fun": "Hlavní okruhy vedou přes 154 lanových a lávkových překážek rozmístěných mezi stromy na ploše 9 hektarů borového lesa.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Vista aèria de la Badia de Santa Ponça (Mallorca).JPG",
+    "author": "Chixoy",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Calvià. Santa Ponça. Creu del Desembarcament (8).jpg",
+     "author": "Joan Gené",
+     "license": "CC0"
+    },
+    {
+     "file": "Calvià. Santa Ponça. Creu del Desembarcament (7).jpg",
+     "author": "Joan Gené",
+     "license": "CC0"
+    },
+    {
+     "file": "Calvià. Santa Ponça. Creu del Desembarcament (1).jpg",
+     "author": "Joan Gené",
+     "license": "CC0"
+    },
+    {
+     "file": "Calvià. Santa Ponça. Creu del Desembarcament (6).jpg",
+     "author": "Joan Gené",
+     "license": "CC0"
+    },
+    {
+     "file": "Calvià. Santa Ponça. Creu del Desembarcament (5).jpg",
+     "author": "Joan Gené",
+     "license": "CC0"
+    }
+   ]
   },
   {
    "name": "Golf Fantasia (Palmanova)",
@@ -4025,10 +4226,41 @@
      "url": "https://golffantasia.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palmanova Mallorca",
    "fun": "V jezírkách mezi jamkami plavou skuteční tropičtí rybi – nejde jen o dekoraci.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Mallorca Palmanova 2010 2.jpg",
+    "author": "Liilia Moroz",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Mallorca Palmanova 2010 3.jpg",
+     "author": "Liilia Moroz",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Playa Son Matis Palmanova Mallorca.jpg",
+     "author": "Liilia Moroz",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Playa Son Matis Palmanova Mallorca 2.jpg",
+     "author": "Liilia Moroz",
+     "license": "CC0"
+    },
+    {
+     "file": "Mallorca Palmanova port.jpg",
+     "author": "Liilia Moroz",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Palmanova Mallorca 2010 3.jpg",
+     "author": "Liilia Moroz",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Illetes – pláže",
@@ -5070,7 +5302,7 @@
      "url": "https://en.wikipedia.org/wiki/Rafa_Nadal_Academy"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Rafa Nadal Academy Manacor",
    "fun": "Mezi vystavenými suvenýry jsou dary od sportovních legend jako Roger Federer, Michael Jordan nebo Usain Bolt.",
    "img": null,
    "gallery": []
@@ -6966,10 +7198,41 @@
      "url": "https://naturaparc.net/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santa Eugènia Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Vista aèria de Santa Eugènia.JPG",
+    "author": "Chixoy",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Estació de Santa Eugènia.JPG",
+     "author": "neznámý autor",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Aljub de Santa Eugènia.JPG",
+     "author": "Chixoy",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Carrer de S'Aljub.JPG",
+     "author": "Chixoy",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Santa Eugènia passant per la Cra de Sineu.JPG",
+     "author": "neznámý autor",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església Santa Eugènia.jpg",
+     "author": "neznámý autor",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Puig de Randa / Santuari de Cura",
@@ -7519,10 +7782,41 @@
      "url": "https://satafonadecaimari.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Caimari",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Caimari - Mallorca.JPG",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Caimari.JPG",
+     "author": "Josep Mir",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església vella de Caimari.jpg",
+     "author": "Joan Gené",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església Nova de Caimari.jpg",
+     "author": "Joan Gené",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Vista parcial del poble de Caimari.jpg",
+     "author": "Bartomeu Caldentey Vives",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Parc de la Plaça Major de Caimari.jpg",
+     "author": "Bartomeu Caldentey Vives",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Bodegas José L. Ferrer (Binissalem)",
@@ -7561,10 +7855,31 @@
      "url": "https://www.vinosferrer.com"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Binissalem església",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Església de Santa Maria de Robines.jpg",
+    "author": "Brick",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Campanar de Binissalem.JPG",
+     "author": "Chixoy",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Teclat de l'orgue i botons musicals de Binissalem.jpg",
+     "author": "Juan Marti Garcias",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Santa Maria de Robines.jpg",
+     "author": "Pla",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Quely – továrna na sušenky (Inca)",
@@ -7601,10 +7916,41 @@
      "url": "https://en.wikipedia.org/wiki/Quely"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Inca Santa Maria la Major",
    "fun": "Jméno Quely prý vzniklo z obdivu zakladatelů k americké herečce Grace Kelly.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Kirche in Inca Innenraum.jpg",
+     "author": "Olaf Meister",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 1.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "file": "Kirche-Inca.jpg",
+     "author": "Gunnar Richter Namenlos.net",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "07300 Inca, Balearic Islands, Spain - panoramio (1).jpg",
+     "author": "trolvag",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 2.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    }
+   ]
   },
   {
    "name": "Laser tag Lloseta",
@@ -7642,10 +7988,41 @@
      "url": "https://www.mallorcapaintball.com"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Lloseta Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fábrica de cementos - Lloseta.jpg",
+    "author": "Raul Martinez",
+    "license": "CC BY 2.0"
+   },
+   "gallery": [
+    {
+     "file": "Vista de Lloseta i el Puig Tomir.JPG",
+     "author": "Chixoy",
+     "license": "Public domain"
+    },
+    {
+     "file": "Ametlers florits prop de Lloseta.JPG",
+     "author": "Rotget",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "PossessioLloseta.jpg",
+     "author": "Paucabot",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Fideïcomís.jpg",
+     "author": "Paucabot",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Pas a Nivell a Binissalem-Lloseta I.jpg",
+     "author": "Chixoy",
+     "license": "Public domain"
+    }
+   ]
   },
   {
    "name": "Lukostřelba (Mallorca Paintball, Lloseta)",
@@ -7682,10 +8059,41 @@
      "url": "https://www.mallorcapaintball.com"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Lloseta Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fábrica de cementos - Lloseta.jpg",
+    "author": "Raul Martinez",
+    "license": "CC BY 2.0"
+   },
+   "gallery": [
+    {
+     "file": "Vista de Lloseta i el Puig Tomir.JPG",
+     "author": "Chixoy",
+     "license": "Public domain"
+    },
+    {
+     "file": "Ametlers florits prop de Lloseta.JPG",
+     "author": "Rotget",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "PossessioLloseta.jpg",
+     "author": "Paucabot",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Fideïcomís.jpg",
+     "author": "Paucabot",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Pas a Nivell a Binissalem-Lloseta I.jpg",
+     "author": "Chixoy",
+     "license": "Public domain"
+    }
+   ]
   },
   {
    "name": "Ca Madò Bet dels Siurells (keramika, Marratxí)",
@@ -8012,6 +8420,7 @@
    ],
    "commons_query": "Caimari",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Caimari - Mallorca.JPG",
     "author": "H. Zell",
@@ -8085,6 +8494,7 @@
    ],
    "commons_query": "Sóller Plaça Constitució",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
     "author": "Kritzolina",
@@ -8159,6 +8569,7 @@
    ],
    "commons_query": "Binissalem església",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Església de Santa Maria de Robines.jpg",
     "author": "Brick",
@@ -8221,10 +8632,41 @@
      "url": "https://ca.wikipedia.org/wiki/Quely"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Inca Santa Maria la Major",
    "fun": "Podle firemní historky dostala značka jméno po herečce Grace Kelly, kterou zakladatelé obdivovali.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Kirche in Inca Innenraum.jpg",
+     "author": "Olaf Meister",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 1.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "file": "Kirche-Inca.jpg",
+     "author": "Gunnar Richter Namenlos.net",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "07300 Inca, Balearic Islands, Spain - panoramio (1).jpg",
+     "author": "trolvag",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 2.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    }
+   ]
   },
   {
    "name": "Gelat Sóller / Sa Fàbrica de Gelats",
@@ -8267,6 +8709,7 @@
    ],
    "commons_query": "Sóller oranges",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Citrus fruits in the Jardí Botànic de Sóller 01.jpg",
     "author": "Kritzolina",
@@ -8331,6 +8774,7 @@
    ],
    "commons_query": "Sineu market",
    "fun": "Sineu je jediné mallorské městečko založené přímo uprostřed ostrova, mimo pobřeží – proto se mu říká hlavní město středu Mallorky.",
+   "photo_is_area": true,
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -8404,6 +8848,7 @@
    ],
    "commons_query": "Inca Santa Maria la Major",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
     "author": "trolvag",
@@ -8550,10 +8995,31 @@
      "url": "https://ca.wikipedia.org/wiki/Can_Joan_de_s%27Aigo"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Can Joan de s'Aigo",
    "fun": "Led na výrobu zmrzliny se v polovině 19. století vozil až z Barcelony.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "126 Can Joan de s'Aigo, c. Can Sanç 10 (Palma).jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "125 Can Joan de s'Aigo, c. Can Sanç 10 (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Can Joan de s'Aigo.jpg",
+     "author": "Joan Gené",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Can Joan de l'Aigua.jpg",
+     "author": "Joan Gené",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Palmské pekárny: Forn Fondo",
@@ -8594,10 +9060,41 @@
      "url": "https://es.wikipedia.org/wiki/Ensaimada"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Forn des Teatre Palma",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Forn des teatre.JPG",
+    "author": "neznámý autor",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "109 Forn des Teatre, pl. Weyler 9 (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Forn De La Socà (8).jpg",
+     "author": "Elenanodetussueños",
+     "license": "CC BY 4.0"
+    },
+    {
+     "file": "Interior Fornet de la Soca 02.jpg",
+     "author": "Fullet",
+     "license": "CC0"
+    },
+    {
+     "file": "184 Forn des Teatre, pl. Weyler 9 (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Forn des Teatre, Plaça de Weyler, Palma de Mallorca - panoramio.jpg",
+     "author": "Николай Максимович",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Pekárna v Lluku a Ca s'Amitger",
@@ -8712,9 +9209,14 @@
      "url": "https://ca.wikipedia.org/wiki/Rosari_ensucrat"
     }
    ],
-   "commons_query": null,
+   "commons_query": "bunyols Mallorca",
    "fun": "Rosaris ensucrats napodobují tvar růžence – cukrovinky nahrazují korálky a kandovaná dýně tvoří medailon.",
-   "img": null,
+   "photo_is_area": true,
+   "img": {
+    "file": "Madonesfentbunyols.JPG",
+    "author": "No machine-readable author provided. Chixoy assumed (based o",
+    "license": "CC BY-SA 3.0"
+   },
    "gallery": []
   },
   {
@@ -8759,10 +9261,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": "Espinagada se v Sa Pobla tradičně peče s úhořem uloveným v jezeře Albufera de Mallorca, ne s obyčejnou rybou.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Bar Toni Cotxer",
@@ -8801,10 +9334,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Restaurant Marina",
@@ -8843,10 +9407,41 @@
      "url": "https://ca.wikipedia.org/wiki/Espinagada"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Panord Sa Pobla",
@@ -8885,10 +9480,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Forn i Pastisseria Que Bo",
@@ -8927,10 +9553,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Forn i Pastisseria Ca'n Felip",
@@ -8969,10 +9626,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Restaurante Pizzería Plaça Vuit",
@@ -9011,10 +9699,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Il Postino",
@@ -9053,10 +9772,41 @@
      "url": "https://ca.wikipedia.org/wiki/Sa_Pobla"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Bar Restaurant Es Club",
@@ -9095,10 +9845,41 @@
      "url": "https://ca.wikipedia.org/wiki/Campanet"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sa Pobla Mallorca",
    "fun": "Jméno Campanet nepochází od slova \"campana\" (zvon), jak by se čekalo, ale z latinského \"capanna\" (chýše) přes arabské množné číslo.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
+    "author": "Frank Vincentz",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26129.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26130.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26132.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26406.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    },
+    {
+     "file": "16-02-22-Sa-Pobla-Mallorca-RalfR RR26408.jpg",
+     "author": "Ralf Roletschek",
+     "license": "GFDL 1.2"
+    }
+   ]
   },
   {
    "name": "Celler Can Font",
@@ -9139,6 +9920,7 @@
    ],
    "commons_query": "Sineu market",
    "fun": "Trh v Sineu se koná každou středu nepřetržitě už od roku 1318, kdy jej výsadou povolil král Sanç – je to nejstarší trh na Mallorce.",
+   "photo_is_area": true,
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -9210,6 +9992,7 @@
    ],
    "commons_query": "Sineu market",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -9281,6 +10064,7 @@
    ],
    "commons_query": "Sineu market",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -9353,6 +10137,7 @@
    ],
    "commons_query": "Sineu market",
    "fun": null,
+   "photo_is_area": true,
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -9425,10 +10210,41 @@
      "url": "https://restaurantcanripoll.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Inca Santa Maria la Major",
    "fun": "Cyklisté si tu mohou nechat kolo přímo za restaurací – Inca leží na hlavní cyklotrase severu ostrova.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Kirche in Inca Innenraum.jpg",
+     "author": "Olaf Meister",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 1.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "file": "Kirche-Inca.jpg",
+     "author": "Gunnar Richter Namenlos.net",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "07300 Inca, Balearic Islands, Spain - panoramio (1).jpg",
+     "author": "trolvag",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 2.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    }
+   ]
   },
   {
    "name": "Celler Sa Travessa",
@@ -9468,10 +10284,41 @@
      "url": "https://mallorcaguide.com/en/places/5270/celler-sa-travessa/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Inca Santa Maria la Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Kirche in Inca Innenraum.jpg",
+     "author": "Olaf Meister",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 1.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "file": "Kirche-Inca.jpg",
+     "author": "Gunnar Richter Namenlos.net",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "07300 Inca, Balearic Islands, Spain - panoramio (1).jpg",
+     "author": "trolvag",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 2.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    }
+   ]
   },
   {
    "name": "Mercat Cobert d'Inca",
@@ -9591,10 +10438,41 @@
      "url": "https://www.instagram.com/dayla.vins.tapes/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Inca Santa Maria la Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "07300 Inca, Balearic Islands, Spain - panoramio (2).jpg",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0"
+   },
+   "gallery": [
+    {
+     "file": "Kirche in Inca Innenraum.jpg",
+     "author": "Olaf Meister",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 1.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "file": "Kirche-Inca.jpg",
+     "author": "Gunnar Richter Namenlos.net",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "07300 Inca, Balearic Islands, Spain - panoramio (1).jpg",
+     "author": "trolvag",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Església parroquial de Santa Maria la Major (Inca) - 2.jpg",
+     "author": "MARIA ROSA FERRE ✿",
+     "license": "CC BY-SA 2.0"
+    }
+   ]
   },
   {
    "name": "Sa Plaça",
@@ -9633,10 +10511,41 @@
      "url": "https://www.facebook.com/arsaplaca/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Forn Can Torres",
@@ -9675,10 +10584,41 @@
      "url": "https://panaderiatorres.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Pierito fa il Gelato",
@@ -9717,10 +10657,41 @@
      "url": "https://www.facebook.com/pieritofailgelato/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Sa Taverna des Port",
@@ -9760,10 +10731,41 @@
      "url": "https://www.alcudiarestaurants.com/alcudia-restaurant-sa-placa.html"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Ca Na Marcè",
@@ -9803,10 +10805,41 @@
      "url": "https://canamarce.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Can Pescador",
@@ -9846,10 +10879,41 @@
      "url": "https://canpescador.es/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Dakota Tex Mex",
@@ -9889,10 +10953,41 @@
      "url": "https://dakotatexmex.com/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Valls Gelat Artesà",
@@ -9933,10 +11028,41 @@
      "url": "https://www.gelatsvalls.com/es/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Alcúdia city wall",
    "fun": "Rodinu Valls dnes v obchodě vedou vnuci zakladatele – zmrzlinu na Mallorce dělají už skoro sto let.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "City wall of Alcúdia 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "City wall of Alcúdia 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "City wall of Alcúdia 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia, detalle de saetera, sección norte, 01.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Alcudia City Walls R15.jpg",
+     "author": "Marc Ryckaert",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "U Plaça",
@@ -9976,10 +11102,31 @@
      "url": "https://www.uplaca.com/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "La Scalinata",
@@ -10019,10 +11166,31 @@
      "url": "https://www.facebook.com/LaScalinata.Pollensa/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Pastisseria Can Xim",
@@ -10062,10 +11230,31 @@
      "url": "https://pollensa.com/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Panord Pollença",
@@ -10105,10 +11294,31 @@
      "url": "https://panord.es/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Stay Restaurant",
@@ -10147,10 +11357,31 @@
      "url": "https://www.stayrestaurant.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Heladería Ice Dreams",
@@ -10190,10 +11421,31 @@
      "url": "https://www.facebook.com/icedreamsmallorca/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Pollença Plaça Major",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Pollenca, Placa Major, 01.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Pollenca, Placa Major, 02.jpg",
+     "author": "Malopez 21",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de l'església de Nostra Senyora dels Àngels de Pollença.jpg",
+     "author": "RafelJuan",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Majorque Pollenca Nostra Senyora Angels Placa Major - panoramio.jpg",
+     "author": "rene boulay",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "name": "Monument",
@@ -10234,10 +11486,41 @@
      "url": "https://esmonument.es/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Ses Oliveres",
@@ -10278,10 +11561,41 @@
      "url": "https://sesoliveresportdesoller.com/en/the-restaurant/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Es Canyís",
@@ -10323,10 +11637,41 @@
      "url": "https://escanyis.es/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Mon Croissanteria Pizzeria Cafe",
@@ -10366,10 +11711,41 @@
      "url": "https://visitsoller.com/en/gastronomy/restaurants/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Círculo Sollerense",
@@ -10413,10 +11789,41 @@
      "url": "https://en.wikipedia.org/wiki/Cercle_Solleric"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": "Restaurace sídlí v budově sportovního a kulturního spolku Cercle Solleric založeného v roce 1899 – dodnes tam funguje šachový klub i kino.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Sa Fàbrica de Gelats",
@@ -10457,10 +11864,41 @@
      "url": "https://gelatsoller.com/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Sóller Plaça Constitució",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Fountain on Plaça de la Constitució in Sóller 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 02.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Tram on Plaça de la Constitució in Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Plaça de sa Constitució, Sóller 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Ca s'Amitger",
@@ -10501,10 +11939,41 @@
      "url": "https://casamitger.es/en/home/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": "Kruhová budova restaurace dala vzniknout přezdívce \"bar redó\" (kulatý bar), pod kterou ji místní znají dodnes.",
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Sa Fonda",
@@ -10545,10 +12014,41 @@
      "url": "https://www.lluc.net/en/restaurant/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Café Sa Plaça",
@@ -10587,10 +12087,41 @@
      "url": "https://santuaridelluc.com/en/food/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Pekárna v Lluc",
@@ -10629,10 +12160,41 @@
      "url": "https://santuaridelluc.com/en/food/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Panaderia Payeras",
@@ -10672,10 +12234,41 @@
      "url": "https://www.pollensa.com/en/what-to-do/where-to-eat/panaderia-payeras"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "The Store (Voramar a Formentor)",
@@ -10715,10 +12308,41 @@
      "url": "https://thestoresupermarkets.com/en/voramar-supermarket/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Santuari de Lluc",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "February 2024 at Santuari de Lluc 03.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "February 2024 at Santuari de Lluc 04.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "February 2024 at Santuari de Lluc 06.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 01.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 03.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "Hostatgeria del Santuari de Lluc 05.jpg",
+     "author": "Kritzolina",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Coves del Drach – kavárna a piknik",
@@ -10835,10 +12459,41 @@
      "url": "https://www.facebook.com/restaurante15fifteen/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Porto Cristo Marina",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Porto Cristo Marina 02.jpg",
+    "author": "Boberger",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Porto Cristo Marina.jpg",
+     "author": "Raintheone",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Mallorca Porto Cristo seaport area asv2023-04 img2.jpg",
+     "author": "A.Savin",
+     "license": "FAL"
+    },
+    {
+     "file": "Marina de Porto Cristo - panoramio.jpg",
+     "author": "clickmallorca",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Mallorca Porto Cristo seaport area asv2023-04 img1.jpg",
+     "author": "A.Savin",
+     "license": "FAL"
+    },
+    {
+     "file": "Porto Cristo Marina - panoramio.jpg",
+     "author": "John Duncan",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "L'Incontro",
@@ -10877,10 +12532,41 @@
      "url": "https://www.mallorca.com/en/directory/business/pizzeria-lincontro-porto-cristo-u8lyj_m4"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Porto Cristo Marina",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Porto Cristo Marina 02.jpg",
+    "author": "Boberger",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Porto Cristo Marina.jpg",
+     "author": "Raintheone",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Mallorca Porto Cristo seaport area asv2023-04 img2.jpg",
+     "author": "A.Savin",
+     "license": "FAL"
+    },
+    {
+     "file": "Marina de Porto Cristo - panoramio.jpg",
+     "author": "clickmallorca",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "file": "Mallorca Porto Cristo seaport area asv2023-04 img1.jpg",
+     "author": "A.Savin",
+     "license": "FAL"
+    },
+    {
+     "file": "Porto Cristo Marina - panoramio.jpg",
+     "author": "John Duncan",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "name": "Bazaar",
@@ -10920,10 +12606,41 @@
      "url": "https://bazaar.restaurant/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Bar Dia",
@@ -10963,10 +12680,41 @@
      "url": "https://www.mallorca.com/en/directory/business/bar-dia-palma-z8qpvr4q"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Celler Sa Premsa",
@@ -11007,10 +12755,41 @@
      "url": "https://www.cellersapremsa.com/index_en.html"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Can Joan de s'Aigo",
@@ -11051,10 +12830,41 @@
      "url": "https://canjoandesaigo.com/en/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Forn Fondo",
@@ -11095,10 +12905,41 @@
      "url": "https://www.fornfondo.es/"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "name": "Sa Gelateria de Mallorca",
@@ -11138,10 +12979,41 @@
      "url": "https://www.mallorca.com/es/directorio/empresa/sa-gelateria-de-mallorca-cort-palma-b_nnaffy"
     }
    ],
-   "commons_query": null,
+   "commons_query": "Palma Passeig del Born",
    "fun": null,
-   "img": null,
-   "gallery": []
+   "photo_is_area": true,
+   "img": {
+    "file": "Paseo del Borne - Palma de Mallorca 03.jpg",
+    "author": "Javier Perez Montes",
+    "license": "CC BY-SA 4.0"
+   },
+   "gallery": [
+    {
+     "file": "Passeig des Born, Palma de Mallorca - panoramio.jpg",
+     "author": "Martin Furtschegger",
+     "license": "CC BY 3.0"
+    },
+    {
+     "file": "Sfinkso en Passeig del Born, Palma, Majorko.jpg",
+     "author": "Susomoinhos",
+     "license": "CC0"
+    },
+    {
+     "file": "Magatzems Zara, antiga Sala Born, passeig del Born 25 (Palma).JPG",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "009 Passeig del Born (Palma), amb la casa Ribas al mig.jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "file": "011 Passeig del Born (Palma).jpg",
+     "author": "Enric",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "id": "ubyt-tierramar",
