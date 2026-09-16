@@ -36,6 +36,20 @@ ALIASES = {
 }
 
 
+def scan_schedule() -> dict:
+    """Map place id -> [{day, track, anchor}] from the week grid in index.html."""
+    import re
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    out: dict = {}
+    for day in re.finditer(r'<article class="day dayrow" id="([^"]+)" data-date="([^"]+)">(.*?)</article>', html, re.S):
+        anchor, date, body = day.groups()
+        for tr in re.finditer(r'<div class="track [^"]*"><span class="who [^"]*">(.*?)</span><span class="chips">(.*?)</span>', body, re.S):
+            who, chips = tr.groups()
+            for pid in re.findall(r'data-pl="([^"]+)"', chips):
+                out.setdefault(pid, []).append({"day": date, "track": who, "anchor": anchor})
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--enriched", type=Path, default=None, help="directory with enrichment JSON files")
@@ -59,7 +73,7 @@ def main() -> None:
     for pid, sk in skeleton.items():
         p = {k: sk[k] for k in CARD_KEYS if k in sk}
         p["id"] = pid
-        src = enriched.get(pid) or previous.get(pid) or {}
+        src = {**previous.get(pid, {}), **enriched.get(pid, {})}
         if not src:
             missing.append(pid)
         for k in ENRICH_KEYS:
@@ -80,6 +94,12 @@ def main() -> None:
     if bad:
         print("aliases pointing to unknown ids:", bad, file=sys.stderr)
     terms = json.loads(TERMS.read_text(encoding="utf-8")) if TERMS.exists() else {}
+    sched = scan_schedule()
+    for p in places:
+        if p["id"] in sched:
+            p["schedule"] = sched[p["id"]]
+        else:
+            p.pop("schedule", None)
     data = {"places": places, "aliases": {k: v for k, v in ALIASES.items() if v in ids}, "terms": terms}
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     n_rich = sum(1 for p in places if p.get("why"))

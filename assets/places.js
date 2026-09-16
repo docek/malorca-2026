@@ -9,11 +9,17 @@
   // ---------- modal ----------
   document.body.insertAdjacentHTML('beforeend', '<div class="modal" id="modal" aria-hidden="true"><div class="box" role="dialog" aria-modal="true"><button class="x" type="button" aria-label="Zavřít">×</button><div id="modal-content"></div></div></div>');
   const modal = document.getElementById('modal'), box = modal.querySelector('.box'), content = document.getElementById('modal-content');
-  function open(html, small) {
+  let pushed = false;
+  function open(html, small, hash) {
     content.innerHTML = html; modal.classList.toggle('small', !!small); modal.classList.add('on');
     modal.setAttribute('aria-hidden', 'false'); box.scrollTop = 0; document.body.style.overflow = 'hidden';
+    if (hash && location.hash !== hash) { history.pushState({ sheet: hash }, '', hash); pushed = true; }
   }
-  function close() { modal.classList.remove('on'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; }
+  function close(fromPop) {
+    modal.classList.remove('on'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = '';
+    if (!fromPop && pushed) { pushed = false; history.back(); } else pushed = false;
+  }
+  window.addEventListener('popstate', () => { if (!/^#[pt]\//.test(location.hash)) { if (modal.classList.contains('on')) close(true); } else openFromHash(); });
   window.openModal = open;
   modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('.x')) close(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
@@ -60,7 +66,15 @@
     const status = p.status ? ` <span class="pill ${p.status === 'ověřeno' ? 'ok' : (p.status === 'ověřit' ? 'neutral' : 'warn')}">${esc(p.status)}</span>` : '';
     const links = (p.links || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`);
     (p.card_links || []).forEach(([label, url]) => { if (/google\.com\/maps/.test(url)) links.push(`<a href="${esc(url)}" target="_blank" rel="noopener">Google Maps ↗</a>`); });
-    if (p.page && p.id) links.push(`<a href="${esc(p.page)}#${esc(p.anchor || p.id)}" class="card-link">${PAGE_LABEL[p.page] || 'Karta'} →</a>`);
+    const maps = (p.card_links || []).map(([l, u]) => u).find(u => /google\.com\/maps/.test(u)) || (p.links || []).map(l => l.url).find(u => /google\.com\/maps/.test(u));
+    const acts = [];
+    if (p.kind === 'výlet') acts.push(`<button type="button" class="act-star" data-star="${esc(p.id)}">${inShortlist(p.id) ? '★ V mém výběru' : '☆ Do mého výběru'}</button>`);
+    if (maps) acts.push(`<a href="${esc(maps)}" target="_blank" rel="noopener">🗺 Google Maps</a>`);
+    if (typeof map !== 'undefined' && typeof coords !== 'undefined' && mapKeyFor(p.id)) acts.push(`<button type="button" data-fly="${esc(mapKeyFor(p.id))}">◎ Na mapě</button>`);
+    if (p.page === 'vylety.html' && !location.pathname.endsWith('vylety.html')) acts.push(`<a href="vylety.html#${esc(p.id)}">Katalog výletů →</a>`);
+    if (p.page === 'jidlo.html' && !location.pathname.endsWith('jidlo.html')) acts.push(`<a href="jidlo.html#${esc(p.id)}">Kde jíst →</a>`);
+    const actsHtml = acts.length ? `<div class="acts">${acts.join('')}</div>` : '';
+    const sched = (p.schedule || []).length ? `<div class="sched"><b>V programu:</b> ${p.schedule.map(x => `<a href="index.html#${esc(x.anchor)}">${esc(x.day)}</a> · ${esc(x.track)}`).join(' · ')}</div>` : '';
     const gal = (p.gallery || []).map(g => `<a class="th" href="${fileUrl(g.file)}" target="_blank" rel="noopener" title="${esc(g.author)}, ${esc(g.license)}"><img src="${imgUrl(g.file, 480)}" alt="" loading="lazy"><span>${esc(g.author)} · ${esc(g.license)}</span></a>`).join('');
     const galHtml = gal ? `<h4>Další fotky (Wikimedia Commons)</h4><div class="gallery">${gal}</div>` : '';
     const body = p.kind === 'výlet'
@@ -68,15 +82,37 @@
       : p.kind === 'ubytování'
         ? sec('Co to je', p.what_long || p.what) + sec('Proč tady', p.why) + sec('Co nás čeká', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + sec('Dostupnost a storno', p.booking) + sec('Kontakt', p.contact) + sec('Hodnocení', p.rating)
         : sec('Co to je', p.what_long || p.what) + sec('Proč zrovna tady', p.why) + sec('Co si dát a jak to tam vypadá', p.experience) + sec('Jak se tam dostat', p.access) + sec('Tipy', p.tips) + call('note', 'Z rešerše', p.why_card);
-    return `${img}<div class="in"><h3>${esc(p.name)}</h3><div class="kind">${esc(meta)}${status}</div>${factsHtml}${call('warn', 'Pozor', p.warning)}${body}${call('fun', 'Kuriozita pro děti', p.fun)}<div class="links">${links.join('')}</div>${galHtml}</div>`;
+    return `${img}<div class="in"><h3>${esc(p.name)}</h3><div class="kind">${esc(meta)}${status}</div>${actsHtml}${sched}${factsHtml}${call('warn', 'Pozor', p.warning)}${body}${call('fun', 'Kuriozita pro děti', p.fun)}<div class="links">${links.join('')}</div>${galHtml}</div>`;
   }
 
-  function openPlace(id) { const p = places[id]; if (!p) return false; open(placeHtml(p)); return true; }
+  const SL_KEY = 'malorca-shortlist';
+  function shortlist() { try { const v = JSON.parse(localStorage.getItem(SL_KEY) || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; } }
+  function inShortlist(id) { return shortlist().includes(id); }
+  function toggleShortlist(id) {
+    const star = document.querySelector(`.star[data-id="${CSS.escape(id)}"]`);
+    if (star) { star.click(); return inShortlist(id); }
+    const l = shortlist(); const i = l.indexOf(id); if (i === -1) l.push(id); else l.splice(i, 1);
+    try { localStorage.setItem(SL_KEY, JSON.stringify(l)); } catch (e) {}
+    return i === -1;
+  }
+  function mapKeyFor(id) { if (typeof coords === 'undefined') return null; return Object.keys(coords).find(k => resolveName(k) === id) || null; }
+  function openPlace(id) { const p = places[id]; if (!p) return false; open(placeHtml(p), false, '#p/' + id); return true; }
   window.openPlace = openPlace;
+  function openFromHash() {
+    const m = location.hash.match(/^#p\/([a-z0-9-]+)$/); if (m && places[m[1]]) { open(placeHtml(places[m[1]]), false); return true; }
+    const g = location.hash.match(/^#t\/(.+)$/); if (g && terms[decodeURIComponent(g[1])]) { open(termHtml(terms[decodeURIComponent(g[1])]), true); return true; }
+    return false;
+  }
+  content.addEventListener('click', e => {
+    const b = e.target.closest('[data-star]'); if (b) { const on = toggleShortlist(b.dataset.star); b.textContent = on ? '★ V mém výběru' : '☆ Do mého výběru'; b.classList.toggle('on', on); return; }
+    const f = e.target.closest('[data-fly]'); if (f && typeof map !== 'undefined') { const c = coords[f.dataset.fly]; close(); document.getElementById('mapa').scrollIntoView(); map.flyTo(c, 13); return; }
+  });
 
   // ---------- triggers ----------
   // 1) explicit: .pl[data-pl] or .pl[data-pl-name]; 2) cross-page card links vylety.html#id / jidlo.html#id
   document.addEventListener('click', e => {
+    const card = e.target.closest('.act[data-id], .venue[id]');
+    if (card && !e.target.closest('a, button, .star, input, label')) { const id = card.dataset.id || card.id; if (places[id]) { openPlace(id); return; } }
     const t = e.target.closest('.pl, a[href]'); if (!t) return;
     if (t.classList.contains('pl')) {
       const id = t.dataset.pl || resolveName(t.dataset.plName || t.textContent);
@@ -92,7 +128,9 @@
   // deep link: ?place=id or #p-id
   ready.then(() => {
     const q = new URLSearchParams(location.search).get('place');
-    if (q && places[q]) openPlace(q);
+    if (q && places[q]) openPlace(q); else openFromHash();
+    // week-grid chips that could not be tied to a place: keep as plain links or drop
+    document.querySelectorAll('.chip.pl[data-pl]').forEach(el => { if (!places[el.dataset.pl]) el.remove(); });
     // mark resolvable elements so they get the ⓘ style
     document.querySelectorAll('[data-pl-name]').forEach(el => { const id = resolveName(el.dataset.plName); if (id) { el.classList.add('pl'); el.dataset.pl = id; el.tabIndex = 0; el.setAttribute('role', 'button'); } });
     document.querySelectorAll('.pl[data-pl]').forEach(el => { if (!places[el.dataset.pl]) el.classList.remove('pl'); });
@@ -141,7 +179,7 @@
       }
     }
   });
-  document.addEventListener('click', e => { const t = e.target.closest('.gl'); if (!t) return; const v = terms[t.dataset.gl]; if (v) open(termHtml(v), true); });
+  document.addEventListener('click', e => { const t = e.target.closest('.gl'); if (!t) return; const v = terms[t.dataset.gl]; if (v) open(termHtml(v), true, '#t/' + encodeURIComponent(t.dataset.gl)); });
   document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.classList && e.target.classList.contains('gl')) e.target.click(); });
 
   // ---------- service worker ----------
