@@ -4,18 +4,20 @@
   "name": "Casthotels Tierramar, El Arenal",
   "kind": "ubytování",
   "page": "index.html",
-  "what": "Dvouhvězdičkový hostal na promenádě v El Arenalu (Platja de Palma), Carrer de Berlín 9. Čtyři třílůžkové pokoje na jednu noc z neděle 25. na pondělí 26. 10., celkem asi 7 555 Kč, nevratná cena bez snídaně.",
-  "why": "Jediný důvod je poloha: patnáct minut taxíkem od letiště po večerním příletu v 19:40 a cena za dvanáct lidí. Ráno odtud tři řidiči jedou autobusem A2 na letiště pro auta, ostatní se vyspí.",
-  "experience": "Jednoduché pokoje, horní patra bez výtahu, žádné rodinné pokoje ani postýlky. Promenáda s nočním životem, takže večer bude hluk; na jednu noc s dětmi to jde. Snídaně za 243 Kč na osobu je volitelná, jinak pekárny na promenádě.",
-  "access": "Z letiště PMI třemi taxíky (~15 min, ~11 km) nebo autobusem EMT A2 – zastávka s'Arenal – Torrent des Jueus je asi 90 m od hotelu. Auta se přebírají až v pondělí ráno, parkování v neděli není potřeba.",
-  "tips": "Check-in jen 15:00–24:00 a recepce má omezené hodiny: čas příjezdu nahlásit předem a ověřit, jak se dostat k pokojům po půlnoci (schránka na klíče, telefon), kdyby se let zpozdil. Při příjezdu občanka a karta; platba na místě je uvedena jen v hotovosti, mít eura.",
-  "warning": "Nevratná rezervace. Check-out do 10:00, ráno tedy sbalit a čekat s dětmi na auta z letiště – plán počítá s odjezdem do Palmy kolem 10:30.",
+  "what": "Jednohvězdičkový hostal (licence H/2012) na promenádě v El Arenalu, Carrer de Berlín 9, 50 m od Platja de Palma. Čtyři třílůžkové pokoje po 20 m² na jednu noc z neděle 25. na pondělí 26. 10., celkem 7 571 Kč, nevratná cena bez snídaně (Booking 16. 9. 2026).",
+  "why": "Jediný důvod je poloha a cena: pár minut taxíkem od letiště po večerním příletu v 19:40, zastávka autobusu 170 m, pláž 50 m, čtyři pokoje pro dvanáct za 7,5 tisíce. Ráno odtud tři řidiči jedou busem A2 na letiště pro auta, ostatní se vyspí. Je to ubytování na přespání, ne hotel na dovolenou – recenze to říkají jednohlasně.",
+  "experience": "Jednoduché pokoje s oddělenými postelemi, které jdou spojit; recenze z let 2024–2026 se shodují na starých prolezlých matracích, tenkých stěnách a hluku z ulice – Arenal je párty zóna i na konci října. Není výtah, jedna recenzentka tahala kufry do 4. patra sama; při příjezdu si vyžádat pokoje v nižších patrech. Snídaně (243 Kč/os., kontinentální bufet, hodnocení 6,6) začíná v 8:00 a dřív ji nedají, což pro řidiče v 7:30 nehraje roli, ostatním vyhovuje. Wi-Fi je hodnocené 8,6, ale v některých pokojích slabé. Česká rodina (duben 2025) chválila nonstop check-in a milý personál, jiná (září 2025) naopak jednoslovnou komunikaci.",
+  "access": "Z letiště PMI třemi taxíky (~15 min) nebo autobusem EMT A2 – zastávka s'Arenal – Torrent des Jueus je asi 90 m od hotelu, Booking uvádí zastávku 170 m. Parkování v okolí je podle recenzí obtížné, ale my auta v neděli nemáme. Palma Aquarium je 3,6 km, centrum Palmy 17 km.",
+  "tips": "Check-in 15:00–24:00, recepce má zkrácené hodiny: čas příjezdu napsat do poznámky rezervace a ověřit, jak se dostat k pokojům po půlnoci. Při příjezdu občanka a platební karta; hostal přijímá i hotovost. Check-out je možný už od 4:00, takže brzký odjezd řidičů není problém. Dětské postýlky ani přistýlky nejsou, děti od 13 let platí jako dospělí. Špunty do uší pro dospělé, děti po dni cesty usnou.",
+  "warning": "Nevratná rezervace. Bez výtahu, staré matrace, hluk z promenády – počítat s tím a nečekat víc než postel na jednu noc. Check-out do 10:00, ráno sbalit a čekat na auta z letiště.",
   "facts": [
-   "Check-in: 15:00–24:00, nahlásit čas příjezdu",
-   "Check-out: do 10:00",
-   "Cena: 4 pokoje ≈ 7 555 Kč, nevratná",
-   "Hodnocení Booking: 6,7",
-   "Od letiště: ~15 min taxíkem, bus A2 90 m"
+   "Kategorie: hostal 1* (licence H/2012)",
+   "Check-in: 15:00–24:00, nahlásit čas příjezdu; check-out 4:00–10:00",
+   "Cena: 4 třílůžkové pokoje ≈ 7 571 Kč (16. 9. 2026), nevratná; alternativa čtyřlůžkový Classic 2 902 Kč",
+   "Hodnocení Booking: 6,7 z 1 258 recenzí (lokalita 8,2, zařízení 6,5, Wi-Fi 8,6, snídaně 6,6)",
+   "Pokoje: 20 m², klimatizace, bez výtahu",
+   "Od letiště: 4,9 km, ~15 min taxíkem; bus A2 zastávka 170 m; pláž 50 m",
+   "Platba: karta i hotovost; snídaně 243 Kč/os. od 8:00"
   ],
   "links": [
    {
@@ -29,7 +31,10 @@
   ],
   "commons_query": "Platja de Palma s'Arenal beach",
   "fun": null,
-  "anchor": "ubytovani"
+  "anchor": "ubytovani",
+  "what_long": "Jednohvězdičkový hostal (licence H/2012) na promenádě v El Arenalu, Carrer de Berlín 9, 50 m od pláže Platja de Palma a 4,9 km od letiště. Pokoje mají 20 m², vlastní koupelnu, klimatizaci, některé balkon; hodnocení na Bookingu 6,7 z 1 258 recenzí (374 fantastických, 575 dobrých, 185 ucházejících, 125 špatných). Naše rezervace: čtyři třílůžkové pokoje (2× s balkonem) na jednu noc 25.–26. 10., 7 571 Kč, nevratná, bez snídaně.",
+  "rating": "Booking 6,7 (1 258 recenzí): chválena poloha u pláže a letiště, poměr cena/výkon a Wi-Fi; kritizovány matrace, hluk, chybějící výtah a personál v době pobytu.",
+  "booking": "Ověřeno 16. 9. 2026: pro 25.–26. 10. jsou stále volné třílůžkové pokoje (2 bez balkonu, 4 s balkonem), čtyřlůžkový Classic 1×, dvoulůžkové 3×. Naše rezervace je nevratná."
  },
  {
   "id": "ubyt-cal-tio",
@@ -37,18 +42,20 @@
   "kind": "ubytování",
   "page": "index.html",
   "what": "Dům pro dvanáct lidí na okraji Sa Pobly (Calle Renou 166a), přes Ideal Property Mallorca. Šest ložnic (4 dvoulůžka + 4 jednolůžka), čtyři koupelny, společný obývák a stůl pro všech dvanáct, oplocený pozemek s bazénem 7 × 4 m se slanou vodou (nevyhřívaný). Sedm nocí po 26. 10. – po 2. 11., 40 610 Kč s Genius slevou.",
-  "why": "Splňuje hlavní kritérium: jeden dům, kde se sejdou všechny tři rodiny u jednoho stolu, místo hotelové lobby. Sever ostrova má nejbližší mělké pláže (Playa de Muro 20 min), trhy (Sineu, Inca, Pollença do 22 min) i hory (Lluc 44 min), a Sa Pobla je celoroční městečko, které po 31. 10. nezavírá.",
-  "experience": "Ráno společná snídaně, děti na zahradě; večer vaření pro dvanáct nebo pizza s sebou ze Sa Pobly. Mercadona je 285 m pěšky, nedělní trh na Plaça Major. Recenze chválí prostor a polohu, vytýkají koupelny, osvětlení a že dům „potřebuje renovaci“ – čekejte funkční, ne nový dům.",
-  "access": "Z Palmy po Ma-13 na výjezd Sa Pobla, 44 km, asi 42 min; z letiště 49 min. Vlakem ze Sa Pobly do Palmy každou hodinu, 55 min, nádraží je na kraji městečka. Parkování tří aut ověřit s majitelem (oplocený pozemek, ulice).",
-  "tips": "Před rezervací a příjezdem ověřit s majitelem: topení (Booking uvádí jen klimatizaci, noci mají kolem 13 °C), parkování pro tři auta, storno Genius ceny, úklid, kauci a ekotaxu (odhad ~70 € na místě), pozdní check-out 2. 11. Hned vedle je mokřad S'Albufera – repelent a zásuvkové odpuzovače komárů.",
-  "warning": "Check-in až od 16:00 – pondělí 26. 10. je proto naplánováno v Palmě. Bazén je nevyhřívaný, koncem října v něm kromě otužilců nikdo plavat nebude.",
+  "why": "Splňuje hlavní kritérium: jeden dům, kde se sejdou všechny tři rodiny u jednoho stolu, a přitom dvě oddělené jednotky dávají rodinám soukromí. Sever ostrova má nejbližší mělké pláže (Playa de Muro 20 min), trhy (Sineu, Inca, Pollença do 22 min) i hory (Lluc 44 min), a Sa Pobla je celoroční městečko, které po 31. 10. nezavírá. Rodiny s dětmi dávají lokalitě 9,0; švýcarská rodina 11 lidí se 4 dětmi tu strávila 14 dní a hodnotila 9.",
+  "experience": "Ráno společná snídaně, děti na dvoře u bazénu (slaná voda, koncem října spíš na koukání), večer gril na patiu – recenze chválí velký vnitřní stůl, ale uvnitř je pro 11 lidí u jídla těsno a venkovní stůl neusadí všech dvanáct. Kuchyňsky: jen tři plotýnky, které jsou pro deset lidí málo, gril funguje „tak napůl“, kávovar je překapávací, tři lednice, dvě pračky. Klimatizace je jen v ložnicích, ne v obývácích; topení Booking neuvádí vůbec. Zadní dům je podle jednoho hosta hlavně na spaní a sprchování, vybavená kuchyň je v předním. Slabiny z recenzí: tmavší pokoje, koupelny by potřebovaly renovaci, sprcha ve 2. patře v červnu 2026 zatékala, jednou zápach po kočkách v rohu obýváku, málo toaletního papíru. Sousedé vstřícní, ulice před domem stačila na tři půjčená auta.",
+  "access": "Z Palmy po Ma-13 na výjezd Sa Pobla, 44 km, asi 42 min; z letiště 43 km. Dům je v obytné čtvrti naproti škole, přesto klid; parkování zdarma na ulici před domem – rodina se třemi auty vždy zaparkovala. Vlakem ze Sa Pobly do Palmy každou hodinu, 55 min, nádraží 1 km pěšky. Centrum s bary, supermarket a pekárna pár minut chůze; nejbližší restaurace Ca'n Matxet 100 m, La Poblana 400 m.",
+  "tips": "Před příjezdem u agentury ověřit topení (noci kolem 13 °C, v inzerátu není), postýlku pro nejmenší (na vyžádání), úklid, kauci a ekotaxu. Majitel je podle recenzí vstřícný – jednomu hostu dal check-out o dvě hodiny později, takže o pozdní odjezd 2. 11. stojí za to požádat. Přivézt vlastní toaletní papír a hadr na podlahu, vařit s rozvahou na třech plotýnkách, na 12 lidí přinést druhý venkovní stůl nebo jíst na směny. Platba jen kartou, hotovost nepřijímají; noční klid 22:00–9:00, zvířata ne.",
+  "warning": "Check-in až od 16:00 – pondělí 26. 10. je proto naplánováno v Palmě. Bazén je nevyhřívaný. Klimatizace jen v ložnicích, topení neuvedeno – při 13 °C v noci může být uvnitř chladno, ověřit.",
   "facts": [
-   "Check-in / check-out: 16:00 / 10:00",
-   "Cena: 40 610 Kč za 7 nocí (Genius), standardně 49 046 Kč",
-   "Hodnocení Booking: 8,7 (16 recenzí)",
-   "Kapacita: 6 ložnic, 4 koupelny, max. 12 osob",
-   "Supermarket: Mercadona ~285 m",
-   "Nemocnice: Hospital Comarcal d'Inca ~17 min"
+   "Check-in / check-out: 16:00–24:00 / do 10:00 (majitel v recenzi povolil +2 h)",
+   "Cena: 40 610 Kč za 7 nocí (Genius); bez přihlášení 45 223 Kč (−8 % z 49 155 Kč), nevratná, platba online",
+   "Hodnocení Booking: 8,7 (16 recenzí): personál 8,8, čistota 8,5, poměr ceny 8,7, lokalita 8,3; rodiny lokalitě 9,0",
+   "Dispozice: 2 domy kolem dvora, 300 m², 6 ložnic, 4 koupelny, 2 kuchyně, 3 lednice, 2 pračky, vířivka, slaný bazén",
+   "Vybavení: klimatizace v ložnicích, myčka, gril, Wi-Fi, TV, postýlka na vyžádání; přistýlky ne",
+   "Pravidla: noční klid 22–9, nekuřácké, bez zvířat, jen karta",
+   "Okolí: Mercadona ~285 m, nádraží 1 km, Ca'n Matxet 100 m, Hospital Comarcal d'Inca ~17 min",
+   "Licence: ETV/39552 (habitatge turístic – ekotaxa 2 € za dospělého a noc v sezóně)"
   ],
   "links": [
    {
@@ -66,6 +73,9 @@
   ],
   "commons_query": "Sa Pobla Mallorca",
   "fun": "Sa Pobla je bramborová metropole Mallorky: rané brambory odsud se vyvážejí hlavně do Británie a městečko má vlastní bramborový festival.",
-  "anchor": "ubytovani"
+  "anchor": "ubytovani",
+  "what_long": "Vesnický dům pro dvanáct lidí na Calle Renou 166a v Sa Pobla, licence ETV/39552, spravuje agentura Ideal Property Mallorca (od 2010, 235 objektů, hodnocení 8,9). Ve skutečnosti jde o dva propojené domy oddělené vnitřním dvorem, kde je slaný bazén 7 × 4 m a venkovní gril; dohromady 300 m², 6 ložnic (4 manželské postele + 2× dvě jednolůžka), 4 koupelny, dvě kuchyně, na jedné terase vířivka. Booking 8,7 z 16 recenzí (11 fantastických, 3 dobré, 1 ucházející, 1 špatná). Sedm nocí 26. 10. – 2. 11., naše cena 40 610 Kč s Genius slevou; bez přihlášení dnes 45 223 Kč.",
+  "rating": "Booking 8,7 (16 recenzí, 11 s 9+). Chvála: prostor, dvě jednotky, bazén, gril, parkování před domem, vstřícný majitel. Výtky: potřeba renovace koupelen, tmavé pokoje, tři plotýnky, klimatizace jen v ložnicích, jednou zápach po kočkách.",
+  "booking": "Ověřeno 16. 9. 2026: pro 26. 10. – 2. 11. dům stále v nabídce, nevratná cena 45 223 Kč bez přihlášení (Genius 40 610 Kč); Booking hlásí, že v Sa Pobla už 42 podobných domů pro termín není."
  }
 ]
