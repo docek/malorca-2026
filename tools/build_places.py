@@ -17,6 +17,7 @@ from extract_skeleton import activities, venues  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "places.json"
 EXTRA = ROOT / "tools" / "extra_places.json"
+TERMS = ROOT / "tools" / "terms.json"
 ENRICH_KEYS = ["why", "experience", "access", "tips", "warning", "facts", "links", "commons_query", "fun", "note", "anchor"]
 CARD_KEYS = ["name", "kind", "page", "region", "typ", "rain", "kids4", "what", "kids", "card_facts", "drive", "verdict", "card_links", "area", "status", "why_card"]
 
@@ -78,7 +79,8 @@ def main() -> None:
     bad = [k for k, v in ALIASES.items() if v not in ids]
     if bad:
         print("aliases pointing to unknown ids:", bad, file=sys.stderr)
-    data = {"places": places, "aliases": {k: v for k, v in ALIASES.items() if v in ids}}
+    terms = json.loads(TERMS.read_text(encoding="utf-8")) if TERMS.exists() else {}
+    data = {"places": places, "aliases": {k: v for k, v in ALIASES.items() if v in ids}, "terms": terms}
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     n_rich = sum(1 for p in places if p.get("why"))
     print(f"{len(places)} places written, {n_rich} enriched, {len(missing)} without enrichment", file=sys.stderr)

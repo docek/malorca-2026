@@ -477,3 +477,11 @@ table.week td.meet { background: #fbf5e6; }
 footer .appbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 footer .appbar button { font: inherit; font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--card); border: 1px solid var(--line-2); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
 footer .appbar button:hover { background: #fff; }
+
+/* ---------- glossary ---------- */
+.gl { cursor: help; border-bottom: 1px dotted var(--muted); }
+.gl:hover { background: color-mix(in srgb, var(--sand) 35%, transparent); }
+.gloss { columns: 2; column-gap: 32px; }
+@media (max-width: 720px) { .gloss { columns: 1; } }
+.gloss dt { font-weight: 700; margin-top: 10px; break-inside: avoid; }
+.gloss dd { margin: 2px 0 0; color: var(--ink-2); font-size: 14.5px; break-inside: avoid; }

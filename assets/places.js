@@ -20,10 +20,11 @@
 
   // ---------- data ----------
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
-  let places = {}, byName = [], aliases = {};
+  let places = {}, byName = [], aliases = {}, terms = {};
   const ready = fetch('assets/places.json').then(r => r.json()).then(d => {
     d.places.forEach(p => { places[p.id] = p; byName.push([norm(p.name), p.id]); });
     aliases = Object.fromEntries(Object.entries(d.aliases || {}).map(([k, v]) => [norm(k), v]));
+    terms = d.terms || {};
     byName.sort((a, b) => b[0].length - a[0].length);
     return places;
   }).catch(e => { console.error('places.json', e); return {}; });
@@ -101,6 +102,47 @@
       n.querySelectorAll('.pl[data-pl-name]:not([data-pl])').forEach(el => { const id = resolveName(el.dataset.plName); if (id) el.dataset.pl = id; else el.remove(); });
     }))).observe(document.body, { childList: true, subtree: true });
   });
+
+  // ---------- glossary of Catalan / Mallorcan terms ----------
+  const GLOSS_PAGE = 'prakticke.html#slovnicek';
+  function termHtml(v) { const head = v.split(':')[0]; return `<div class="in"><h3>${esc(head)}</h3><p>${esc(v.slice(head.length + 1).trim())}</p><div class="links"><a href="${GLOSS_PAGE}">celý slovníček →</a></div></div>`; }
+  ready.then(() => {
+    const dl = document.getElementById('gloss-list');
+    if (dl) Object.values(terms).sort((a, b) => a.localeCompare(b, 'cs')).forEach(v => { const head = v.split(':')[0]; dl.insertAdjacentHTML('beforeend', `<dt>${esc(head)}</dt><dd>${esc(v.slice(head.length + 1).trim())}</dd>`); });
+    const keys = Object.keys(terms).sort((a, b) => b.length - a.length); if (!keys.length) return;
+    const escRx = x => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // key + optional Czech ending, then a non-letter (so "cala" never hits "Calvari", "far" never hits "farma")
+    const END = '(?:y|u|e|ou|ě|em|ám|ách|ami|i)?(?!\\p{L})';
+    const rx = new RegExp('(^|[^\\p{L}])(' + keys.map(k => escRx(k) + END).join('|') + ')', 'iu');
+    const keyOf = w => { const lw = w.toLowerCase(); return keys.find(k => lw.startsWith(k.toLowerCase())); };
+    const SKIP = new Set(['A', 'BUTTON', 'SCRIPT', 'STYLE', 'H1', 'H2', 'H3', 'H4', 'H5', 'SUP', 'INPUT', 'SELECT', 'TEXTAREA', 'DT', 'DD', 'LABEL']);
+    const blocks = document.querySelectorAll('.act, .venue, .card, .mod, .combo, .day, .callout, .risk, .verdict > div, .sec-head p, table.cmp td, table.week td, .check li, .prog-note');
+    const seenGlobal = new Set();
+    for (const b of blocks) {
+      if (b.closest('.hero, .modal, footer, .nav')) continue;
+      const seen = new Set();
+      const walker = document.createTreeWalker(b, NodeFilter.SHOW_TEXT, { acceptNode: n => {
+        let el = n.parentElement;
+        while (el && el !== b) { if (SKIP.has(el.tagName) || el.classList.contains('pl') || el.classList.contains('gl')) return NodeFilter.FILTER_REJECT; el = el.parentElement; }
+        return NodeFilter.FILTER_ACCEPT; } });
+      const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const n of nodes) {
+        const text = n.nodeValue; let last = 0, m, changed = false, guard = 0;
+        const out = document.createDocumentFragment();
+        while ((m = rx.exec(text.slice(last))) && guard++ < 30) {
+          const key = keyOf(m[2]); const start = last + m.index + m[1].length, end = start + m[2].length;
+          if (!key || seen.has(key)) { last = end; continue; }
+          seen.add(key); seenGlobal.add(key);
+          out.appendChild(document.createTextNode(text.slice(last, start)));
+          const s = document.createElement('span'); s.className = 'gl'; s.dataset.gl = key; s.tabIndex = 0; s.textContent = text.slice(start, end); out.appendChild(s);
+          last = end; changed = true;
+        }
+        if (changed) { out.appendChild(document.createTextNode(text.slice(last))); n.parentNode.replaceChild(out, n); }
+      }
+    }
+  });
+  document.addEventListener('click', e => { const t = e.target.closest('.gl'); if (!t) return; const v = terms[t.dataset.gl]; if (v) open(termHtml(v), true); });
+  document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.classList && e.target.classList.contains('gl')) e.target.click(); });
 
   // ---------- service worker ----------
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
