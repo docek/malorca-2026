@@ -9,9 +9,16 @@
   // ---------- modal ----------
   document.body.insertAdjacentHTML('beforeend', '<div class="modal" id="modal" aria-hidden="true"><div class="box" role="dialog" aria-modal="true"><button class="x" type="button" aria-label="Zavřít">×</button><div id="modal-content"></div></div></div>');
   const modal = document.getElementById('modal'), box = modal.querySelector('.box'), content = document.getElementById('modal-content');
+  // external links always open in a new tab
+  function externalize(root) {
+    root.querySelectorAll('a[href^="http"]').forEach(a => {
+      try { if (new URL(a.href).origin !== location.origin) { a.target = '_blank'; a.rel = 'noopener'; } } catch (e) {}
+    });
+  }
+  externalize(document);
   let pushed = false;
   function open(html, small, hash) {
-    content.innerHTML = html; modal.classList.toggle('small', !!small); modal.classList.add('on');
+    content.innerHTML = html; externalize(content); modal.classList.toggle('small', !!small); modal.classList.add('on');
     modal.setAttribute('aria-hidden', 'false'); box.scrollTop = 0; document.body.style.overflow = 'hidden';
     if (hash && location.hash !== hash) { history.pushState({ sheet: hash }, '', hash); pushed = true; }
   }
