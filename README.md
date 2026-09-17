@@ -10,4 +10,4 @@ Tři rodiny (Maradovi, Pavlasovi, Podařilovi), 12 lidí: 5 dospělých a 7 dět
 Každé místo, podnik i ubytování má jedinou kartu (boční panel s adresou `#p/<id>`, sdílitelnou do WhatsAppu) (proč tam, co zažijeme, jak se tam dostat, tipy, varování, kuriozita pro děti, fotky z Wikimedia Commons). Web je PWA: jde přidat na plochu telefonu (návod pro Android i iPhone pod tlačítkem 📱) a tlačítko „Uložit pro offline“ stáhne stránky, data i fotky.
 
 Statický web, žádný build. `assets/style.css` a `assets/places.js` sdílí všechny stránky, data popupů jsou v `assets/places.json` (zdroj pravdy; `tools/build_places.py` je jen jednorázově sestavil z karet a rešerše, `tools/fetch_commons.py` doplňuje fotky z Commons, `tools/extra_places.json` drží ručně psané karty ubytování, `tools/terms.json` slovníček). Offline: `sw.js` + `manifest.webmanifest`; při změně webu zvýšit `VERSION` v `sw.js`. Lokální náhled: `python3 -m http.server 8766`.
-Dojezdy jsou spočítané routingem OSRM ×1,2. Stav podkladů: 14. 9. 2026.
+Dojezdy jsou spočítané routingem OSRM ×1,2. Stav podkladů: 17. 9. 2026.

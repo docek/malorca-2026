@@ -523,3 +523,17 @@ footer .appbar button:hover { background: #fff; }
 .tracklines .who { margin-right: 6px; }
 .pl.auto { font-weight: inherit; }
 .act .pl.auto, .venue .pl.auto { color: inherit; text-decoration-color: color-mix(in srgb, var(--forest-2) 30%, transparent); }
+
+/* ---------- fragments in the sheet ---------- */
+.modal .frag .frag-body { margin-top: 6px; }
+.modal .frag .frag-body .combo, .modal .frag .frag-body .mod, .modal .frag .frag-body .card, .modal .frag .frag-body .body { box-shadow: none; border: 0; padding: 0; background: transparent; }
+.modal .frag .frag-body h3, .modal .frag .frag-body h4, .modal .frag .frag-body h5 { font-size: 20px; margin: 0 0 6px; padding-right: 0; }
+.modal .frag .frag-body .grid { display: grid; gap: 12px; grid-template-columns: 1fr; }
+.modal .frag .frag-body .venue { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.modal .frag .frag-body .venue dl.facts, .modal .frag .frag-body .venue .why { display: none; }
+.modal .frag .frag-body .more { grid-template-columns: 1fr; }
+.modal .frag .frag-body sup.cite a { text-decoration: none; }
+.modal .frag .frag-body .table-scroll { overflow-x: auto; }
+.modal .frag .frag-back { font: inherit; font-size: 13px; font-weight: 600; border: 0; background: none; color: var(--forest-2); cursor: pointer; padding: 0; margin-bottom: 8px; }
+.modal .frag .frag-goto { background: var(--paper-2); font-weight: 600; }
+.modal.small .frag .frag-body li { font-size: 14px; }

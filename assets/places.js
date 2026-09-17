@@ -19,7 +19,7 @@
     modal.classList.remove('on'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = '';
     if (!fromPop && pushed) { pushed = false; history.back(); } else pushed = false;
   }
-  window.addEventListener('popstate', () => { if (!/^#[pt]\//.test(location.hash)) { if (modal.classList.contains('on')) close(true); } else openFromHash(); });
+  window.addEventListener('popstate', () => { if (!/^#[ptx]\//.test(location.hash)) { if (modal.classList.contains('on')) close(true); } else openFromHash(); });
   window.openModal = open;
   modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('.x')) close(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
@@ -99,11 +99,11 @@
   function mapKeyFor(id) { if (typeof coords === 'undefined') return null; return Object.keys(coords).find(k => resolveName(k) === id) || null; }
   function openPlace(id) { const p = places[id]; if (!p) return false; open(placeHtml(p), false, '#p/' + id); return true; }
   window.openPlace = openPlace;
-  function openFromHash() {
+  let openFromHash = function () {
     const m = location.hash.match(/^#p\/([a-z0-9-]+)$/); if (m && places[m[1]]) { open(placeHtml(places[m[1]]), false); return true; }
     const g = location.hash.match(/^#t\/(.+)$/); if (g && terms[decodeURIComponent(g[1])]) { open(termHtml(terms[decodeURIComponent(g[1])]), true); return true; }
     return false;
-  }
+  };
   content.addEventListener('click', e => {
     const b = e.target.closest('[data-star]'); if (b) { const on = toggleShortlist(b.dataset.star); b.textContent = on ? '★ V mém výběru' : '☆ Do mého výběru'; b.classList.toggle('on', on); return; }
     const f = e.target.closest('[data-fly]'); if (f && typeof map !== 'undefined') { const c = coords[f.dataset.fly]; close(); document.getElementById('mapa').scrollIntoView(); map.flyTo(c, 13); return; }
@@ -191,6 +191,72 @@
     const list = [...byForm.values()].sort((a, b) => b.forms[0].length - a.forms[0].length);
     annotate(document.querySelectorAll(BLOCKS), list, 'pl auto', 'pl', { skipH: false });
   });
+
+  // ---------- in-sheet fragments: day plans, modules, food areas, sources ----------
+  const PAGES = ['index.html', 'vylety.html', 'jidlo.html', 'prakticke.html'];
+  const docCache = {};
+  async function getDoc(page) {
+    if (!page || page === location.pathname.split('/').pop() || (page === 'index.html' && /\/$/.test(location.pathname))) return document;
+    if (!docCache[page]) docCache[page] = fetch(page).then(r => r.text()).then(t => new DOMParser().parseFromString(t, 'text/html'));
+    return docCache[page];
+  }
+  const stack = [];
+  function fragHtml(el, page, id, title) {
+    const clone = el.cloneNode(true);
+    clone.querySelectorAll('script, .foot .fly, .dmore summary').forEach(n => n.remove());
+    clone.querySelectorAll('details').forEach(d => d.open = true);
+    clone.querySelectorAll('.pl.auto').forEach(n => { const t = document.createTextNode(n.textContent); n.replaceWith(t); });
+    // make relative hashes page-qualified so nested opens resolve against the right page
+    clone.querySelectorAll('a[href^="#"]').forEach(a => a.setAttribute('href', page + a.getAttribute('href')));
+    const back = stack.length ? '<button type="button" class="frag-back">← zpět</button>' : '';
+    const goto = `<a href="${esc(page)}#${esc(id)}" class="frag-goto" data-goto>Otevřít na stránce →</a>`;
+    return `<div class="in frag">${back}<div class="kind">${esc(title)}</div><div class="frag-body">${clone.outerHTML}</div><div class="links">${goto}</div></div>`;
+  }
+  const FRAG_TITLE = { combo: 'Rozdělený den', mod: 'Modul výletního menu', day: 'Den', card: 'Podrobnosti', section: 'Sekce' };
+  async function openFragment(page, id, pushHash) {
+    const doc = await getDoc(page); const el = doc.getElementById(id); if (!el) return false;
+    let target = el, title = FRAG_TITLE.card;
+    if (el.classList.contains('combo')) title = FRAG_TITLE.combo;
+    else if (el.classList.contains('mod')) title = FRAG_TITLE.mod;
+    else if (el.classList.contains('day')) { title = FRAG_TITLE.day; target = el.querySelector('.body') || el; }
+    else if (el.matches('h3, h4')) { // area heading (jidlo areas, index sub-heads): take heading + siblings until next heading of same level
+      const wrap = document.createElement('div'); let n = el; const lvl = el.tagName;
+      while (n && !(n !== el && n.tagName === lvl)) { wrap.appendChild(n.cloneNode(true)); n = n.nextElementSibling; }
+      target = wrap; title = page.replace('.html', '') === 'jidlo' ? 'Kde jíst · oblast' : 'Část stránky';
+    } else if (el.querySelector && el.querySelector('.venue')) { title = 'Kde jíst · oblast';
+    } else if (el.tagName === 'SECTION') { target = el.querySelector('.wrap') || el; title = (el.querySelector('h2') || {}).textContent || 'Sekce'; }
+    else if (/^src-\d+$/.test(id)) { title = 'Zdroj ' + id.slice(4); }
+    const html = fragHtml(target, page, id, title);
+    if (pushHash !== false) open(html, /^src-/.test(id), '#x/' + page.replace('.html', '') + '/' + id); else open(html, /^src-/.test(id));
+    return true;
+  }
+  content.addEventListener('click', e => {
+    const b = e.target.closest('.frag-back'); if (b) { const prev = stack.pop(); if (prev) { content.innerHTML = prev; box.scrollTop = 0; } else close(); }
+  });
+  function isSheetable(a) {
+    if (!a || a.target === '_blank' || a.closest('.nav, .subnav, .hero .actions, .prog-toc, .area-jump, .modal .links, footer')) return false;
+    if (a.classList.contains('fly') || a.hasAttribute('data-goto') || a.hasAttribute('download')) return false;
+    const href = a.getAttribute('href') || '';
+    const m = href.match(/^(?:(index|vylety|jidlo|prakticke)\.html)?#([A-Za-z0-9_-]+)$/); if (!m) return null;
+    const page = (m[1] ? m[1] + '.html' : location.pathname.split('/').pop() || 'index.html');
+    const id = m[2];
+    if (['mapa', 'zdroje', 'top', 'katalog', 'shortlist', 'program', 'tyden', 'menu', 'rozdelene-dny', 'vlak', 'ubytovani', 'proc', 'otazky', 'zkratka', 'trhy', 'podniky', 'doma', 'gastroturistika', 'zvlastnosti', 'prakticky', 'slovnicek', 'jak', 'top5'].includes(id) && page === (location.pathname.split('/').pop() || 'index.html')) return null; // same-page section nav: scroll
+    return { page, id };
+  }
+  document.addEventListener('click', async e => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    const a = e.target.closest('a[href]'); if (!a) return;
+    const t = isSheetable(a); if (!t) return;
+    if (places[t.id]) return; // place links handled elsewhere
+    const inSheet = !!a.closest('#modal');
+    e.preventDefault();
+    if (inSheet) stack.push(content.innerHTML); else stack.length = 0;
+    const ok = await openFragment(t.page, t.id, !inSheet);
+    if (!ok) { if (inSheet) stack.pop(); location.href = a.href; }
+  }, true);
+  // deep link #x/page/id
+  const _openFromHash = openFromHash;
+  openFromHash = function () { const m = location.hash.match(/^#x\/(index|vylety|jidlo|prakticke)\/([A-Za-z0-9_-]+)$/); if (m) { stack.length = 0; openFragment(m[1] + '.html', m[2], false); return true; } return _openFromHash(); };
 
   // ---------- glossary of Catalan / Mallorcan terms ----------
   const GLOSS_PAGE = 'prakticke.html#slovnicek';
