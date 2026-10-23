@@ -28,7 +28,7 @@
     "Stavba: 1298–1362 (Jaime II. → Petr IV. Aragonský)",
     "Délka hradeb: cca 1,5 km, průměrná výška 6 m",
     "Původní počet věží: 26, zachovány dvě hlavní brány",
-    "Vstup na ochoz: zdarma; vstup do vybraných věží/muzejní části zpoplatněn (ověřit na místě)",
+    "Vstup na ochoz: zdarma",
     "Památková ochrana: od roku 1974"
    ],
    "links": [
@@ -780,11 +780,11 @@
    "rain": "ne",
    "kids4": "ano",
    "what": "Ranč s vyjížďkami po pláži a lesem, poníky, dětským hřištěm (skákací hrad, bazén s míčky) a minifarmou.",
-   "kids": "Vyjížďky na koních — pro děti tahák, ale rozsah nabídky pro 4leté neověřen.",
+   "kids": "Vyjížďky na koních — pro děti tahák, ale rozsah nabídky pro 4leté web neuvádí – zeptat se na 971 854 121.",
    "card_facts": {
     "Čas": "půl dne",
-    "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "Út–So 9:00–22:00, Ne 9:00–16:30, pondělí zavřeno — neověřeno, potvrdit telefonem"
+    "Cena": "2h vyjížďka od cca 69 € (yumping.com); ceník na oficiálním webu není, potvrdit telefonem",
+    "Otevřeno v našem termínu": "Po zavřeno, Ne 9:00–16:30; Út–Pá 13:00–22:30, So 9:00–22:30 podle Kidvoyage (ne oficiální web) — potvrdit telefonem 971 854 121"
    },
    "drive": "z Cal Tia ~30 min · 22 km",
    "verdict": "Malí hřiště a poníci, velcí vyjížďka. Web zmiňuje zimní prostory s krbem, takže spíš celoročně — ceny a věkové limity ověřit.",
@@ -857,7 +857,7 @@
    "kids": "Ok — kombinace interiéru a zahrady, nejmenší spíš zahrada.",
    "card_facts": {
     "Čas": "1,5–2 h",
-    "Cena": "sochařský park 7 €, Nins a Sokrates 12 €, kompletní prohlídka s domem 38 € (ověřit); do 7 let zdarma",
+    "Cena": "sochařský park 7 €, Nins a Sokrates 12 €, kompletní prohlídka s domem 38 €; do 7 let zdarma",
     "Otevřeno v našem termínu": "Út–So 10:00–17:30 (od listopadu), Ne a Po zavřeno bez ohledu na rezervaci – tedy i 1. 11.; park a Nins/Sokrates bez rezervace, prohlídka domu jen s rezervací"
    },
    "drive": "z Cal Tia ~40 min · 22 km",
@@ -871,7 +871,7 @@
    "warning": "Otevřeno út–so 10:00–17:30 (od listopadu), v neděli a pondělí (tedy i 1. 11.) zavřeno bez ohledu na rezervaci.",
    "facts": [
     "Otevřeno: út–so 10:00–17:30 (listopad–únor), zavřeno ne a po",
-    "Vstupné: sochařský park 7 €, Nins a Sokrates 12 €, kompletní prohlídka vč. domu 38 € (dospělí, ověřit)",
+    "Vstupné (dospělí): sochařský park 7 €, Nins a Sokrates 12 €, prohlídka domu 28 €, kompletní prohlídka vč. domu 38 €",
     "Děti do 7 let: zdarma",
     "Telefon: +34 971 546 915 / +34 900 777 001",
     "Architekt hlavní budovy: Hassan Fathy (jediná realizace v Evropě)"
@@ -1348,7 +1348,7 @@
    "card_facts": {
     "Čas": "35–90 min tam a zpět",
     "Cena": "zdarma",
-    "Otevřeno v našem termínu": "celoročně; omezení vjezdu na Formentor platí jen v sezóně, pro náš termín ověřit"
+    "Otevřeno v našem termínu": "celoročně; omezení vjezdu na Formentor platí 15. 5.–18. 10. 2026, v našem termínu (od 25. 10.) tedy neplatí"
    },
    "drive": "z Cal Tia ~45 min (bod přibližný) · 31 km",
    "verdict": "Vyhlídka s malou námahou, spojit s Es Colomer a Cala Formentor. Za větru a deště ne.",
@@ -1428,7 +1428,7 @@
    "card_facts": {
     "Čas": "15–20 min",
     "Cena": "zdarma",
-    "Otevřeno v našem termínu": "celoročně; omezení vjezdu na Formentor pro náš termín ověřit"
+    "Otevřeno v našem termínu": "celoročně; omezení vjezdu na Formentor platí 15. 5.–18. 10. 2026, v našem termínu (od 25. 10.) tedy neplatí"
    },
    "drive": "z Cal Tia ~40 min · 30 km",
    "verdict": "Povinná zastávka cestou na Formentor. V mlze nemá smysl.",
@@ -1753,7 +1753,7 @@
    "card_facts": {
     "Čas": "jízda 10–15 min",
     "Cena": "na webu neuvedeno",
-    "Otevřeno v našem termínu": "web uvádí sezónu duben–říjen ⇒ koncem října a 1. 11. pravděpodobně zavřeno; zavolat +34 636 722 752"
+    "Otevřeno v našem termínu": "web uvádí sezónu duben–říjen, novější recenze na mallorca.com hlásí i zavřeno/mimo provoz ⇒ koncem října a 1. 11. pravděpodobně zavřeno; zavolat +34 636 722 752"
    },
    "drive": "z Cal Tia ~25 min · 18 km",
    "verdict": "Počítat se zavřeno; jen pokud telefonicky potvrdí.",
@@ -1837,7 +1837,7 @@
    "card_facts": {
     "Čas": "půl dne",
     "Cena": "městské kolo od 8 €/den, dětské 4–11 €/den, e-kolo od 23 €/den",
-    "Otevřeno v našem termínu": "uzavírka neuvedena, podzim je na Mallorce cyklistická sezóna — pravděpodobně otevřeno, ověřit"
+    "Otevřeno v našem termínu": "uzavírka neuvedena, podzim je na Mallorce cyklistická sezóna — půjčovna web sezónu neuvádí, dětská kola od 4 €/den; potvrdit telefonem 971 864 059"
    },
    "drive": "z Cal Tia ~30 min · 22 km",
    "verdict": "Aktivní půlden pro velké, s malými se sejít v Alcúdii nebo na hřišti v Port de Pollença.",
@@ -1905,7 +1905,7 @@
    "card_facts": {
     "Čas": "areál 45–60 min, muzeum 30–45 min",
     "Cena": "4 €, 8–25 let 2,50 €, do 7 zdarma",
-    "Otevřeno v našem termínu": "do 31. 10. muzeum Út–So 9:00–15:00, Po, Ne a svátky zavřeno; od listopadu zimní řád (Út–Pá 10:00–16:00, So–Ne 10:00–14:00, Po zavřeno) – zdroje se rozcházejí, 1. 11. a zimní hodiny ověřit"
+    "Otevřeno v našem termínu": "do 31. 10. muzeum Út–So 9:00–15:00, Po, Ne a svátky zavřeno; od listopadu zimní řád (Út–Pá 10:00–16:00, So–Ne 10:00–14:00, Po zavřeno) – zdroje se rozcházejí, 1. 11. a 10:30–18:00 do 31. 10., so a ne zavřeno (oficiální web); zimní hodiny od 1. 11. web neuvádí – ověřit na info@santueri.org telefonem 971 547 004"
    },
    "drive": "z Cal Tia ~20 min · 15 km",
    "verdict": "Kulturní doplněk k hradbám Alcúdie, pro velké. Dopoledne Út–So.",
@@ -1914,15 +1914,15 @@
    "why": "Pro děti kolem 6–11 let dobrá ukázka, že Mallorka nebyla jen maurská a katalánská – bylo tu i římské město starší než dva tisíce let, se stejným fórem a divadlem, jaké znají z jiných римských měst. Jedna vstupenka platí na areál i muzeum, takže jde vidět jak samotné ruiny, tak předměty, které se v nich našly.",
    "experience": "V areálu si děti projdou zbytky římského divadla, ulic a fóra – terén je nerovný, se štěrkem, a bez stínu, takže dopoledne je lepší než odpoledne. Muzeum v budově ze 14. století pak ukazuje nalezené sochy, mince a šperky v klimatizovaných místnostech; areál zabere 45–60 minut, muzeum 30–45 minut.",
    "access": "Z Cal Tia po silnici směr Alcúdia (cca 20 min, 15 km); parkovat lze na ulici nebo na placených parkovištích u historického centra, areál i muzeum jsou pěšky od hradeb.",
-   "tips": "Navštívit dopoledne od úterý do soboty, kdy je otevřeno muzeum i areál. V pondělí, neděli a o svátcích (podle dosavadních zdrojů včetně 1. 11.) bývá zavřeno – ověřit aktuální rozpis před cestou.",
-   "warning": "Zimní otevírací doba (listopad–duben) se podle dostupných zdrojů liší od letního režimu a přesný rozpis pro sezónu 2026/27 se nepodařilo dohledat na oficiálním webu – ověřit telefonicky nebo na místě.",
+   "tips": "Navštívit dopoledne od úterý do soboty, kdy je otevřeno muzeum i areál. Muzeum je v pondělí, neděli a o svátcích (tedy i 1. 11.) zavřené; v sobotu 31. 10. 9:00–15:00, areál v letním řádu jen 9:00–13:00.",
+   "warning": "Oficiální zimní řád areálu (od 1. 11.) zatím není zveřejněn, platí letní řád 2026 (v sobotu 9:00–13:00) – před cestou ověřit telefonicky.",
    "facts": [
     "Založeno: 123 př. n. l. (konzul Quintus Caecilius Metellus)",
     "Rozloha na vrcholu: 15–20 ha",
     "Systematické vykopávky od: 1923 (Gabriel Llabrés, Rafel Isasi)",
-    "Vstupné: 3,50 € dospělí, 2 € snížené, děti do 7 zdarma (ověřit)",
+    "Vstupné: 4 € (muzeum i areál podle oficiálního rozpisu 2026)",
     "Telefon: +34 971 547 004",
-    "Zimní otevírací doba (ověřit pro 2026/27): dosavadní zdroje se rozcházejí"
+    "Otevírací doba: muzeum Út–So 9:00–15:00 celoročně (Po, Ne, svátky zavřeno); areál letní řád 2026 Po 9–15, Út–Čt 9–19, Pá–So 9–13, Ne 9–15, zimní řád od 1. 11. nezveřejněn (ověřit)"
    ],
    "links": [
     {
@@ -1992,14 +1992,14 @@
    "what": "Historický dřevěný vlak z roku 1912 z Palmy přes hory do Sólleru; nejhezčí horský úsek s tunely je mezi Bunyolou a Sóllerem. Doporučeno v sobotu 31. 10. s nástupem v Bunyole (z Cal Tia ~40 min) a se sobotním trhem v Sólleru 8:00–14:00 — celý plán na hlavní stránce.",
    "kids": "Výborné — děti milují vlak a tunely.",
    "card_facts": {
-    "Jízdní řád 2026": "Palma → Sóller 10:30, 12:50, 15:10, 18:00 (~1 h); Bunyola → Sóller 10:55, 13:15, 15:35, 18:25 (~25–30 min); Sóller → Palma 9:00, 11:40, 14:00, 17:00 (Bunyola cca +25 min). Zdroje se rozcházejí (jeden uvádí jiné časy, oficiální web je nepřehledný) — ověřit na trendesoller.com týden předem.",
-    "Cena": "Dosp. Palma–Sóller 23 € jedním směrem, 30 € zpáteční; vlak + tramvaj Palma–Port de Sóller–Palma 40 €; Palma–Bunyola 11 €, Bunyola–Sóller levnější než z Palmy (přesně ověřit). Dětské ceny a věkové hranice neověřené. Lístky hlavně na pokladně v den jízdy, online jen kombinovaná zpáteční. Skupina 12 lidí (vlak z Bunyoly + tramvaj + bus zpět) řádově 200–300 €.",
+    "Jízdní řád 2026": "Do 1. 11. 2026 (platí pro 31. 10.): Palma → Sóller 10:10, 10:50, 12:15, 13:30, 15:10, 18:30*, 19:40; Bunyola → Sóller 10:35, 11:15, 12:40, 13:55, 15:35, 18:55, 20:05 (příjezd do Sólleru o ~35 min později, např. 11:10, 11:50, 13:15, 14:30); Sóller → Palma 9:00, 10:50, 12:15, 14:00, 17:15*, 18:00, 18:30, 19:30 (Bunyola o 25 min později). Od 2. 11. řidší řád (Palma 10:30, 12:50, 15:10, 18:00). *spoje k ověření na pokladně.",
+    "Cena": "Dosp. Palma–Sóller 23 € jedním směrem, 30 € zpáteční; vlak + tramvaj Palma–Port de Sóller–Palma 40 €; Palma–Bunyola 11 €, Bunyola–Sóller 11 € jedním směrem, 19 € zpáteční. Oficiální ceník dětské ceny neuvádí; sleva pro děti 4–12 let jen z nepotvrzených zdrojů – ověřit na pokladně. Lístky hlavně na pokladně v den jízdy, online jen kombinovaná zpáteční. Skupina 12 lidí (vlak z Bunyoly + tramvaj + bus zpět) řádově 200–300 €.",
     "Zpět": "Autobus TIB 204 Port de Sóller – Sóller – Bunyola – Palma, denně každých ~25 min 6:30–23:30; Sóller → Bunyola 10 min, → Palma ~40 min; jízdné Sóller–Bunyola odhadem 3–5 €. Řád platí od 27. 3. 2026, letní provoz do 30. 11.",
     "Parkování": "Bunyola u nádraží zdarma; Palma podzemní Parc de les Estacions 1,25 €/h, Plaça d'Espanya 2,40 €/h.",
     "Otevřeno v našem termínu": "jezdí; roční odstávka až koncem listopadu (2025 od 24. 11.), náš termín jí nezasahuje"
    },
    "drive": "z Cal Tia ~40 min do Bunyoly (nástup na vlak) · 40 km",
-   "verdict": "Jedeme v sobotu 31. 10.: z Cal Tia v 9:45 do Bunyoly ~40 min, auta zdarma u nádraží, vlak 10:55, sobotní trh v Sólleru, tramvaj do Port de Sóller, zpět busem 204 a do Cal Tia ~40 min. Za deště vlak přesunout na jiný suchý den (z Cal Tia do Bunyoly ~40 min).",
+   "verdict": "Jedeme v sobotu 31. 10.: z Cal Tia v 9:45 do Bunyoly ~40 min, auta zdarma u nádraží, vlak 11:15, sobotní trh v Sólleru, tramvaj do Port de Sóller, zpět busem 204 a do Cal Tia ~40 min. Za deště vlak přesunout na jiný suchý den (z Cal Tia do Bunyoly ~40 min).",
    "card_links": [],
    "id": "tren-de-soller-palma-soller",
    "why": "Trať jezdí nepřetržitě už přes sto let a dodnes používá dřevěné vagony ve stylu doby svého vzniku – pro děti je to jízda „opravdovým“ starým vlakem, ne muzejní replika. Hlavní zážitek je krátký, intenzivní horský úsek Bunyola–Sóller s tunely a výhledy, který lze absolvovat i bez nutnosti sedět ve vlaku hodinu z Palmy. Koncem října navíc v Sólleru probíhá sobotní trh, takže jízda vlakem přirozeně naváže na další program dne.",
@@ -2012,9 +2012,9 @@
     "Cena Bunyola–Sóller: 11 € jedním směrem, 19 € zpáteční (dosp.)",
     "Cena Palma–Sóller: 23 € jedním směrem, 30 € zpáteční (dosp.)",
     "Kombinace vlak + tramvaj Palma–Port de Sóller: 40 €",
-    "Jízdní řád ze Sólleru do Palmy (přes Bunyolu): 9:00, 12:15, 14:00, 17:15*, 18:30 (*ověřit na pokladně)",
+    "Jízdní řád ze Sólleru do Palmy (přes Bunyolu, do 1. 11.): 9:00, 10:50, 12:15, 14:00, 17:15*, 18:00, 18:30, 19:30 (*ověřit na pokladně)",
     "Telefon: +34 971 752 028",
-    "Dětské ceny a věková hranice: (ověřit)",
+    "Dětské ceny: oficiální ceník je neuvádí; sleva 4–12 let jen z nepotvrzených zdrojů (ověřit na pokladně)",
     "Provoz: celoročně, roční odstávka bývá až koncem listopadu"
    ],
    "links": [
@@ -2082,7 +2082,7 @@
    "kids": "Výborné — krátké a zábavné.",
    "card_facts": {
     "Čas": "15 min jízda",
-    "Cena": "10 € jedním směrem (dosp.; dětské neověřené); v kombinaci vlak + tramvaj Palma–Port de Sóller–Palma 40 €",
+    "Cena": "10 € jedním směrem (kupuje se na palubě; oficiální ceník dětskou slevu neuvádí); v kombinaci vlak + tramvaj Palma–Port de Sóller–Palma 40 €",
     "Otevřeno v našem termínu": "celoročně, mimo sezónu omezeně"
    },
    "drive": "z Cal Tia ~55 min · 52 km",
@@ -2099,7 +2099,7 @@
     "Délka trasy: 4,9 km, jízda cca 15–20 min",
     "Cena: 10 €/dosp. jedním směrem",
     "Kombinace vlak + tramvaj Palma–Port de Sóller: 40 €",
-    "Provoz: zhruba hodinové intervaly 8:00–20:35 (Sóller→Port), mimo sezónu nižší frekvence",
+    "Provoz do 1. 11.: Sóller→Port zhruba každých 30 min 11:00–19:30 (ráno 8:00, 9:00, 10:00; poslední 20:35), Port→Sóller poslední 21:05; od 2. 11. hodinově 8:00–19:00",
     "Telefon (Ferrocarril de Sóller): +34 971 752 028"
    ],
    "links": [
@@ -2387,7 +2387,7 @@
    "kids": "Ok — klášter může malé děti nudit, obec zvládnou všichni.",
    "card_facts": {
     "Čas": "1,5–2 h",
-    "Cena": "Kartouza ~9–10 €/dosp. (ověřit), obec zdarma",
+    "Cena": "Kartouza podle prodejců od 12,50 €/dosp. (dříve uváděno ~9–10 €, cenu ověřit na místě), obec zdarma",
     "Otevřeno v našem termínu": "celoročně, kartouza v kratších zimních hodinách"
    },
    "drive": "z Cal Tia ~55 min · 50 km",
@@ -2403,8 +2403,8 @@
     "Založeno: klášter 1399 (kartuziáni), dříve královský palác Jaimeho II.",
     "Kostel: stavba od 1751 na místě předchůdce z 1446",
     "Muzeum Chopin/Sand: cela č. 4, pobyt zima 1838–39",
-    "Otevřeno: po–so (neděle dle webu zavřeno, ověřit aktuální hodiny)",
-    "Vstupné: cca 9–10 €/dosp. (ověřit aktuální cenu)"
+    "Otevřeno: Po–Pá 10:00–17:00 (poslední vstup 16:00), So 10:00–16:00 (poslední vstup 15:00), neděle zřejmě zavřeno (údaj prodejce lístků; zimní hodiny ověřit)",
+    "Vstupné: podle prodejců od ~12,50 € (starší zdroje 9–10 €; ověřit aktuální cenu)"
    ],
    "links": [
     {
@@ -2536,7 +2536,7 @@
    "card_facts": {
     "Čas": "1,5–2 h",
     "Cena": "vstup do areálu zdarma, muzeum pár €",
-    "Otevřeno v našem termínu": "celoročně; botanická zahrada 10:00–13:00 a 15:00–18:00, plné hodiny areálu neověřeny — ověřit na lluc.net"
+    "Otevřeno v našem termínu": "celoročně; bazilika denně 8:30–19:30, muzeum v zimě 9:00–17:00, botanická zahrada v zimě 9:30–17:00 (vstup zdarma); datum přechodu na zimní režim web neuvádí"
    },
    "drive": "z Cal Tia ~45 min · 24 km",
    "verdict": "Solidní kombinace kultury a venkovního prostoru, krytý kostel a muzeum dělají z Lluku dobrou rain-day zálohu.",
@@ -2614,7 +2614,7 @@
    "card_facts": {
     "Čas": "půl dne",
     "Cena": "pláž zdarma, parkovné placené",
-    "Otevřeno v našem termínu": "přístup autem celoročně; lodě z Port de Sóller v listopadu jen cca 2 dny v týdnu (~11:20 tam, 13:40 zpět) — ověřit"
+    "Otevřeno v našem termínu": "přístup autem celoročně; lodě z Port de Sóller (Barcos Azules) mají letní řád do 30. 9. (odjezdy 9:50, 11:20, 13:00, 15:00, zpět 13:40, 16:40), zimní řád ani dny provozu v listopadu se nepodařilo zjistit – ověřit u dopravce"
    },
    "drive": "z Cal Tia ~75 min · 44 km",
    "verdict": "Jet jen na zátoku autem nebo lodí, kaňon s dětmi vynechat úplně. S dětmi v autě počítat s pomalou jízdou a nevolností — sáčky a přestávky.",
@@ -2761,7 +2761,7 @@
    "card_facts": {
     "Čas": "3–3,5 h z Es Verger (6–7 km, ~450–500 m převýšení)",
     "Cena": "zdarma (restaurace zvlášť)",
-    "Otevřeno v našem termínu": "celoroční trasa, uzavírka nenalezena (neověřeno)"
+    "Otevřeno v našem termínu": "celoroční trasa, uzavírka nenalezena; restaurace Es Verger u parkoviště má podle nedatovaného zdroje Út–Ne 9:00–17:00, Po zavřeno"
    },
    "drive": "z Cal Tia ~45 min na start (Es Verger) · 33 km",
    "verdict": "Jen se staršími a fit dětmi; lze dojet blíž a trasu zkrátit. Za deště kluzké kameny.",
@@ -2989,7 +2989,7 @@
    "card_facts": {
     "Čas": "3–4 h",
     "Cena": "loď cca 15–20 €/dosp. (ověřit)",
-    "Otevřeno v našem termínu": "park 10:00–14:30 (1. 11.–30. 4.), lodě 09:30/12:00/14:30/16:00 — neověřeno, potvrdit u dopravce; mimo sezónu bývá provoz omezený"
+    "Otevřeno v našem termínu": "park 10:00–14:30 (1. 11.–30. 4.), lodě 09:30/12:00/14:30/16:00 — neověřeno, potvrdit u dopravce; provozovatel Sa Calma Boats uvádí plavby denně duben–říjen podle počasí, listopad nejasný: +34 673 635 165 (WhatsApp), info@sacalmaboats.com"
    },
    "drive": "z Cal Tia ~75 min · 78 km",
    "verdict": "Fajn výlet, ale za větru lodě nejezdí — mít záložní plán.",
@@ -3061,7 +3061,7 @@
    "card_facts": {
     "Čas": "1–2 h",
     "Cena": "zdarma",
-    "Otevřeno v našem termínu": "celoročně; trh — brief aktivit uvádí úterý, sezónní brief středu, ověřit na místě"
+    "Otevřeno v našem termínu": "celoročně; trh ve středu 8:00–13:00 na Plaça Major (v našem termínu 28. 10.)"
    },
    "drive": "z Cal Tia ~65 min · 71 km",
    "verdict": "Spíš tranzitní bod k Sant Elm.",
@@ -3070,7 +3070,7 @@
    "why": "Historie pirátských nájezdů a strážních věží dává i nenápadnému městečku dramatický příběh, který se dá dětem ukázat přímo na věžích v okolí. Andratx funguje hlavně jako praktická zastávka s obchody a trhem na cestě k Sant Elm nebo do hor Tramuntany, ne jako cílová atrakce sama o sobě. Blízký přístav Port d'Andratx s jachtami a restauracemi u vody je hezčí místo na zastávku než samotné centrum.",
    "experience": "Procházka centrem vede kolem kostela a náměstí s obchody a kavárnami, program je volný bez placených atrakcí. O tržním dni se náměstí a přilehlé ulice zaplní stánky s ovocem, zeleninou a místními výrobky. Blízký přístav Port d'Andratx (pár minut autem) nabízí hezčí zastávku na oběd u vody s pohledem na jachty a rybářské lodě.",
    "access": "Z Cal Tia vede cesta přes Palmu po Ma-1 směrem na Andratx, cca 65 minut. Parkování v centru je na ulici, v přístavu podél nábřeží.",
-   "tips": "Trh se koná jednou týdně, přesný den (zdroje se rozcházejí mezi úterým a středou) ověřit na místě před cestou.",
+   "tips": "Trh se koná každou středu dopoledne (cca 8:00–13:00) na Plaça Major, v termínu 28. 10.; kdo chce parkovat blízko, přijet před 10:00.",
    "warning": null,
    "facts": [
     "Počet obyvatel: 12 195 (2025), Port d'Andratx 2 588 (2025)",
@@ -3361,7 +3361,7 @@
    "card_facts": {
     "Čas": "zahrada 30–45 min, Camí dels Misteris 20–30 min",
     "Cena": "zdarma (dobrovolný příspěvek)",
-    "Otevřeno v našem termínu": "zahrada denně 10:00–13:00 a 15:00–18:00 (ověřeno); Camí dels Misteris je veřejná cesta, uzavírka neověřena"
+    "Otevřeno v našem termínu": "zahrada denně, zimní režim 9:30–17:00 podle lluc.net (dřívější údaj 10:00–13:00 a 15:00–18:00 — ověřit na místě); Camí dels Misteris je veřejná cesta, uzavírka neověřena"
    },
    "drive": "z Cal Tia ~45 min · 25 km",
    "verdict": "Program pro malé, zatímco velcí jdou okruh Moleta de Binifaldó. Doplňuje kartu Lluc – Monestir.",
@@ -3376,7 +3376,7 @@
     "Camí dels Misteris postavena: 1909–1913",
     "Bronzové reliéfy: sochař Josep Llimona, pod dohledem Antoniho Gaudího",
     "Zahrada: přes 200 druhů balearských rostlin",
-    "Vstup do zahrady: denně 10:00–13:00 a 15:00–18:00 (ověřeno pro 2025, ověřit před cestou)",
+    "Vstup do zahrady: denně 9:30–17:00 v zimním řádu (podstránka zahrady uvádí 10:00–18:00, ověřit na místě)",
     "Vstup: zdarma (dobrovolný příspěvek)",
     "Čtvrtý monument spadl 2021, obnoven 2024"
    ],
@@ -3784,8 +3784,8 @@
    "kids": "Pro 7–11, hodně textů a exponátů; malé nebaví.",
    "card_facts": {
     "Čas": "30–45 min",
-    "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "existuje a funguje; hodiny pro náš termín neověřeny — tel. +34 971 632 204"
+    "Cena": "zdarma",
+    "Otevřeno v našem termínu": "existuje a funguje; hodiny pro náš termín neověřeny (starší zdroj uvádí jen Pá–Ne 10:00–14:00) — tel. +34 971 632 204"
    },
    "drive": "z Cal Tia ~60 min · 56 km",
    "verdict": "Jen jako doplněk k Port de Sóller za deště.",
@@ -3857,7 +3857,7 @@
    "card_facts": {
     "Čas": "30–40 min",
     "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "klášter celoročně; hodiny muzea neověřeny — tel. +34 971 871 525"
+    "Otevřeno v našem termínu": "klášter celoročně; muzeum denně, zimní režim 9:00–17:00 (letní 9:00–18:00), přesné datum přechodu web neuvádí — tel. +34 971 871 525"
    },
    "drive": "z Cal Tia ~45 min · 25 km",
    "verdict": "Krytá část lluckého dne, když prší.",
@@ -3928,7 +3928,7 @@
    "kids": "Výborné — celodenní program pro všechny věky.",
    "card_facts": {
     "Čas": "3–4 h",
-    "Cena": "dospělý cca 28–34 €, dítě levnější (ověřit aktuální ceník)",
+    "Cena": "dospělý 30,50 €, dítě 3–12 let 19,50 €, do 3 let zdarma",
     "Otevřeno v našem termínu": "celoročně, ale od 1. 11. Po–Pá jen 10:00–15:30 (poslední vstup 14:00), So/Ne a svátky 10:00–17:30 (poslední vstup 16:00)"
    },
    "drive": "z Cal Tia ~45 min · 50 km",
@@ -3945,7 +3945,7 @@
     "Vnitřní trasa: přes 900 m, venkovní areál přes 41 000 m²",
     "Big Blue: hloubka 8,5 m, 3,5 mil. litrů vody, 6 žraloků pískových + 5 hnědých + přes 1000 ryb",
     "Druhů celkem: cca 700, jedinců cca 8000",
-    "Cena: balíček Ticket + 3D kino Aquadome od 34 €, odpolední sleva (po 14:00) cca 15 % (ověřit aktuální ceník)",
+    "Cena: dospělý 30,50 €, dítě 3–12 let 19,50 €; balíček Ticket + 3D kino Aquadome od 34 €, odpolední nabídka po 14:00 od 26 € (sleva 15 %)",
     "Zimní otevírací doba (od 1. 11.): Po–Pá 10:00–15:30, So/Ne a svátky 10:00–17:30",
     "Adresa: Carrer de Manuela de los Herreros i Sorà, Can Pastilla, Palma"
    ],
@@ -4019,8 +4019,8 @@
    "kids": "Dobré — děti ocení velikost a barevná okna, ale pozornost má limit.",
    "card_facts": {
     "Čas": "1–1,5 h",
-    "Cena": "dosp. ~9 €, dítě do 12 zdarma (ověřit)",
-    "Otevřeno v našem termínu": "zimní režim začíná přesně 2. 11.: Po–So 10:00–15:15, neděle pro turisty zavřeno; pro 25. 10.–1. 11. platí ještě přechodné hodiny — ověřit"
+    "Cena": "dosp. ~9 € (starší údaj; novější neoficiální zdroje uvádějí až 25 € se Seu, terasami a muzeem), děti — neověřeno, zjistit na catedraldemallorca.org",
+    "Otevřeno v našem termínu": "zimní režim začíná přesně 2. 11.: Po–So 10:00–15:15, neděle pro turisty zavřeno; pro 25. 10.–1. 11. platí ještě přechodné hodiny (neoficiální zdroj: Po–Pá do 17:15, So do 14:15; zimních 15:15 až od prosince — ověřit na +34 971 71 31 33)"
    },
    "drive": "z Cal Tia ~50 min · 44 km",
    "verdict": "Krytá, dobrá za deště. Kombinovat s procházkou starým městem.",
@@ -4260,7 +4260,7 @@
    "kids": "Spíš pro starší děti a dospělé — moderní umění malé nebaví.",
    "card_facts": {
     "Čas": "1 h",
-    "Cena": "8 €, zlevněné 5,50 € (dětské vstupné ověřit)",
+    "Cena": "8 €, zlevněné 5,50 € (věk pro dětské vstupné web neuvádí, existuje kategorie vstupu zdarma — zeptat se u pokladny); Út–So 10:00–20:00, Ne 10:00–15:00, Po zavřeno",
     "Otevřeno v našem termínu": "Út–So 10:00–20:00, Ne 10:00–15:00, pondělí zavřeno"
    },
    "drive": "z Cal Tia ~45 min · 46 km",
@@ -4338,8 +4338,8 @@
    "kids": "Pozor na konec sezóny — v našem termínu ještě jede.",
    "card_facts": {
     "Čas": "2–3 h",
-    "Cena": "~20–25 €/os. (ověřit)",
-    "Otevřeno v našem termínu": "sezóna končí ~5. 11. 2026, v termínu 26. 10.–2. 11. otevřeno, vzorec 2025: 10:00–18:00 — ověřit denní hodiny těsně před koncem sezóny"
+    "Cena": "dospělý ~30 €, dítě ~21 € (ceník 2025, aktuální na webu parku)",
+    "Otevřeno v našem termínu": "sezóna končí ~5. 11. 2026, v termínu 26. 10.–2. 11. otevřeno denně 10:00–18:00, poslední vstup 17:00"
    },
    "drive": "z Cal Tia ~55 min · 59 km",
    "verdict": "Stihnutelné a z velké části kryté. Když to skupina chce, nenechávat na poslední den.",
@@ -4384,8 +4384,8 @@
    "kids": "Děti nadšené, ale delfíní show jsou eticky sporné — zvážit.",
    "card_facts": {
     "Čas": "3 h",
-    "Cena": "ověřit aktuální ceník",
-    "Otevřeno v našem termínu": "hraniční — vzorec 2025: otevřeno do ~31. 10., pak omezené hodiny (10:00–15:00), pokud vůbec; provoz pokračuje (na rozdíl od poboček ve Francii a Kanadě), ale ověřit poslední den sezóny 2026"
+    "Cena": "dospělý (11–65) 32 €, dítě 5–10 let 23 €, mini 3–4 roky 15 €, do 2 let zdarma; rodinný balíček 2+2 90 € (jen online)",
+    "Otevřeno v našem termínu": "hraniční — oficiální hodiny duben–říjen 10:00–17:00 (poslední vstup 16:00), prodej přes třetí strany jen do 31. 10.; provoz pokračuje (na rozdíl od poboček ve Francii a Kanadě), ověřit poslední den sezóny 2026 v kalendáři na tickets-mallorca.marineland.es"
    },
    "drive": "z Cal Tia ~50 min · 53 km",
    "verdict": "Může zavřít přesně den po tom, kdy byste jeli. Nestavět na tom program.",
@@ -4401,7 +4401,7 @@
     "Sezónní hodiny do 31. 10. (vzorec 2025): denně 10:00–17:00",
     "Zimní režim od 1. 11. (vzorec 2025): 10:00–15:00",
     "Adresa: Carrer Garcilaso de la Vega s/n, Costa d'en Blanes, Calvià",
-    "Cena: ověřit aktuální ceník"
+    "Cena (2026): dospělý 31 €, dítě 5–10 let 22 €, 3–4 roky 14 €, do 3 let zdarma"
    ],
    "links": [
     {
@@ -4457,7 +4457,7 @@
    "kids": "Junior vhodný i pro menší, hlavní okruhy spíš 6+.",
    "card_facts": {
     "Čas": "2–3 h",
-    "Cena": "Junior 13 €, hlavní okruhy 16–22 €",
+    "Cena": "Piratas/Junior 18 €, Family-Zen 16 €, Explorador/Extremo 22 €",
     "Otevřeno v našem termínu": "web parku uvádí sezónu 1. 4.–1. 11.; hlavní park v zimě zavřený (vzorec: 2. 11.–1. 4.), v listopadu jede jen Junior o víkendech a svátcích 10:00–17:00; jiný zdroj uvádí zavřeno Po–Út — zavolat předem"
    },
    "drive": "z Cal Tia ~60 min · 62 km",
@@ -4468,14 +4468,14 @@
    "experience": "Děti prolézají lanové překážky a sjíždí lanovky mezi stromy na okruhu Piratas/Junior, dospělí i starší děti mohou jít na náročnější okruhy Explorador/Extremo. Počítejte s 2–3 hodinami, v areálu je bar s občerstvením a WC, stín zajišťuje borový les na celé ploše 9 ha.",
    "access": "Z Cal Tia po Ma-13 a dálnici směr Santa Ponça (~60 min, 62 km), adresa Avenida Jaime I 40 A. Parkování přímo u parku (cenu ověřit); veřejnou dopravou ze severu ostrova není v rozumném čase dostupné.",
    "tips": "Kvůli nejmenším dětem počítat jen s okruhem Piratas/Junior nebo Family-Zen, hlavní okruhy jsou spíš pro 6+. Telefonicky předem ověřit, zda je mimo hlavní sezónu vůbec otevřeno a jaké okruhy jedou.",
-   "warning": "Oficiální sezóna běží 1. 4.–1. 11., pro listopad park přesný kalendář nezveřejňuje a sekundární zdroje si protiřečí (jeden uvádí jen Junior o víkendech 10:00–17:00, jiný Po–Út zavřeno celoročně). Ceny na webu (Piratas/Junior 18 €, Family-Zen 16 €) navíc neodpovídají dřívějším údajům (13 € / 16–22 €) – nutné ověřit telefonicky na +34 630 948 295 před 26.–27. 10. a 31. 10.–1. 11.",
+   "warning": "Oficiální sezóna běží 1. 4.–1. 11., pro listopad park přesný kalendář nezveřejňuje a sekundární zdroje si protiřečí (jeden uvádí jen Junior o víkendech 10:00–17:00, jiný Po–Út zavřeno celoročně). Hodiny a dny provozu je nutné ověřit telefonicky na +34 630 948 295 před 26.–27. 10. a 31. 10.–1. 11.",
    "facts": [
     "Rozloha: 9 ha borového lesa, 500 m od pláže",
     "Počet překážek: 154 na čtyřech okruzích",
     "Sezóna: 1. 4.–1. 11. (dle oficiálního webu)",
     "Telefon: +34 630 948 295",
     "Adresa: Avenida Jaime I, 40 A, 07180 Santa Ponça",
-    "Cena (ceník na webu, ověřit): Piratas/Junior 18 €, Family-Zen 16 €"
+    "Cena (ceník na webu): Piratas/Junior 18 €, Family-Zen 16 €, Explorador/Extremo 22 €"
    ],
    "links": [
     {
@@ -4532,7 +4532,7 @@
    "kids": "Výborné — baví všechny věky.",
    "card_facts": {
     "Čas": "1–1,5 h",
-    "Cena": "ověřit ceník, sleva 10 % při nákupu online",
+    "Cena": "18 jamek dosp. 16 €, dítě (3–12) 11 €; 36 jamek 18/13 €; 54 jamek 20/15 €; web slevu online neuvádí (prodejce Atrápalo nabízí −10 %)",
     "Otevřeno v našem termínu": "denně 11:00–20:00"
    },
    "drive": "z Cal Tia ~50 min · 56 km",
@@ -4546,7 +4546,7 @@
    "warning": "Otevírací doba je sezónní a v říjnu/listopadu bývá kratší než v létě – hodiny pro náš termín ověřit těsně před cestou na webu nebo telefonicky.",
    "facts": [
     "Založeno: 1995",
-    "Vstupné (oficiální ceník, ověřit aktuálnost): 18 jamek 16 €/11 € dítě, 54 jamek 20 €/15 €",
+    "Vstupné (oficiální ceník): 18 jamek 16 €/11 € dítě, 36 jamek 18 €/13 €, 54 jamek 20 €/15 €",
     "Adresa: Carrer del Tennis 3, 07181 Palmanova",
     "Telefon: +34 971 135 040",
     "Otevřeno (v sezóně): denně 11:00–20:00 (mimosezónní hodiny ověřit)"
@@ -4770,7 +4770,7 @@
    "facts": [
     "Rozloha parku: cca 9 ha",
     "Dokončeno/otevřeno: slavnostně 12. 10. 1984",
-    "Parkování SMAP Parc de la Mar: cca 748 míst (ověřit aktuální max. denní sazbu)",
+    "Parkování SMAP Parc de la Mar: cca 748 míst (denní sazba neověřena)",
     "Poloha: mezi hradbami a silnicí Ma-19, pod katedrálou",
     "Vznik pozemku: navážky z tunelu 1928–1931 a stavby dálnice 1969"
    ],
@@ -5117,24 +5117,24 @@
    "kids": "Výborné — spálí energii všech sedmi dětí.",
    "card_facts": {
     "Čas": "1,5–2 h",
-    "Cena": "od 12,50 €/vstup",
-    "Otevřeno v našem termínu": "pravděpodobně zavřeno v našem termínu — web hlásí rekonstrukci od 1. 6. „přes podzim“; ověřit na +34 871 90 38 92"
+    "Cena": "60 min 15 €, 90 min 18 € (od 5 let) + ponožky 2,50 €",
+    "Otevřeno v našem termínu": "pravděpodobně zavřeno v našem termínu — web hlásí rekonstrukci od 1. 6. „do podzimu“ bez data znovuotevření; telefonicky na +34 871 90 38 92 (WhatsApp 677 819 443)"
    },
    "drive": "z Cal Tia ~40 min · 44 km",
-   "verdict": "Dokud provozovatel nepotvrdí otevření, nepočítat s ním. Za deště raději jeskyně nebo Mallorca Bowling (ověřit).",
+   "verdict": "Dokud provozovatel nepotvrdí otevření, nepočítat s ním. Za deště raději jeskyně nebo Mallorca Bowling.",
    "card_links": [],
    "id": "palma-jump-trampolinovy-park",
    "why": "Za normálního provozu by šlo o spolehlivý záložní program na déšť, kde se vybije energie všech sedmi dětí na jednom místě – v tuto chvíli je ale provoz nejistý kvůli ohlášené rekonstrukci. Pokud bude otevřeno, nabízí jednu z mála krytých aktivně-pohybových aktivit na ostrově mimo klasické atrakce.",
    "experience": "Skákací sezení jsou po hodině (60 nebo 90 minut), povinné protiskluzové ponožky se kupují zvlášť. V areálu je kavárna, pro rodiče posezení s výhledem na trampolíny. Pro sedm dětí různého věku (4–11 let) je to spolehlivý způsob, jak je unavit na jednom místě zhruba na 1,5–2 hodiny.",
    "access": "Z Cal Tia do Palmy směr Son Valentí (~40 min po Ma-13/Ma-3011), park má vlastní parkoviště u budovy v průmyslové zóně. Vlakem ze Sa Pobly (55 min) se sem prakticky nedostanete bez dalšího přejezdu – lokalita není v docházkové vzdálenosti od nádraží.",
-   "tips": "Před cestou nutně zavolat a ověřit, jestli je otevřeno – rezervace online i osobně jsou v tuto chvíli nedostupné, dokud provoz neběží naplno. Pokud otevřeno nebude, alternativou za deště jsou jeskyně nebo bowling (ověřit).",
+   "tips": "Před cestou nutně zavolat a ověřit, jestli je otevřeno – rezervace online i osobně jsou v tuto chvíli nedostupné, dokud provoz neběží naplno. Pokud otevřeno nebude, alternativou za deště jsou jeskyně nebo bowling.",
    "warning": "Web k září 2026 stále hlásí uzavření od 1. června „přes podzim“ kvůli rekonstrukci, bez konkrétního data znovuotevření. Nepočítat s návštěvou, dokud provozovatel telefonicky nepotvrdí, že je otevřeno.",
    "facts": [
     "Adresa: Carrer Tèxtil 3, Son Valentí, Palma",
     "Telefon: +34 871 90 38 92",
-    "Cena (běžný provoz): od 12,50 €/vstup",
+    "Cena (běžný provoz): 60 min 15 €, 90 min 18 € (od 5 let), ponožky 2,50 €; zóna Mini Ninja pro menší 7 €",
     "Délka sezení: 60 nebo 90 minut",
-    "Stav (2026): uzavřeno kvůli rekonstrukci od 1. 6., datum otevření neuvedeno (ověřit)"
+    "Stav (2026): web hlásí uzavření kvůli rekonstrukci od 1. 6. „do podzimu“, datum otevření neuvedeno; potvrdit telefonem"
    ],
    "links": [
     {
@@ -5239,10 +5239,10 @@
    "card_facts": {
     "Čas": "~1 h na hru",
     "Cena": "na webu neuvedeno",
-    "Otevřeno v našem termínu": "krytý provoz, pravděpodobně celoročně — výslovně neověřeno"
+    "Otevřeno v našem termínu": "krytý provoz, otevřeno denně celoročně; mimo léto Po–Čt od 17:00, So–Ne od 11:00 (třetí zdroje, hodiny se liší)"
    },
    "drive": "z Cal Tia ~45 min (adresa ověřit) · ~44 km do centra Palmy",
-   "verdict": "Rain-day záloha v Palmě místo zavřeného Palma Jump. Ověřit hodiny.",
+   "verdict": "Rain-day záloha v Palmě místo zavřeného Palma Jump. Ve všední dny otevírá až odpoledne (od 17:00), o víkendu od 11:00.",
    "card_links": [],
    "id": "mallorca-bowling-palma",
    "why": "Za deštivého dne v Palmě je to prakticky jediná alternativa svého druhu na ostrově – žádná jiná bowlingová hala s podobnou kapacitou tu není. Pro rodinu s malými dětmi je klíčové, že se u každé dráhy dají vyklopit mantinely a nasadit rampa na odpal koule, takže si zahrají i čtyřleté děti bez frustrace z pořád padajících koulí do žlabu. Se 7 dětmi různého věku je to jedna z mála aktivit, kterou si užijí od nejmenších po jedenáctileté najednou.",
@@ -5253,10 +5253,10 @@
    "facts": [
     "Adresa: Camí dels Reis 211, Poligono Can Valero, 07011 Palma",
     "Telefon: +34 971 25 40 88",
-    "Cena za hru: cca 8 € po–čt, 8,50 € pá–ne a svátky na osobu (ověřit aktuální ceník 2026)",
-    "Půjčení bot: povinné, cca 1 €/pár (ověřit)",
-    "Otevřeno: denně cca 11:00–01:00, celoročně, krytý provoz",
-    "Počet drah: 14"
+    "Cena za hru: cca 8 € po–čt, 8,50 € pá–ne a svátky na osobu (odhad, aktuální ceník na webu není; platí se za hru, ne za čas; ověřit při rezervaci na +34 971 25 40 88)",
+    "Půjčení bot: povinné, cena se platí na místě (ověřit při rezervaci)",
+    "Otevřeno (mimo léto): po–čt 17:00–01:00, pá 17:00–04:00, so 11:00–04:00, ne a svátky 11:00–01:00",
+    "Počet drah: 14 (jeden zdroj uvádí 8; ověřit při rezervaci)"
    ],
    "links": [
     {
@@ -5297,9 +5297,9 @@
    "facts": [
     "Adresa: C/ Jordi Villalonga i Velasco 3, 07010 Palma",
     "Telefon: +34 663 38 95 02",
-    "Cena: cca 25 €/os. při 2 hráčích až 16 €/os. při 6+ hráčích, klesá s počtem hráčů (ověřit aktuální ceník)",
+    "Cena: cca 25 €/os. při 2 hráčích až 16 €/os. při 6+ hráčích, klesá s počtem hráčů (ceník ověřit při rezervaci)",
     "Doba hry: 60 minut + 10–15 minut instruktáže",
-    "Otevřeno: po–čt 10–13 a 17–21, pá 10–13 a 17–23, so 9:30–23, ne 9:30–21 (ověřit)"
+    "Otevřeno: po–čt 10–13 a 17–21, pá 10–13 a 17–23, so 9:30–23, ne 9:30–21 (neověřeno; rezervovat předem na +34 663 38 95 02)"
    ],
    "links": [
     {
@@ -5329,7 +5329,7 @@
    "kids": "Výborné — fascinují i malé děti. Kočárek dovnitř nelze.",
    "card_facts": {
     "Čas": "1–1,5 h",
-    "Cena": "18 €/dosp., 11 €/dítě 2–12",
+    "Cena": "18,50 €/dosp. online, 11,50 €/dítě 3–12",
     "Otevřeno v našem termínu": "od 1. 11. jen 4 prohlídky denně: 10:30, 12:00, 14:00, 15:30"
    },
    "drive": "z Cal Tia ~55 min · 46 km",
@@ -5343,7 +5343,7 @@
    "warning": "Od 1. listopadu jedou jen 4 prohlídky denně (10:30, 12:00, 14:00, 15:30) místo letních 7 – v našem termínu (kolem přelomu října/listopadu) je nutné počítat s omezenou kapacitou a rezervací předem, jinak riziko vyprodaných slotů.",
    "facts": [
     "Prohlídky od 1. 11.: 10:30, 12:00, 14:00, 15:30",
-    "Vstupné online: 18,50 € dospělí / 11,50 € děti 3–12 let (na místě o cca 1 € víc, ověřit)",
+    "Vstupné online: 18,50 € dospělí (od 13 let) / 11,50 € děti 3–12 let; na pokladně 19,50 € / 12,50 €; 0–2 roky zdarma",
     "Telefon: +34 971 820 753",
     "Délka jeskynního systému: cca 1200 m, hloubka až 25 m",
     "Zmapováno pro vědu: 1896, Édouard-Alfred Martel",
@@ -5415,8 +5415,8 @@
    "kids": "Dobré — klidnější alternativa k Drach.",
    "card_facts": {
     "Čas": "1 h",
-    "Cena": "levnější než Drach (ověřit ceník)",
-    "Otevřeno v našem termínu": "listopadové časy cca 11:00, 12:30, 14:00, 15:30, některé všední dny zavřeno — ověřit den po dni na oficiálním webu"
+    "Cena": "cena není na webu, viz online rezervace (tickets.cuevasdelshams.com)",
+    "Otevřeno v našem termínu": "oficiálně denně 10:00–17:00, konkrétní časy prohlídek a zavřené dny jsou v online kalendáři (tel. +34 971 820 988) — ověřit v kalendáři na webu"
    },
    "drive": "z Cal Tia ~55 min · 44 km",
    "verdict": "Dobrá záloha, pokud je Drach vyprodaný.",
@@ -5430,11 +5430,11 @@
    "facts": [
     "Objeveno: 2. 3. 1905, Pedro Caldentey",
     "Délka trasy: cca 500 m, 12 síní",
-    "Vstupné: dospělí cca 18,50–19,50 €, děti 3–12 let cca 12,50–13,50 €, 0–2 roky zdarma (max. 2 na dospělého, ověřit)",
+    "Vstupné: ceny zveřejňuje jen prodejní systém tickets.cuevasdelshams.com; třetí zdroje uvádějí 16–21 € dospělí, takže přesnou cenu ověřit při rezervaci; 0–2 roky zdarma",
     "Telefon: +34 971 820 988",
     "Adresa: Ctra. Manacor–Porto Cristo, Ma-4020, km 11",
     "Doba prohlídky: cca 1 hodina",
-    "Listopadové časy: cca 10:00–17:00, konkrétní sloty a zavřené dny ověřit na webu (neověřeno)"
+    "Otevírací doba dle oficiálního webu: 10:00–17:00; konkrétní listopadové sloty a zavřené dny ověřit v online kalendáři / na +34 971 820 988"
    ],
    "links": [
     {
@@ -5574,7 +5574,7 @@
    "card_facts": {
     "Čas": "2–3 h",
     "Cena": "dosp. od 21,90 €, dítě 3–12 od 17,90 €, vlastní auto +17,90 €",
-    "Otevřeno v našem termínu": "celoročně; jeden zdroj uvádí 9:30–18:00, druhý zimní režim 10:00–16:00 — ověřit před cestou"
+    "Otevřeno v našem termínu": "celoročně; web uvádí otevření 9:00 (rozvrh) i 10:00 (FAQ), zavírání se mění podle slunce (nejpozději 18:00), poslední vstup hodinu před zavřením — přesný čas pro naše dny v kalendáři na webu"
    },
    "drive": "z Cal Tia ~65 min · 51 km",
    "verdict": "Skvělé i za horšího počasí — v autě je sucho. Jet vlastním autem.",
@@ -5588,10 +5588,10 @@
    "facts": [
     "Založeno: 1969, přesunuto na současné místo a přejmenováno počátkem 90. let",
     "Rozloha: cca 23 ha",
-    "Vstupné: dospělí od 21,90 €, děti 3–12 let od 17,90 €, vlastní auto +17,90 € (2025, ověřit pro 2026)",
+    "Vstupné: dospělí (13–64) od 21,90 €, děti 3–12 a senioři 65+ od 17,90 €, vlastní auto +17,90 €; do 3 let zdarma (ceny jsou „od“ a mění se podle období)",
     "Nový majitel od 2025: skupina Rain Forest (Bioparc)",
     "Doba prohlídky: 2–3 hodiny",
-    "Otevírací doba: neuvedena na hlavní stránce webu (neověřeno) – ověřit před cestou"
+    "Otevírací doba: oficiální web uvádí 9:00–18:00, vjezd 9:15–16:30; zimní zkrácení nepotvrzeno (kalendář na webu nefunguje) — ověřit na info@safarimallorca.es"
    ],
    "links": [
     {
@@ -5647,8 +5647,8 @@
    "kids": "Pro starší děti a sportovní fanoušky; malé děti méně zaujme.",
    "card_facts": {
     "Čas": "1,5–2 h",
-    "Cena": "~21–22 €/dosp., do 8 let zdarma (neověřeno)",
-    "Otevřeno v našem termínu": "riziko — jeden zdroj uvádí denně 10:00–19:30, druhý znovuotevření po přestavbě až v květnu 2026 a možné částečné uzavření; ověřit přímo před cestou"
+    "Cena": "dosp. od 20 € (jinde 25 €), dítě 6–12 let od 10 €, do 5 let zdarma",
+    "Otevřeno v našem termínu": "denně 10:00–18:30, poslední vstup 17:30; po přestavbě znovuotevřeno v květnu 2026"
    },
    "drive": "z Cal Tia ~40 min · 34 km",
    "verdict": "Krytá rain-day varianta, ale nespoléhat — zdroje si odporují.",
@@ -5661,8 +5661,8 @@
    "warning": null,
    "facts": [
     "Otevřeno: od 2016, s průběžnými modernizacemi expozice",
-    "Otevírací doba: denně 10:00–18:30, poslední vstup 17:30 (ověřeno webem)",
-    "Vstupné: dospělí (13+) od 20 €, rezidenti od 16 €, děti 6–12 let od 10 €, 0–5 let zdarma",
+    "Otevírací doba: duben–říjen 10:00–18:30; od 1. 11. zkráceně (10:00–15:00, o víkendu možná do 17:00) — ověřit",
+    "Vstupné: dospělí 25 €, snížené 18 €, děti 6–12 let 12,50 €, 0–5 let zdarma (Taquilla 2026; ověřit)",
     "Sbírka: přes 1000 předmětů (trofeje, rakety, suvenýry)",
     "Adresa: Ctra. Cales de Mallorca s/n, km 1,2, Manacor",
     "Telefon: +34 971 171 683",
@@ -5785,15 +5785,14 @@
    "card_links": [],
    "id": "ermita-de-betlem",
    "why": "Je to jedno z mála míst na trase, kde je opravdový klid a minimum turistů – vhodné, pokud rodina potřebuje den bez davů. Historka o kostele stojícím na základech maurské strážní věže dobře ilustruje dětem vrstvení historie ostrova: stejné místo hlídalo pobřeží před nájezdy už stovky let předtím, než sem přišli mniši.",
-   "experience": "Po příjezdu (přístupová cesta sama o sobě je zážitek – viz níže) se prochází areál kostela a jeho okolí s výhledy do Alcúdijského zálivu ze svahů hor. Program je nenáročný, bez schodů či náročného terénu, ale bez zaručeného občerstvení na místě (neověřeno) – doporučuji vzít vlastní vodu a svačinu. Celkem s cestou tam a zpět a prohlídkou počítat s 1–2 hodinami.",
+   "experience": "Po příjezdu (přístupová cesta sama o sobě je zážitek – viz níže) se prochází areál kostela a jeho okolí s výhledy do Alcúdijského zálivu ze svahů hor. Program je nenáročný, bez schodů či náročného terénu, ale bez zaručeného občerstvení na místě – doporučuji vzít vlastní vodu a svačinu. Celkem s cestou tam a zpět a prohlídkou počítat s 1–2 hodinami.",
    "access": "Ze Sa Pobly po Ma-12/Ma-15 do Artà, odtud horská silnice Ma-3333 v délce cca 9 km s mnoha serpentinami přes Serres de Llevant až k ermitáži; poslední úsek k budově je pár desítek metrů pěšky.",
    "tips": "Jet jen za jasného počasí – v mlze je úzká horská silnice špatně čitelná a nebezpečná. Ideálně dopoledne kvůli lepšímu světlu na výhledy, nekombinovat se dalším náročným výletem stejný den kvůli délce a klikatosti cesty.",
    "warning": "Úzká horská silnice s četnými serpentinami, místy jen na jeden pruh – nevhodná za mlhy nebo pro děti trpící na kinetózu v autě.",
    "facts": [
     "Založeno: 1805, mnišská komunita (ze Sant Honorat / Randy / Valldemossy)",
     "Kostel: neoklasicistní, postaven na základech staré maurské strážní věže",
-    "Přístupová silnice: Ma-3333, cca 9 km z Artà, četné serpentiny",
-    "Nadmořská výška: (neověřeno)"
+    "Přístupová silnice: Ma-3333, cca 9 km z Artà, četné serpentiny"
    ],
    "links": [
     {
@@ -6018,7 +6017,7 @@
    "id": "cala-agulla",
    "why": "Široká pláž s pozvolným vstupem do vody a bez hotelové zástavby přímo za pískem je ideální pro klidné odpoledne s malými dětmi – prostoru je dost i pro 7 dětí různého věku, aniž by si šlapaly na písek. Konec října navíc znamená prázdnou pláž bez davů z hlavní sezóny.",
    "experience": "Jemný bílý písek a mělká voda blízko břehu jsou vhodné i pro nejmenší děti; v sezóně bývá u pláže půjčovna lehátek, kiosek a toalety, po 31. říjnu ale pravděpodobně zavřené, takže je potřeba vzít vlastní deky a pití. Za pískem stojí borový les s cestičkami do stínu a piknikovými místy, odkud vede pěšina (cca 30 minut) na sousední Cala Mesquida. Pláž je dost široká, aby si i 7 dětí různého věku našlo svůj kout na hraní s pískem, aniž by překážely plavcům. Dá se naplánovat půldenní program: dopoledne koupání, odpoledne procházka po duně nebo lesem směrem na Mesquidu.",
-   "access": "Z Cal Tia po hlavní silnici na východ ostrova přes Artà do Cala Ratjady, pak odbočka na Cala Agulla, celkem cca 60 minut / 47 km. Parkoviště přímo u pláže (asfaltové i provizorní na okraji borovic), mimo hlavní sezónu obvykle bez poplatku (ověřit na místě).",
+   "access": "Z Cal Tia po hlavní silnici na východ ostrova přes Artà do Cala Ratjady, pak odbočka na Cala Agulla, celkem cca 60 minut / 47 km. Parkoviště přímo u pláže (asfaltové i provizorní na okraji borovic), mimo hlavní sezónu obvykle bez poplatku (neověřeno, počítat s rezervou na hotovost).",
    "tips": "Přijet dopoledne kvůli parkování – v sezóně bývá plno, koncem října by to už neměl být problém. Dá se kombinovat s Cala Mesquida (procházka lesem) nebo s Canyamelem/hradem Capdepera ve stejný den.",
    "warning": "Duny jsou chráněné – nechodit mimo vyznačené cestičky, snadno se poškozují. Po konci sezóny (31. 10.) bude kiosek i půjčovna lehátek pravděpodobně zavřená.",
    "facts": [
@@ -6108,8 +6107,7 @@
    "facts": [
     "Délka pláže: cca 300 m, šířka cca 130 m",
     "Chráněné území: vyhlášeno 1991 (spolu s Cala Agulla a Cala Moltó)",
-    "Geologie: odkryv mořských usazenin ze spodní křídy (135–125 mil. let)",
-    "Ocenění Modrá vlajka: (ověřit pro rok 2026)"
+    "Geologie: odkryv mořských usazenin ze spodní křídy (135–125 mil. let)"
    ],
    "links": [
     {
@@ -6325,8 +6323,8 @@
    "kids": "Ok na krátkou zastávku, výroba děti chvíli zaujme.",
    "card_facts": {
     "Čas": "1 h",
-    "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "Po–Pá 07:00–15:00, o víkendu zavřeno — neověřeno"
+    "Cena": "vstup zdarma (neoficiální zdroj)",
+    "Otevřeno v našem termínu": "oficiální hodiny prohlídky nenalezeny (dřívější údaj Po–Pá 07:00–15:00); tržnice/prodejna Via Palma 9 má parkování zdarma, vstup volný — ověřit telefonicky"
    },
    "drive": "z Cal Tia ~40 min · 31 km",
    "verdict": "Jen jako doplněk k jeskyním ve všední den.",
@@ -6464,9 +6462,9 @@
    "facts": [
     "Chráněné území: Parc Natural Es Trenc–Salobrar de Campos, vyhlášen 2017",
     "Délka pláže: cca 3 km (dle geografických údajů), v širším pojetí až 10 km po Colònia de Sant Jordi",
-    "Parkování Na Tirapèl: placené, cca 5–7 €/den (ověřit aktuální ceník)",
+    "Parkování Na Tirapèl: placené soukromé parkoviště (kapacita cca 400 míst), aktuální cenu nenašel — ověřit na místě",
     "Alternativní parkoviště Ses Covetes: bezplatné, cca 1 km od pláže",
-    "Teplota moře koncem října: cca 20–21 °C (neověřeno pro rok 2026)"
+    "Teplota moře koncem října: cca 20–21 °C (typická hodnota, ne měření 2026)"
    ],
    "links": [
     {
@@ -6597,8 +6595,8 @@
    "kids": "Krásný zážitek, ale v listopadu jen omezené víkendové spoje závislé na počasí — kapitán rozhoduje ráno.",
    "card_facts": {
     "Čas": "půl dne až celý den",
-    "Cena": "ověřit ceník (typicky 40–60 €/dosp.)",
-    "Otevřeno v našem termínu": "RIZIKOVÉ v našem termínu — hlavní sezóna duben–říjen, konec sezóny 2026 nepotvrzen; volat přímo dopravcům (Excursions a Cabrera, Mar Cabrera)"
+    "Cena": "ověřit ceník (typicky 40–60 €/dosp.; jiné nabídky od cca 52 £ za celodenní výlet)",
+    "Otevřeno v našem termínu": "RIZIKOVÉ — rezervační systém Excursions a Cabrera ukazuje výlety denně ve 12:15 do 1. 11. 2026; na 1. 11.–2. 11. nepotvrzeno, volat +34 971 649 034 (Mar Cabrera +34 971 656 403)"
    },
    "drive": "z Cal Tia ~75 min do přístavu Colònia de Sant Jordi · 59 km",
    "verdict": "Zkusit rezervovat, ale nestavět na tom celý den — mít plán B. Za špatného počasí lodě neplují.",
@@ -6763,7 +6761,7 @@
    "tips": "Trh je v Santanyí i ve středu, ne jen v sobotu – v termínu vychází sobota 31. 10. Přijít dopoledne, kolem poledne se stánky začínají sbalovat.",
    "warning": null,
    "facts": [
-    "Trh: středa a sobota, dopoledne (přesný čas ověřit)",
+    "Trh: středa a sobota, dopoledne (zdroje uvádějí různě 8:00–15:00, nejčastěji 9:00–14:00 – ověřit na místě)",
     "Korzárské útoky: 1531 (54 unesených), 1546, 1571 – po nich stavba hradeb",
     "Obyvatel obce Santanyí: cca 13 067 (2025)"
    ],
@@ -7198,7 +7196,7 @@
     "Založení sanktuária: 1348 (privilegium krále Petra III.)",
     "Přestavba do dnešní podoby: 1707–1716",
     "Pomník Krista Krále: 1934, výška 37 m",
-    "Vstupné k výhledu a ke kostelu: zdarma (ověřit muzeum)"
+    "Vstupné k výhledu a ke kostelu: zdarma (vstupné do malého muzea neověřeno)"
    ],
    "links": [
     {
@@ -7258,8 +7256,8 @@
    "kids": "Dobré pro starší děti — hrad k prolézání, výhled.",
    "card_facts": {
     "Čas": "1,5 h",
-    "Cena": "pár € vstup (ověřit)",
-    "Otevřeno v našem termínu": "zimní hodiny ověřit"
+    "Cena": "pár € vstup (starší zdroje 4 €, děti zdarma; aktuální ceník na santueri.org)",
+    "Otevřeno v našem termínu": "10:30–18:00 do 31. 10., so a ne zavřeno (oficiální web); zimní hodiny od 1. 11. web neuvádí – ověřit na info@santueri.org"
    },
    "drive": "z Cal Tia ~70 min · 52 km",
    "verdict": "Fajn kombinace s Felanitxem. Venkovní, za deště kluzké.",
@@ -7269,10 +7267,10 @@
    "experience": "Prohlídka hradních zdí, věží a nádvoří s výhledem na jih ostrova trvá zhruba 1–1,5 hodiny. Terén je nerovný, místy bez zábradlí u okrajů – vhodné spíš pro starší děti, u malých dětí důsledně hlídat u okrajů hradeb.",
    "access": "Z Cal Tia přes Palmu do Felanitxu (~70 min, 52 km), odtud po úzké horské silnici až k parkovišti pod hradem.",
    "tips": "Kombinovat se Sant Salvador (oba cíle na kopcích u Felanitxu, stihnutelné v jednom dopoledni). V zimní sezóně ověřit otevírací dobu telefonicky nebo na webu, mimo hlavní sezónu bývá kratší.",
-   "warning": "Venkovní nerovný terén, za deště kluzké kameny; otevírací doba mimo duben–říjen se mění – ověřit před cestou (neověřeno pro náš termín).",
+   "warning": "Venkovní nerovný terén, za deště kluzké kameny; otevírací doba mimo duben–říjen se mění – ověřit před cestou – oficiální web uvádí zavřeno v sobotu a neděli, takže so 31. 10. a ne 1. 11. pravděpodobně nejde (zimní režim neznámý).",
    "facts": [
     "Dobytí ostrova / poslední odpor: 1229",
-    "Otevřeno (mimosezónní hodiny): (ověřit)",
+    "Otevřeno: 10:30–18:00, so a ne zavřeno (sezóna do 31. 10.); mimosezónní hodiny od 1. 11. ověřit e-mailem info@santueri.org",
     "Vstupné: cca 4 €/dospělý, děti zdarma (ověřit)",
     "Adresa: Camí des Castell s/n, Felanitx"
    ],
@@ -7641,7 +7639,7 @@
    "kids": "Výborné — kompaktní a interaktivní, ideální pro menší děti.",
    "card_facts": {
     "Čas": "2 h",
-    "Cena": "dosp. 18 € (rezident 15 €), dítě levnější (ověřit)",
+    "Cena": "dosp. 18 € (rezident 15 €), dítě 3–11 let 12 € (rezident 10 €), do 2 let zdarma",
     "Otevřeno v našem termínu": "St–Ne 9:30–16:30, zavřeno pondělí a úterý; podle vzorce 2025 tu bývá halloweenská akce 31. 10. a 2. 11."
    },
    "drive": "z Cal Tia ~40 min · 33 km",
@@ -7655,7 +7653,7 @@
    "warning": "Zavřeno v pondělí a úterý – v našem termínu tedy nejde navštívit v úterý 27. 10.",
    "facts": [
     "Otevřeno v našem termínu: st–ne 9:30–16:30, po a út zavřeno",
-    "Vstupné: dospělý 18 €, rezident 15 € (dětské ceny na webu neuvedeny – ověřit)",
+    "Vstupné: dospělý 18 €, rezident 15 € (dětské ceny na webu neuvedeny, ověřit na místě)",
     "Telefon: +34 971 14 40 78",
     "Adresa: Ctra. de Sineu km 15,4, Santa Eugènia",
     "Počet druhů zvířat: přes 100"
@@ -7799,8 +7797,8 @@
    "kids": "Ok na krátkou zastávku, spíš pro dospělé se zájmem o historii.",
    "card_facts": {
     "Čas": "45 min–1 h",
-    "Cena": "muzeum pár €",
-    "Otevřeno v našem termínu": "hodiny muzea ověřit"
+    "Cena": "muzeum zdarma (dobrovolné příspěvky)",
+    "Otevřeno v našem termínu": "muzeum út–so 11:00–13:00, pondělí a neděle zavřeno"
    },
    "drive": "z Cal Tia ~30 min · 22 km",
    "verdict": "Volitelné, kombinovat s Ermitou de Bonany.",
@@ -7812,7 +7810,7 @@
    "tips": "Muzeum má krátkou otevírací dobu, ověřit předem telefonicky. Dá se spojit s Ermitou de Bonany, která je jen kousek od Petry.",
    "warning": "Muzeum má omezenou otevírací dobu (dopoledne, ne každý den) – ověřit telefonicky, mimo tuto dobu je zavřeno.",
    "facts": [
-    "Vstupné muzeum: cca 2 € (ověřit)",
+    "Vstupné muzeum: zdarma, dobrovolné příspěvky vítány",
     "Telefon muzea: +34 971 561 149",
     "Adresa muzea: C/ des Barracar Alt 6, Petra",
     "Rodný dům otevřen jako muzeum od: 1932"
@@ -7928,7 +7926,7 @@
    "card_facts": {
     "Čas": "1 h",
     "Cena": "vstup zdarma",
-    "Otevřeno v našem termínu": "Po–Pá 9:30–13:30 a 15:00–17:30, So 9:30–12:00, neděle a svátky zavřeno — tedy i 1. 11. (jiný zdroj uvádí Po–Pá 9–18, So 9–14 — ověřit)"
+    "Otevřeno v našem termínu": "Po–Pá ukázky foukání skla 9:00–11:00 a 11:30–15:00 (poslední vstup 14:00–14:30), o víkendech a svátcích bez ukázek — tedy ani 1. 11.; prodejna/muzeum mimo ukázky — ověřit na +34 971 66 50 46"
    },
    "drive": "z Cal Tia ~45 min · 39 km",
    "verdict": "Skvělá bezplatná rain-day volba. Zavolat předem na časy foukání skla.",
@@ -8055,8 +8053,8 @@
    "warning": null,
    "facts": [
     "Doloženo od: 1285, dnešní budova cca 1750",
-    "Otevřeno: denně 10:00–17:00 (v zimě ověřit přesné hodiny)",
-    "Vstupné: dítě do 4 let zdarma, sleva 4–14 let, dospělý cca 10 € (ověřit přesnou cenu pro 2026)",
+    "Otevřeno: denně 10:00–17:00 (zimní hodiny se nepodařilo potvrdit, karta výše uvádí 10:00–16:00)",
+    "Vstupné: dítě do 4 let zdarma, sleva 4–14 let, dospělý cca 10 € (přesnou cenu pro 2026 se nepodařilo potvrdit)",
     "Telefon: +34 971 526 069"
    ],
    "links": [
@@ -8120,8 +8118,8 @@
    "kids": "Dobré — klidnější alternativa k Drach a Hams.",
    "card_facts": {
     "Čas": "45 min",
-    "Cena": "17 €/dosp., dětské na webu neuvedeno",
-    "Otevřeno v našem termínu": "denně od 10:00, zavřeno jen 25. 12. a 1. 1.; zavírací hodinu v zimě ověřit"
+    "Cena": "17 €/dosp., dítě cca 9 € (0–3 roky zdarma; podle prodejce, letní kalendář)",
+    "Otevřeno v našem termínu": "denně od 10:00, zavřeno jen 25. 12. a 1. 1.; zavírací hodina na webu není uvedena"
    },
    "drive": "z Cal Tia ~15 min · 7 km",
    "verdict": "Fajn, pokud cesta vede kolem — leží u dálnice Palma–Sa Pobla. Rain-day jistota.",
@@ -8134,7 +8132,7 @@
    "warning": null,
    "facts": [
     "Objeveny: 1945",
-    "Otevřeno: denně od 10:00, zavřeno jen 25. 12. a 1. 1. (přesnou zavírací hodinu pro podzim 2026 ověřit)",
+    "Otevřeno: denně od 10:00, zavřeno jen 25. 12. a 1. 1. (zavírací hodina podle zdrojů 14:00 nebo 17:00 – ověřit na místě)",
     "Vstupné: dospělý 17 € (dětské na webu neuvedeno)",
     "Délka okruhu: ~500 m / 40 min",
     "Teplota uvnitř: ~20–21 °C",
@@ -8263,7 +8261,7 @@
    "kids": "Pro všechny — lisy a olivy děti zajímají, krátká prohlídka.",
    "card_facts": {
     "Čas": "45–60 min",
-    "Cena": "na webu neuvedeno, ověřit",
+    "Cena": "vstup do prodejny a expozice zdarma, ochutnávky a oběd podle ceníku na místě",
     "Otevřeno v našem termínu": "Út–Ne 9:00–22:00, pondělí zavřeno (ověřeno); konec října je sklizeň, živá výroba pravděpodobná, ne jistá"
    },
    "drive": "z Cal Tia ~25 min (silnice Inca–Lluc km 6) · 14 km",
@@ -8338,7 +8336,7 @@
    "card_facts": {
     "Čas": "~1 h",
     "Cena": "od 10 €/os. (dospělý s ochutnávkou)",
-    "Otevřeno v našem termínu": "Po–Pá 11:00, 13:30, 16:30, So 12:00 a 14:00; web uvádí „březen–říjen“ ⇒ 26.–31. 10. pravděpodobně ano, 1.–2. 11. riziko — ověřit"
+    "Otevřeno v našem termínu": "Po–Pá 11:00, 13:30, 16:30, So 12:00 a 14:00; web uvádí „březen–říjen“ ⇒ 26.–31. 10. pravděpodobně ano. Zimní režim od listopadu (turistický portál, nedatováno): Po–Pá 10–19, So 10–14, neděle zavřeno, svátky 10–14 — termíny prohlídek na 1.–2. 11. ověřit telefonicky"
    },
    "drive": "z Cal Tia ~25 min · 21 km",
    "verdict": "Pro dospělé s velkými, zatímco malí jsou jinde. Kdo řídí, neochutnává.",
@@ -8400,8 +8398,8 @@
    "kids": "Spíš 9–11; průmyslový provoz není pro 4–5leté.",
    "card_facts": {
     "Čas": "45–60 min",
-    "Cena": "neověřeno",
-    "Otevřeno v našem termínu": "jen na objednávku předem, spíš pro skupiny ve všední dny — ověřit; obchod bez prohlídky ověřit"
+    "Cena": "prohlídka neuvedena; cena neznámá",
+    "Otevřeno v našem termínu": "jen na objednávku předem, spíš pro skupiny ve všední dny — ověřit na +34 971 881 750 (kancelář Po–Pá 8:00–15:00); obchod bez prohlídky ověřit"
    },
    "drive": "z Cal Tia ~20 min · 13 km",
    "verdict": "Jen pokud potvrdí termín. Spojit se čtvrtečním trhem v Inca.",
@@ -8474,7 +8472,7 @@
    "card_facts": {
     "Čas": "1–1,5 h",
     "Cena": "dosp. 25 €, dítě 18 € (s jídlem 23 €); minimum 8 osob",
-    "Otevřeno v našem termínu": "vnitřní část funguje celoročně, pro listopad výslovně nepotvrzeno — rezervovat"
+    "Otevřeno v našem termínu": "web uvádí vnitřní hru i pro špatné počasí, sezónní omezení neuvádí — rezervovat předem"
    },
    "drive": "z Cal Tia ~25 min (bod přibližný) · 23 km",
    "verdict": "Nejbližší „akční“ program pro velké, dá se spojit s trhem v Inca.",
@@ -8490,7 +8488,7 @@
     "Minimální počet osob na rezervaci: 8",
     "Telefon: +34 697 499 678",
     "Adresa: Camí Son Tugores 34, 07360 Lloseta",
-    "Ceny a přesná věková hranice: neuvedeny na webu (ověřit telefonicky)"
+    "Ceny: dospělý 25 €, dítě 18 € (s jídlem 23 €) podle webu; minimální věk web neuvádí (ověřit telefonicky)"
    ],
    "links": [
     {
@@ -8554,8 +8552,8 @@
    "kids": "Pro 9–11; minimální věk nepotvrzen.",
    "card_facts": {
     "Čas": "~1 h",
-    "Cena": "na webu neuvedeno",
-    "Otevřeno v našem termínu": "sezónní poznámka chybí, venkovní a závislé na počasí — ověřit"
+    "Cena": "15 €/os. (dospělí i děti, 1 h s monitorem; s jídlem 20 €/dítě)",
+    "Otevřeno v našem termínu": "v krytém stanu (pěnové šípy), s instruktorem, platí se min. za 8 osob; rezervace +34 697 49 96 78"
    },
    "drive": "z Cal Tia ~25 min (bod přibližný) · 23 km",
    "verdict": "Doplněk k laser tagu. Za deště ne.",
@@ -8645,7 +8643,7 @@
     "Vedení: Coloma Cañellas, pokračovatelka babičky Elisabet Amengual (Madò Bet)",
     "Ocenění: Medalla d'Honor i Gratitud de l'Illa de Mallorca od Consell de Mallorca",
     "Součást Ruta del Fang – 13 keramických dílen v Marratxí (Pòrtol, Sa Cabaneta)",
-    "Otevírací doba: dle telefonické domluvy (ověřit) – pevná otevírací doba (ověřit)"
+    "Otevírací doba: pevná nenalezena, návštěva dle telefonické domluvy (ověřit telefonem +34 610 427 794)"
    ],
    "links": [
     {
@@ -8780,7 +8778,7 @@
    "kids": "Hračky pro 4–9, umění méně.",
    "card_facts": {
     "Čas": "30–45 min",
-    "Cena": "neověřeno",
+    "Cena": "3 € (nedatovaný zdroj, ověřit na místě)",
     "Otevřeno v našem termínu": "neověřeno — hodiny, ceny ani adresu se nepodařilo zjistit; zavolat na radnici +34 971 54 00 54"
    },
    "drive": "z Cal Tia ~5 min (adresa ověřit) · 1 km",
@@ -8797,7 +8795,7 @@
     "Budova: bývalý měšťanský dům z konce 19. století",
     "Provozovatel: Fundació Ferrocaib",
     "Telefon nadace: +34 635 425 061; radnice Sa Pobla: +34 971 54 00 54",
-    "Otevírací doba a vstupné: (ověřit) – zdroje se rozcházejí, jeden uvádí út–so 10:00–14:00 a 16:00–20:00, ne 10:00–14:00, po zavřeno"
+    "Otevírací doba a vstupné: Mallorca Magazin (nedatováno) uvádí út–so 10:00–14:00 a 16:00–20:00, ne 10:00–14:00, po zavřeno, vstupné 3 €; Lonely Planet uvádí jiné hodiny (út–pá 16:00–20:30, so–ne 10:00–13:00) – ověřit na místě"
    ],
    "links": [
     {
@@ -8937,7 +8935,7 @@
    "card_facts": {
     "Kde": "silnice Inca–Lluc km 6, Caimari · Google Maps",
     "Dojezd z Cal Tia": "~25 min, 14 km – po cestě do Lluku",
-    "Cena": "na webu neuvedena, ověřit",
+    "Cena": "na webu neuvedena; prohlídka lisu bez rezervace, platí se hlavně jídlo a ochutnávka v obchodě",
     "Pro děti": "pro všechny – lisy a olivy zaujmou i čtyřletou; prohlídka je krátká",
     "Kdy u nás": "kterýkoli den kromě pondělí, nejlépe jako zastávka k dni v Lluku nebo k deštivému dni v Campanetu",
     "Otevřeno": "út–ne 9:00–22:00, pondělí zavřeno (ověřeno); konec října je sklizeň, živá výroba je pravděpodobná, ne jistá"
@@ -9015,10 +9013,10 @@
    "card_facts": {
     "Kde": "Carrer Ozonas 8, Sóller · Google Maps",
     "Dojezd z Cal Tia": "~60 min, 54 km – pěšky z nádraží v Sólleru",
-    "Cena": "na webu neuvedena, zeptat se při rezervaci",
+    "Cena": "orientačně od 30 € za osobu (prodejní portál, ověřit při rezervaci)",
     "Pro děti": "hlavně 7–11; džus a olivy zaujmou i malé. Prohlídka je anglicky",
     "Kdy u nás": "so 31. 10., vlakový den – ale prohlídka je jen ve 12:00, takže kdo ji chce, vynechá tramvaj do přístavu",
-    "Otevřeno": "prohlídka denně ve 12:00; 15. 10. – 15. 1. může běžet živá výroba podle úrody. Pro náš termín neověřeno – rezervovat"
+    "Otevřeno": "prohlídka (denně, anglicky; čas ověřit při rezervaci), otevřeno po–pá 11:00–15:00 a so 11:00–14:00, v neděli zavřeno (tedy 1. 11. ne); 15. 10. – 15. 1. může běžet živá výroba podle úrody. Rezervovat, tel./WhatsApp +34 639 350 577"
    },
    "card_links": [
     [
@@ -9040,7 +9038,7 @@
     "Otevírací doba: denně 11:00–15:00, jediná prohlídka denně ve 12:00 (anglicky)",
     "Živá výroba oleje možná 15. 10.–15. 1. podle úrody (neověřeno pro konkrétní den)",
     "Adresa: Carrer Ozonas 8, 07100 Sóller",
-    "Cena prohlídky: na webu neuvedena (ověřit při rezervaci)"
+    "Cena prohlídky: orientačně od 30 € za osobu podle prodejního portálu (ověřit při rezervaci, cena pro děti neznámá)"
    ],
    "links": [
     {
@@ -9100,7 +9098,7 @@
     "Cena": "od 10 €/os. (dospělý s ochutnávkou); cena hroznové šťávy pro děti nepotvrzena",
     "Pro děti": "hlavně pro dospělé; 9–11 prohlídku sklepa vydrží, pro čtyřletou to není",
     "Kdy u nás": "26.–31. 10. – program pro dospělé a velké, zatímco malí jsou jinde. Kdo řídí, neochutnává",
-    "Otevřeno": "po–pá 11:00, 13:30 a 16:30, so 12:00 a 14:00 – web ale uvádí „březen–říjen“, takže 1. a 2. 11. je riziko. Ověřit"
+    "Otevřeno": "po–pá 11:00, 13:30 a 16:30, so 12:00 a 14:00 – podle přehledu vinařství jsou prohlídky od listopadu v sobotu jen 10:00–14:00 a v neděli zavřeno, ve svátek 10:00–14:00, takže 1. 11. (neděle, svátek) je riziko, 2. 11. (pondělí) by mělo být otevřeno. Termín prohlídky potvrdit telefonicky"
    },
    "card_links": [
     [
@@ -9116,7 +9114,7 @@
    "experience": "Prohlídka sklepa se starými lisy a sudy končí ochutnávkou několika vín u baru; pro řidiče a děti bez alkoholu je k dispozici hroznová šťáva (cena neověřena). Skupina 12 lidí je na hraně kapacity jedné prohlídkové skupiny, doporučujeme rezervovat vlastní termín.",
    "access": "Ze Sa Pobly směr Binissalem po Ma-13/Ma-3240; bezplatné parkoviště přímo u bodegy na Carrer Conquistador 103.",
    "tips": "Rezervovat pevný čas prohlídky předem – po–so 11:00, 13:00 a 16:30 (v neděli jen 11:00 a 13:00 podle aktuálního rozpisu); telefon +34 971 100 100 nebo e-mail visitas@vinosferrer.com.",
-   "warning": "Různé zdroje uvádějí mírně odlišný rozpis prohlídek a sezónu (některé zmiňují jen březen–říjen) – pro termín 1.–2. 11. je riziko omezeného provozu, ověřit telefonicky.",
+   "warning": "Od listopadu platí zimní hodiny (po–pá 10:00–19:00, so 10:00–14:00, ne zavřeno), takže v termínu je vhodné 26.–31. 10.; 1. 11. (neděle, svátek) počítat se zavřeno; konkrétní čas prohlídky potvrdit telefonicky.",
    "facts": [
     "Založeno: 1931",
     "Odrůdy: Manto Negro a Moll, typické pro DO Binissalem",
@@ -9193,7 +9191,7 @@
     "Historie sahá k roku 1853 (pekárna Can Guixe), firma Quely S.A. založena 1970",
     "Průmyslová výroba v Inca od 30.–50. let 20. století (rodina Domènech)",
     "Požár a kompletní obnova továrny: 1993 (dokončeno za 3 měsíce)",
-    "Minimální počet pro prohlídku: cca 20 osob (ověřit)",
+    "Minimální počet pro prohlídku: cca 20 osob podle jednoho zdroje, nepotvrzeno (zeptat se na +34 971 88 17 50)",
     "Telefon: +34 971 88 17 50"
    ],
    "links": [
@@ -9250,7 +9248,7 @@
     "Cena": "~9 € na osobu nebo méně",
     "Pro děti": "zmrzlina – bez debat",
     "Kdy u nás": "so 31. 10., po trhu a před tramvají do přístavu",
-    "Otevřeno": "10:00–17:00 (jiný zdroj do 20:00), bez zavíracího dne; zimní hodiny nedohledány. Tel. +34 971 638 839"
+    "Otevřeno": "10:00–17:00 (jiný zdroj do 20:00), bez zavíracího dne; zimní hodiny nedohledány, ověřit na místě. Tel. +34 971 638 839"
    },
    "card_links": [
     [
@@ -9398,7 +9396,7 @@
     "Kde": "centrum Inca: Jaume Armengol 4, Carrer de sa Murta 16, Carrer de Pau 30 · Google Maps",
     "Dojezd z Cal Tia": "~17–20 min",
     "Cena": "Can Ripoll €€€, Sa Travessa €€; tržnice za tržní ceny",
-    "Pro děti": "neověřeno – tradiční sál, ne dětský podnik; pěší zóna v centru pomáhá",
+    "Pro děti": "tradiční sál, ne dětský podnik; pěší zóna v centru pomáhá. Dětské vybavení se ptát při rezervaci",
     "Kdy u nás": "čt 29. 10. po čtvrtečním trhu; Mercat Cobert funguje i jindy",
     "Otevřeno": "Can Ripoll po–so 13:00–15:45 a 19:30–23:00 (971 50 00 24); Sa Travessa v pátek zavřeno (971 50 00 49); Mercat Cobert po–so 8:00–14:30, st a pá do 20:00"
    },
@@ -9566,7 +9564,7 @@
     "Cena": "€ – většina položek pod 10 €",
     "Pro děti": "ano – ensaïmada, hustá horká čokoláda a mandlová zmrzlina",
     "Kdy u nás": "po 26. 10. jako sladká pauza mezi tržnicí a katedrálou",
-    "Otevřeno": "zdroje se rozcházejí: denně 8:00–21:00 × zavřeno v úterý – ověřit, tel. 971 71 07 59"
+    "Otevřeno": "zdroje se rozcházejí: denně 8:00–21:00 (mallorca.com, katalog Palma Activa) × zavřeno v úterý (nepotvrzeno žádným dohledaným zdrojem) – ověřit na místě, tel. 971 71 07 59"
    },
    "card_links": [
     [
@@ -9634,7 +9632,7 @@
     "Cena": "€; ensaïmada de kilo podle velikosti",
     "Pro děti": "pečivo s sebou",
     "Kdy u nás": "po 2. 11. – poslední ensaïmada v krabici domů",
-    "Otevřeno": "po–so 8:00–20:30, ne 8:00–20:00 podle agregátoru – hodiny ověřit"
+    "Otevřeno": "po–so 8:00–20:30, ne 8:00–20:00 (jediný dohledaný zdroj, Table Journey) – hodiny ověřit na místě, tel. 971 71 16 34"
    },
    "card_links": [
     [
@@ -9644,7 +9642,7 @@
    ],
    "area": "za jídlem k výrobci",
    "status": "ověřit",
-   "why_card": "20+ druhů ensaïmad s označením IGP, k tomu cocarrois, coca de trempó a panades. Krabice s ensaïmadou je placatá a rozměrná: pravidlo pro příruční zavazadlo u Smartwings ověřit předem, v kufru se rozmačká.",
+   "why_card": "20+ druhů ensaïmad s označením IGP, k tomu cocarrois, coca de trempó a panades. Krabice s ensaïmadou je placatá a rozměrná, v kufru se rozmačká.",
    "id": "g-palma-pekarny",
    "why": "Ensaïmada má od roku 2003 chráněné zeměpisné označení (IGP, dříve od 1996 Denominación Específica) a Forn Fondo patří mezi nejstarší pekárny v Palmě, které ji stále pečou tradičně. Je to dobrá poslední zastávka před odletem – jde koupit s sebou, ne jen ochutnat na místě.",
    "experience": "Rychlý stojící nákup, ne posezení – vybrat si z více než 20 druhů ensaïmad podle velikosti a náplně, k tomu slané cocarrois a coca de trempó. Střední ensaïmada s čokoládovou náplní vyjde orientačně na 11,90 €.",
@@ -9656,7 +9654,7 @@
     "Ensaïmada mallorquina: chráněné zeměpisné označení (IGP) od roku 2003, dříve od 1996 Denominación Específica",
     "Cena: střední ensaïmada s čokoládovou náplní cca 11,90 €",
     "Adresa: Carrer de la Unió 15, Palma, tel. +34 971 711 634",
-    "Otevírací doba o svátku 1. 11.: (neověřeno)"
+    "Otevírací doba o svátku 1. 11.: nepotvrzeno, ptát se den předem"
    ],
    "links": [
     {
@@ -9841,7 +9839,7 @@
    "card_facts": {
     "Adresa": "Plaça de la Constitució 3, Sa Pobla · Google Maps",
     "Cena": "€; středeční tapas večer 1 € za tapu",
-    "Pro děti": "rodinná obsluha („trato familiar“); židličky a dětské menu neověřeno",
+    "Pro děti": "rodinná obsluha („trato familiar“); židličky a dětské menu se ptát při rezervaci",
     "Zavřeno": "úterý; Po 8:00–12:30, St 8:00–14:30 a 18:00–23:30, Čt–So 8:00–23:30, Ne 7:00–14:00 a 18:00–22:00",
     "26. 10.–2. 11.": "pravděpodobně – celoroční provoz, bez sezónní přestávky"
    },
@@ -9853,7 +9851,7 @@
    ],
    "area": "Sa Pobla a okolí (Campanet)",
    "status": "pravděpodobně",
-   "why_card": "Jediný podnik ze Sa Pobly v přehledu nejlepších espinagad Ultima Hora. Hodiny. Středa 28. 10. večer: tapas po 1 € (recenze), pro 12 raději rezervovat. Espinagadu v říjnu ověřit, tel. +34 971 54 00 23.",
+   "why_card": "Jediný podnik ze Sa Pobly v přehledu nejlepších espinagad Ultima Hora. Hodiny. Středa 28. 10. večer: tapas po 1 € (recenze), pro 12 raději rezervovat. Dostupnost espinagady v říjnu ověřit telefonem, tel. +34 971 54 00 23.",
    "id": "v-casa-miss",
    "why": "Sa Pobla je centrum pěstování brambor a rybolovu úhořů z Albufery, a espinagada – koláč z listového těsta plněný úhořem a zeleninou – je místní specialita vázaná na svátek sv. Antonína (17. ledna). Casa Miss je nejstarší a nejznámější bar, kde se dá o espinagadě dětem povídat i mimo sezónu. Zajímavost, kterou ocení i děti: bar si vaří vlastní vermut, který vyhrál mezinárodní cenu – ukázka, že i malý rodinný bar v bramborářském městečku může dělat věci na světové úrovni.",
    "experience": "Vejde se dovnitř k pultu nebo ven na náměstí, kde je víc místa pro skupinu s dětmi. Ve středu večer od 19:00 je zde tapas večer – přes 30 druhů po 1 € za kousek, takže si každé dítě může vzít, co chce, bez objednávání celého jídla. Mimo středu je nabídka tapas a bocadillos jednodušší a rychlejší – počítejte s 30–45 minutami na rychlé občerstvení. Espinagadu čekejte jen v lednu kolem svátku sv. Antonína, v říjnu ji bar nejspíš nemá. Toalety a stín na náměstí jsou k dispozici, hlučnější prostředí baru dětem nevadí.",
@@ -9865,7 +9863,7 @@
     "Provoz od: 1967",
     "Tapas večer: středa od 19:00, přes 30 druhů po 1 €",
     "Telefon: 971 54 00 23, WhatsApp 696 47 97 10",
-    "Espinagada: sezónní, vázaná na leden (svátek sv. Antonína) – v říjnu (ověřit)"
+    "Espinagada: sezónní, vázaná na leden (svátek sv. Antonína) – v říjnu ji bar nejspíš nemá, případně se zeptat telefonem"
    ],
    "links": [
     {
@@ -9933,8 +9931,8 @@
    "card_facts": {
     "Adresa": "Carrer Major 4, Sa Pobla · Google Maps",
     "Cena": "€ (tapas; přesné ceny neuvedeny)",
-    "Pro děti": "velký dvůr, „vítá všechny“; konkrétní vybavení pro děti neověřeno",
-    "Zavřeno": "pondělí a čtvrtek; Út 7:30–14:30, St a Pá–So 7:30–14:30 a 18:00–23:00, Ne 7:30–15:00",
+    "Pro děti": "velký dvůr, „vítá všechny“; konkrétní vybavení pro děti se ptát na místě",
+    "Zavřeno": "pondělí a čtvrtek; Út 7:30–14:00, St 7:30–14:00 a 19:00–23:00, Pá–So 7:30–14:00 a 18:30–23:30, Ne 7:00–14:00",
     "26. 10.–2. 11.": "pravděpodobně – bez zmínky o sezónní přestávce"
    },
    "card_links": [
@@ -10010,8 +10008,8 @@
     "Adresa": "Carrer Marina 15, Sa Pobla · Google Maps",
     "Cena": "€€ (menú del día, cena neuvedena)",
     "Pro děti": "neověřeno",
-    "Zavřeno": "ověřit (TripAdvisor nešel otevřít); v neděli jen à la carte",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "ověřit telefonem 971 540 967 (TripAdvisor nešel otevřít); v neděli jen à la carte",
+    "26. 10.–2. 11.": "pravděpodobně – výpis bez sezónní přestávky; 26. 10. a 2. 11. jsou pondělí = zavřeno"
    },
    "card_links": [
     [
@@ -10021,13 +10019,13 @@
    ],
    "area": "Sa Pobla a okolí (Campanet)",
    "status": "ověřit",
-   "why_card": "Jedna z mála restaurací v Sa Pobla s doloženým polední menu (monkfish s pórkem, kachna, jehněčí plec). Espinagadu s úhořem a s vepřovým nabízí, tel. 971 540 967 / 615 315 976 – v říjnu ověřit.",
+   "why_card": "Jedna z mála restaurací v Sa Pobla s doloženým polední menu (monkfish s pórkem, kachna, jehněčí plec). Espinagadu s úhořem a s vepřovým nabízí, tel. 971 540 967 / 615 315 976 – dostupnost v říjnu ověřit telefonem.",
    "id": "v-marina",
    "why": "Na rozdíl od barů zaměřených na tapas nabízí Marina klidnější, restaurační prostředí s plnohodnotným obědem – vhodné, když skupina chce sednout k jednomu společnému menu a ne postávat u pultu. Espinagadu dělá ve dvou verzích (s úhořem i vepřovým masem), což je mezi místními podniky výjimka a lze o tom dětem povědět v kontextu místní tradice.",
    "experience": "Restaurační sál s obsluhou u stolu, vhodné na klidnější rodinný oběd; počítat s 60–90 minutami na menu o více chodech. Denní menu se mění, obvykle obsahuje typická mallorská jídla (kachna, jehněčí plec, ryba s pórkem). V neděli bez denního menu, jen z lístku – dražší varianta.",
    "access": "Carrer Marina je v centru Sa Pobly, pár minut pěšky nebo autem od Cal Tio; parkování na okolních ulicích.",
-   "tips": "Otevírací dobu a rezervaci pro 12 osob ověřit telefonicky předem (971 540 967 / 615 315 976) – online zdroje se v hodinách rozcházejí a profil na TripAdvisoru byl při přípravě nedostupný.",
-   "warning": "Otevírací doba a provoz v termínu 26. 10.–2. 11. nejsou spolehlivě ověřené – ověřit telefonicky před návštěvou.",
+   "tips": "Rezervaci pro 12 osob domluvit telefonicky předem (971 540 967 / 615 315 976); zavřeno je v pondělí, v ostatní dny podle Google 13:00–16:00 a většinou i 20:00–22:30 (St a Ne jen oběd).",
+   "warning": "Zavřeno v pondělí (26. 10. a 2. 11.); hodiny podle Google, před návštěvou pro 12 osob zavolat.",
    "facts": [
     "Typ jídla: menú del día v týdnu (cca 10 €), v neděli jen à la carte (průměr cca 25 €)",
     "Specialita: espinagada s úhořem i s vepřovým (ověřit sezónnost v říjnu)",
@@ -10090,7 +10088,7 @@
     "Adresa": "Carrer Mercat 10, Sa Pobla · Google Maps",
     "Cena": "€",
     "Pro děti": "pekárna s kavárnou, nic konkrétního",
-    "Zavřeno": "ověřit – jeden výpis uvádí denně 8:00–14:00, oficiální web hodiny neuvádí",
+    "Zavřeno": "bez zavíracího dne; denně 7:45–14:00 (Google)",
     "26. 10.–2. 11.": "pravděpodobně – celoroční pekárna pro místní"
    },
    "card_links": [
@@ -10106,10 +10104,10 @@
    "why": "Pro rodinu s dětmi je to praktická zastávka na snídani nebo svačinu, ne cíl výletu – nabízí čerstvé pečivo, ensaïmady a bunyols, případně kávu k posezení. Espinagadu prodává jen sezónně kolem svátku sv. Antonína v lednu, v říjnu ji čekat nelze.",
    "experience": "Klasický provoz pekárny s kavárenským koutem – výběr pečiva u pultu, možnost posezení s kávou. Vhodné jako rychlá zastávka na 10–15 minut cestou ven z Cal Tio ráno. Některé pobočky řetězce mají i dětské hřiště, u této konkrétní pobočky to není potvrzené.",
    "access": "Carrer Mercat je v centru Sa Pobly, pár minut pěšky od Cal Tio; parkování na okolních ulicích zdarma.",
-   "tips": "Přijít brzy ráno, dokud je čerstvé pečivo v plné nabídce – otevírací doba je denně 8:00–14:00.",
+   "tips": "Přijít brzy ráno, dokud je čerstvé pečivo v plné nabídce – otevírací doba je denně 7:45–14:00.",
    "warning": null,
    "facts": [
-    "Otevírací doba: denně 8:00–14:00",
+    "Otevírací doba: denně 7:45–14:00",
     "Řetězec: Panord Forns de Mallorca, založen 1997, 8 poboček",
     "Telefon: +34 971 53 94 67",
     "Adresa: Carrer Mercat 10, Sa Pobla"
@@ -10167,11 +10165,11 @@
    "page": "jidlo.html",
    "what": "Pekárna a cukrárna",
    "card_facts": {
-    "Adresa": "adresa ověřit (Sa Pobla) · Google Maps",
+    "Adresa": "adresa nenalezena v adresářích (mallorca.com ji nevede) – zjistit v Google Maps · Google Maps",
     "Cena": "espinagada 28–32 €, jen vepřová ~20 € (neověřeno)",
     "Pro děti": "pekárna",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "pondělí a úterý; St–Pá 6:30–13:30, So–Ne 7:30–14:00",
+    "26. 10.–2. 11.": "pravděpodobně – bez sezónní přestávky; 26., 27. 10. a 2. 11. (Po, Út) zavřeno"
    },
    "card_links": [
     [
@@ -10187,12 +10185,12 @@
    "experience": "Klasický sortiment pekárny – pečivo, koláče, na objednávku velké espinagady. Uváděné ceny (28–32 €, jen vepřová cca 20 €) pocházejí z agregovaného vyhledávání, ne přímo z pekárny, proto je brát jako orientační.",
    "access": "Carrer Fred, Sa Pobla, pár minut od Cal Tio; parkování na okolních ulicích.",
    "tips": "Espinagadu na objednávku je nutné domlouvat s předstihem (telefonicky), ne přijít a koupit hotovou.",
-   "warning": "Otevírací doba a přesný sortiment nejsou z oficiálního zdroje ověřené – před cestou ověřit telefonicky (+34 971 54 18 27).",
+   "warning": "Zavřeno v pondělí a úterý (26., 27. 10. a 2. 11.); hodiny podle Google, sortiment není z oficiálního zdroje – před cestou zavolat (+34 971 54 18 27).",
    "facts": [
     "Adresa: Carrer Fred 15, Sa Pobla (ověřeno)",
     "Telefon: +34 971 54 18 27",
     "Specialita: espinagada na objednávku (cena neověřená, orientačně 28–32 €)",
-    "Otevírací doba: (ověřit)"
+    "Otevírací doba: St–Pá 6:30–13:30, So–Ne 7:30–14:00, Po–Út zavřeno (Google)"
    ],
    "links": [
     {
@@ -10203,7 +10201,7 @@
    "commons_query": "Sa Pobla Mallorca",
    "fun": null,
    "photo_is_area": true,
-   "what_long": "Forn i Pastisseria Que Bo je pekárna a cukrárna v Carrer Fred 15 v Sa Pobla, zmiňovaná v souvislosti s velkými espinagadami na objednávku. Adresu se podařilo dohledat (dříve uváděnou jako neověřenou), přesná otevírací doba ani sortiment z oficiálního zdroje ověřit nešly – jde o menší lokální podnik bez vlastního webu.",
+   "what_long": "Forn i Pastisseria Que Bo je pekárna a cukrárna v Carrer Fred 15 v Sa Pobla, zmiňovaná v souvislosti s velkými espinagadami na objednávku. Adresu se podařilo dohledat (dříve uváděnou jako neověřenou), otevírací doba je podle Google (St–Pá 6:30–13:30, So–Ne 7:30–14:00, Po–Út zavřeno), sortiment z oficiálního zdroje ověřit nešel – jde o menší lokální podnik bez vlastního webu.",
    "img": {
     "file": "Búger - Sa Pobla (Puig de Santa Magdalena) 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -10243,11 +10241,11 @@
    "page": "jidlo.html",
    "what": "Pekárna a cukrárna, rodinná od roku 1964",
    "card_facts": {
-    "Adresa": "adresa ověřit (Sa Pobla) · Google Maps",
+    "Adresa": "adresa nenalezena v adresářích – zjistit v Google Maps · Google Maps",
     "Cena": "€ (pekárna)",
     "Pro děti": "pekárna, s sebou",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "Fra Juníper Serra 15: Po–Út zavřeno, St–Ne 6:00–13:30; Església 7: denně 8:00–13:30",
+    "26. 10.–2. 11.": "pravděpodobně – bez sezónní přestávky; v Po a Út (26., 27. 10., 2. 11.) otevřeno jen v Carrer de l'Església 7"
    },
    "card_links": [
     [
@@ -10262,7 +10260,7 @@
    "why": "Autentická rodinná pekárna se 60letou historií – dobrá volba pro snídani mimo turistické trasy, s vazbou na tradici chleba a ensaïmad pečených podle staré receptury.",
    "experience": "Čerstvé pečivo, ensaïmady a bunyols k odnesení s sebou; posezení je omezené, počítejte s koupí na cestu, ne se společným posezením pro 12 lidí. Vhodné jako zastávka na 5–10 minut před ranním výletem.",
    "access": "Carrer Fra Juníper Serra 15 (případně Carrer de l'Església 7), Sa Pobla, pár minut od Cal Tio; parkování na okolních ulicích zdarma.",
-   "tips": "Přijít brzy ráno, dokud je čerstvé pečivo v plné nabídce; otevírací dobu a případné volno kolem 1. 11. ověřit na místě nebo telefonicky.",
+   "tips": "Přijít brzy ráno, dokud je čerstvé pečivo v plné nabídce; hodiny viz karta (Google); volno kolem 1. 11. (svátek) potvrdit telefonicky (Fra Juníper Serra: 971 54 08 25).",
    "warning": null,
    "facts": [
     "Založeno: cca 1964 (Felip Crespí Torrens a Francisca Crespí)",
@@ -10321,7 +10319,7 @@
     "Adresa": "Plaça Major 8, Sa Pobla · Google Maps",
     "Cena": "€–€€ (ceny neuvedeny)",
     "Pro děti": "pizza; terasa a salonky pro skupiny",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "ověřit telefonicky 971 544 400 (výpis hodiny neuvádí, web rpvuit.com má neplatný certifikát) telefonicky 971 544 400 (výpis hodiny neuvádí, web rpvuit.com má neplatný certifikát)",
     "26. 10.–2. 11.": "pravděpodobně – celoroční městečko, sezónnost neuvedena"
    },
    "card_links": [
@@ -10343,7 +10341,7 @@
     "Adresa: Plaça Major 8, Sa Pobla (budova Can Monjo, přes 500 let stará)",
     "Typ pece: dřevo, růžový sopečný kámen (Marana Forni)",
     "Telefon: 971 544 400",
-    "Otevírací doba: (ověřit)"
+    "Otevírací doba: nedohledána, ověřit telefonicky 971 544 400"
    ],
    "links": [
     {
@@ -10397,7 +10395,7 @@
     "Adresa": "Pasaje del Tren s/n, Sa Pobla · Google Maps",
     "Cena": "€–€€ (ceny neuvedeny)",
     "Pro děti": "pizza",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "pondělí; Út–Ne jen večer 19:30–23:00",
     "26. 10.–2. 11.": "pravděpodobně – pobočky i v Palmě, Alcúdii a Inca"
    },
    "card_links": [
@@ -10639,11 +10637,11 @@
    "page": "jidlo.html",
    "what": "Tapas bar",
    "card_facts": {
-    "Adresa": "adresa ověřit (Sineu) · Google Maps",
+    "Adresa": "adresa nenalezena v adresářích – zjistit v Google Maps · Google Maps",
     "Cena": "€ (tapas)",
     "Pro děti": "tapas – každý si vybere",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "bez zavíracího dne; denně 18:30–23:30, ve St (trh) navíc 10:30–15:00",
+    "26. 10.–2. 11.": "pravděpodobně – výpis uvádí všech 7 dní, sezónní přestávka neuvedena"
    },
    "card_links": [
     [
@@ -10658,11 +10656,11 @@
    "why": "Formát tapas umožňuje, aby si každý z dvanáctičlenné skupiny vybral podle chuti bez nutnosti společné objednávky, a vysoké hodnocení naznačuje spolehlivou kvalitu i mimo hlavní sezónu.",
    "experience": "Menší porce k rozdělení mezi stůl, vhodné i pro vybíravé děti, protože se dá objednat postupně a míchat maso, ryby i tapas. Otevírá až večer (kolem 18:30), takže se hodí spíš na večeři než na oběd po trhu.",
    "access": "Z Cal Tio do Sineu cca 25–30 minut autem; parkovat mimo náměstí, pár minut pěšky do centra na Carrer de la Creu.",
-   "tips": "Vzhledem k večernímu provozu (od 18:30) naplánovat jako večeři, ne oběd po trhu; na skupinu 12 lidí doporučeno zavolat předem (644 23 60 18).",
-   "warning": "Zavírací den a případná sezónní přestávka nejsou ověřené – ověřit telefonicky před cestou.",
+   "tips": "Vzhledem k večernímu provozu (od 18:30) naplánovat jako večeři, ne oběd po trhu; na skupinu 12 lidí zavolat předem (644 23 60 18 nebo 682 64 88 85).",
+   "warning": "Výpis Google uvádí telefon 682 64 88 85, starší zdroj 644 23 60 18 – před cestou zkusit obě čísla; zavírací den výpis nemá.",
    "facts": [
     "Adresa: Carrer de la Creu 2 (roh Carrer Major), Sineu",
-    "Otevírací doba: denně cca 18:30–24:00 (ověřit variace podle dne)",
+    "Otevírací doba: denně 18:30–23:30, St navíc 10:30–15:00",
     "Telefon: 644 23 60 18",
     "Hodnocení: 4,6★ (261 recenzí, zdroj Google – ověřit aktuálnost)"
    ],
@@ -10675,7 +10673,7 @@
    "commons_query": "Sineu market",
    "fun": null,
    "photo_is_area": true,
-   "what_long": "El Rey de la Tapa je tapas bar v Sineu na adrese Carrer de la Creu 2 (roh s Carrer Major), s velmi dobrým hodnocením (4,6★ z 261 recenzí). Nabízí tapas, maso, ryby a paelly, otevřeno je podle dostupných zdrojů denně večer 18:30–24:00 (přesnou variabilitu podle dne ověřit).",
+   "what_long": "El Rey de la Tapa je tapas bar v Sineu na adrese Carrer de la Creu 2 (roh s Carrer Major), s velmi dobrým hodnocením (4,6★ z 261 recenzí). Nabízí tapas, maso, ryby a paelly, otevřeno je podle dostupných zdrojů denně večer 18:30–23:30, ve středu navíc 10:30–15:00.",
    "img": {
     "file": "Sineu - Nuestra Senyora 01 ies.jpg",
     "author": "Frank Vincentz",
@@ -10715,11 +10713,11 @@
    "page": "jidlo.html",
    "what": "Restaurace u historického mlýna",
    "card_facts": {
-    "Adresa": "adresa ověřit (Sineu) · Google Maps",
-    "Cena": "ověřit",
+    "Adresa": "adresa nenalezena v adresářích – zjistit v Google Maps · Google Maps",
+    "Cena": "€€€ (Google: typicky 30–40 € na osobu)",
     "Pro děti": "velké porce, anglicky mluvící obsluha",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "pondělí; Út, Čt 19:00–22:30, St 12:00–15:15 a 19:00–22:30, Pá–Ne 13:00–15:15 a 19:00–22:30",
+    "26. 10.–2. 11.": "pravděpodobně – bez sezónní přestávky ve výpisu; 26. 10. a 2. 11. (pondělí) zavřeno"
    },
    "card_links": [
     [
@@ -10735,7 +10733,7 @@
    "experience": "Sál obklopený kamennými zdmi, dřevěnými trámy a částmi starého mlecího zařízení; podle recenzí velké porce. Jídelníček nabízí typická mallorská jídla i speciality vázané přímo na mlýn (treska „des Molí“). Počítejte s 60–90 minutami na oběd nebo večeři pro celou skupinu.",
    "access": "Z Cal Tio do Sineu cca 25–30 minut autem; parkovat mimo náměstí, k mlýnu (adresa dle oficiálního webu Calle de Santa Margalida 25) pěšky pár minut.",
    "tips": "Rezervovat předem, zvlášť na středu (trhový den), kdy je poptávka v Sineu vyšší – telefon 971 85 51 16, rezervace i skupinové akce lze řešit přes oficiální web.",
-   "warning": "Přesná otevírací doba a ceny nejsou z tohoto zdroje kompletně ověřené – ověřit před cestou telefonicky.",
+   "warning": "Zavřeno v pondělí; hodiny a ceny (30–40 € na osobu) podle Google, před cestou zavolat a rezervovat.",
    "facts": [
     "Historie budovy: mlýn na mouku z roku 1870 (Molí d'en Guillemet), restaurací od 1992",
     "Adresa: Calle de Santa Margalida 25, Sineu",
@@ -10795,11 +10793,11 @@
    "page": "jidlo.html",
    "what": "Celler, vaření na otevřeném ohni",
    "card_facts": {
-    "Adresa": "adresa ověřit (Sineu) · Google Maps",
-    "Cena": "ověřit",
+    "Adresa": "adresa nenalezena v adresářích – zjistit v Google Maps · Google Maps",
+    "Cena": "€€ (Google: cca 20–30 €)",
     "Pro děti": "neověřeno",
-    "Zavřeno": "ověřit – ve výpisu podle dne „zavřeno“",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "čtvrtek; Po–Út 18:00–22:30, St 9:00–16:00, Pá–Ne 13:00–16:00 a 18:00–22:30",
+    "26. 10.–2. 11.": "pravděpodobně – bez sezónní přestávky ve výpisu; 29. 10. (čt) zavřeno"
    },
    "card_links": [
     [
@@ -10814,8 +10812,8 @@
    "why": "Je to druhá záložní varianta, pokud jsou Can Font i Molí d'en Pau plné – podobný repertoár tradičních mallorských jídel v historickém sklepním prostředí, ale menší a méně prověřený podnik.",
    "experience": "Mallorská kuchyně připravovaná na otevřeném ohni v tradičním sklepním sále; hodnocení 4,0★ naznačuje solidní, ne výjimečnou úroveň. Vhodné jako druhá záloha na oběd nebo večeři pro 12 lidí.",
    "access": "Z Cal Tio do Sineu cca 25–30 minut autem; parkovat mimo náměstí, do centra na Carrer son Torelló pěšky pár minut.",
-   "tips": "Ověřit otevírací dobu předem – čtvrtek bývá zavřeno; na středu (trhový den) doporučeno zavolat (971 52 01 38) a rezervovat.",
-   "warning": "Otevírací doba je proměnlivá podle dne (čtvrtek zavřeno) – ověřit telefonicky před cestou, zvlášť na středu.",
+   "tips": "Ve čtvrtek zavřeno; ve středu (trhový den) se podle výpisu mallorca.com nerezervuje (kdo dřív přijde), případně zavolat 971 52 01 38.",
+   "warning": "Otevírací doba se mění podle dne (čtvrtek zavřeno, středa jen 9:00–16:00); na středu počítat s čekáním cca 20 min bez rezervace.",
    "facts": [
     "Otevírací doba: Po–Út 18:00–22:30, St 9:00–16:00, Čt zavřeno, Pá–Ne 13:00–16:00 a 18:00–22:30",
     "Adresa: Carrer son Torelló 1, Sineu",
@@ -10889,7 +10887,7 @@
    "why_card": "Historický sklep (4,8/5, ~1 960 hodnocení), ve čtvrtek po trhu otevřeno. Tel. 971 50 00 24.",
    "id": "v-can-ripoll",
    "why": "Sklepy jako Can Ripoll vznikaly v Inca ve velkém, dokud koncem 19. století mšička révokaz (phylloxera) nezničila mallorské vinice – dnešní restaurace v bývalých vinných sklepech jsou živou připomínkou téhle historie, což lze dětem stručně vysvětlit přímo mezi starými sudy. Kuchyně je tradiční mallorská, specialitou je porcella (pečené selátko) a další zapékané pokrmy, které po dni na výletě dobře padnou. Restaurace nemá zavírací den, takže je spolehlivou variantou i mimo hlavní sezónu koncem října.",
-   "experience": "Vstup je z pěší uličky přímo do klenutého sklepa – vysoké kamenné stropy a řada starých dubových sudů podél stěn obvykle zaujmou i děti. Kdo chce klid od hlavního sálu, může restaurace nabídnout stolování ve vnitřní zahradě. Přesné ceny jídel web nezveřejňuje (ověřit na místě), specialitou je porcella a mallorská jídla na sdílení. Oběd pro 12 lidí se dvěma menšími dětskými porcemi lze podle popisu podniku domluvit předem; počítat s 1,5–2 hodinami u stolu. Nejlepší je přijít na začátek oběda kolem 13:00, kdy je sklep ještě poloprázdný.",
+   "experience": "Vstup je z pěší uličky přímo do klenutého sklepa – vysoké kamenné stropy a řada starých dubových sudů podél stěn obvykle zaujmou i děti. Kdo chce klid od hlavního sálu, může restaurace nabídnout stolování ve vnitřní zahradě. Přesné ceny jídel web nezveřejňuje; Google uvádí obvykle 20–30 € na osobu, specialitou je porcella a mallorská jídla na sdílení. Oběd pro 12 lidí se dvěma menšími dětskými porcemi lze podle popisu podniku domluvit předem; počítat s 1,5–2 hodinami u stolu. Nejlepší je přijít na začátek oběda kolem 13:00, kdy je sklep ještě poloprázdný.",
    "access": "Z Cal Tio do centra Inky autem cca 15–20 minut po silnici Ma-3440/Ma-13. Restaurace leží v pěší zóně, autem lze dojet jen k jejímu okraji – parkovat v placených modrých zónách nebo na okrajovém parkovišti a dojít pár minut pěšky. Alternativa je vlak ze Sa Pobly do Inky (jedna zastávka na trati směr Palma), nádraží je ale dál od restaurace než parkoviště v centru.",
    "tips": "Rezervace na 12 lidí nutná předem (tel. 971 50 00 24). Dá se navázat na čtvrteční trh v Inca, který probíhá ten samý den přímo v centru. Jde o klasickou mallorskou kuchyni s masitými jídly – pro vybíravé děti je dobré mít v záloze i jinou možnost.",
    "warning": null,
@@ -10899,7 +10897,7 @@
     "Telefon: 971 50 00 24",
     "Otevřeno: Po–So 13:00–15:45 a 19:30–23:00, Ne 13:00–15:45 (dle webu, stav 2025)",
     "Hodnocení: 4,8/5, cca 1 960 recenzí (Restaurant Guru, rok neuveden)",
-    "Ceny jídel: web je nezveřejňuje (ověřit na místě)"
+    "Ceny jídel: web je nezveřejňuje; Google uvádí €€, obvykle 20–30 € na osobu"
    ],
    "links": [
     {
@@ -10971,7 +10969,7 @@
    "why_card": "Klasický celler v centru; ve čtvrtek 29. 10. otevřeno, v pátek ne. Tel. 971 50 00 49.",
    "id": "v-sa-travessa",
    "why": "Sa Travessa je klidnější alternativa k větším cellerům v okolí – menší, rodinný provoz bez turistického ruchu, se stejným typem historického klenutého prostoru. Kuchyně je tradiční mallorská, vhodná jako oběd po dopoledním trhu v Inca. Fakt, že sklep vznikl v budově z roku 1878 prohlášené za památku, je pro děti dobrým odrazovým bodem k vyprávění o vinařské historii města.",
-   "experience": "Restaurace obsluhuje jen na obědy, dřevěné stoly stojí přímo v klenutém kamenném sklepě – atmosféra je útulnější a klidnější než ve velkých turistických cellerech. Oběd trvá orientačně hodinu až hodinu a půl, vhodné spíš pro klidnější posezení než rychlé občerstvení. Přesné jídelní menu ani ceny nejsou veřejně dohledány (ověřit na místě nebo telefonicky).",
+   "experience": "Restaurace obsluhuje jen na obědy, dřevěné stoly stojí přímo v klenutém kamenném sklepě – atmosféra je útulnější a klidnější než ve velkých turistických cellerech. Oběd trvá orientačně hodinu až hodinu a půl, vhodné spíš pro klidnější posezení než rychlé občerstvení. Přesné jídelní menu není veřejně dohledáno; Google uvádí obvykle 20–30 € na osobu.",
    "access": "Z Cal Tio do centra Inky autem cca 15–20 minut po Ma-3440/Ma-13. Parkovat na okraji pěší zóny (placené modré zóny), k restauraci na Carrer de sa Murta je to pak pár minut pěšky. Alternativa je vlak ze Sa Pobly do Inky.",
    "tips": "Ve čtvrtek 29. 10. je otevřeno na oběd, v pátek zavřeno – nehodí se jako záložní varianta při posunu programu na pátek. Rezervace na 12 lidí doporučená telefonicky (971 50 00 49), přijít nejpozději do 14:00.",
    "warning": "V pátek je zavřeno.",
@@ -10979,7 +10977,7 @@
     "Založeno: budova 1878, prohlášena městskou památkou Inky",
     "Telefon: 971 50 00 49",
     "Otevřeno: Po–Čt a So–Ne pouze obědy 13:00–16:00/16:30, pátek zavřeno (stav 2025)",
-    "Menu a ceny: nedohledány, ověřit na místě"
+    "Ceny jídel nedohledány; Google: €€, obvykle 20–30 € na osobu, často objednávané paella, jehněčí a sépie"
    ],
    "links": [
     {
@@ -11123,7 +11121,7 @@
    "card_facts": {
     "Adresa": "Avinguda del Bisbe Llompart 9, Inca · Google Maps",
     "Cena": "€€ (~20–30 € na osobu)",
-    "Pro děti": "neověřeno",
+    "Pro děti": "děti a skupiny vítány (výpis); dětské menu neuvedeno",
     "Zavřeno": "středa a neděle; Po–Út a Čt–So 11:00–16:00 a 19:00–23:00",
     "26. 10.–2. 11.": "pravděpodobně – bez sezónnosti"
    },
@@ -11145,8 +11143,8 @@
    "facts": [
     "Telefon: 971 88 41 51",
     "Otevřeno: Po–Út a Čt–So 11:00–16:00 a 19:00–23:00, St a Ne zavřeno (stav 2025)",
-    "Cena: cca 20–30 € na osobu (odhad podle agregátorů, neověřeno)",
-    "Dětské menu: nenabízí (neověřeno, doporučeno ověřit telefonicky)"
+    "Cena: cca 20–30 € na osobu (Google)",
+    "Dětské menu: neuvedeno; výpis uvádí „děti a skupiny vítány“"
    ],
    "links": [
     {
@@ -11204,8 +11202,8 @@
     "Adresa": "Plaça de la Constitució 1, Alcúdia · Google Maps",
     "Cena": "neuvedeno",
     "Pro děti": "dětské menu; terasa na pěší zóně",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit – zimní provoz nedohledán"
+    "Zavřeno": "bez zavíracího dne; denně 10:00–23:00 (Wanderlog/Google)",
+    "26. 10.–2. 11.": "ověřit telefonicky 971 546 278 – výpis uvádí denně 10:00–23:00, sezónní změna nedohledána"
    },
    "card_links": [
     [
@@ -11226,7 +11224,7 @@
     "Telefon: 971 546 278",
     "Adresa: Plaça de la Constitució 1, 07400 Alcúdia (staré město)",
     "Nabídka: paella, ryby, tapas, dětské menu",
-    "Otevírací doba mimo sezónu: neověřeno"
+    "Otevírací doba: denně 10:00–23:00 (Wanderlog/Google); zimní provoz nepotvrzen"
    ],
    "links": [
     {
@@ -11284,7 +11282,7 @@
     "Adresa": "Carrer de l'Eclipsi 1, Alcúdia · Google Maps",
     "Cena": "€",
     "Pro děti": "pečivo s sebou",
-    "Zavřeno": "zdroje se liší: denně ~7:00–14:00, jinde Po–Pá 8:00–19:00, So 7:00–18:00, Ne zavřeno",
+    "Zavřeno": "Út–Ne 7:30–14:00, Po zavřeno (mallorca.com); starší zdroje uvádějí jiné hodiny",
     "26. 10.–2. 11.": "pravděpodobně – pekárna pro místní"
    },
    "card_links": [
@@ -11300,12 +11298,12 @@
    "why": "Rychlá a levná zastávka na snídani nebo pečivo s sebou před delším výletem – ideální pro skupinu 12 lidí, kde je jednodušší koupit pečivo do ruky než čekat na obsluhu v restauraci. Ensaïmada je typický mallorský výrobek, který stojí za to dětem ukázat přímo v pekárně, kde vzniká.",
    "experience": "Zastávka trvá jen několik minut – výběr čerstvého pečiva (ensaimady, croissanty, chléb) k odnesení bez posezení. Nejlepší výběr je v ranních hodinách, do poledne bývá vyprodáno. Nejde o místo k sezení, spíš o rychlý nákup před další částí programu.",
    "access": "Z Cal Tio do Alcúdie autem cca 35–40 minut, pekárna je ve starém městě na Carrer de l'Eclipsi. Parkovat mimo centrum (placená parkoviště u hradeb) a dojít pár minut pěšky.",
-   "tips": "Přijít brzy ráno, výběr pečiva mizí do poledne. Otevírací hodiny se mezi zdroji liší (denně cca 7:00–14:00 vs. Po–Pá 8:00–19:00, So 7:00–18:00, Ne zavřeno) – doporučeno ověřit na místě.",
+   "tips": "Přijít brzy ráno, výběr pečiva mizí do poledne. Podle mallorca.com je otevřeno Út–Ne 7:30–14:00, v pondělí zavřeno (2. 11. je pondělí); adresa se v zdrojích liší, ověřit na místě.",
    "warning": null,
    "facts": [
-    "Telefon: 971 545 249 (ověřit shodu s aktuální adresou)",
+    "Telefon: 971 54 52 49 (adresa se mezi zdroji liší: Carrer de l'Eclipsi 1 vs. Carrer del Moll 17 – ověřit před cestou)",
     "Specialita: ensaimady, i plněné (čokoláda, krém)",
-    "Otevírací doba: zdroje se liší, ověřit na místě",
+    "Otevírací doba: Út–Ne 7:30–14:00, Po zavřeno (mallorca.com), ověřit na místě",
     "Oficiální web nebyl dostupný (panaderiatorres.com nereaguje) – ověřit aktuální kontakt"
    ],
    "links": [
@@ -11590,11 +11588,11 @@
    "page": "jidlo.html",
    "what": "Ryby a rýže",
    "card_facts": {
-    "Adresa": "Playa de Muro, přesná adresa ověřit · Google Maps",
+    "Adresa": "Playa de Muro, Av. de s'Albufera · Google Maps",
     "Cena": "~35 € na osobu",
     "Pro děti": "vhodné pro rodiny (podle zdroje)",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřeno sezónou „leden–listopad“ – přesný konec ověřit"
+    "Zavřeno": "denně 12:00–23:30 (vlastní web)",
+    "26. 10.–2. 11.": "podle webu denně 12:00–23:30; konec sezóny na webu není, ověřit telefonem 971 89 31 34"
    },
    "card_links": [
     [
@@ -11615,7 +11613,7 @@
     "Telefon (Playa de Muro): +34 971 89 31 34, e-mail infomuro@canpescador.es",
     "Telefon (Port de Pollença): +34 971 86 78 50, e-mail infopollensa@canpescador.es",
     "Adresa: Av. de s'Albufera, 07458 Playa de Muro",
-    "Otevřeno: denně 12:30–23:30 (vlastní web, konec sezóny neuveden)",
+    "Otevřeno: denně 12:00–23:30 (vlastní web, konec sezóny neuveden)",
     "Specialita: paella, čerstvé ryby, zmrzlina Ca Na Mina"
    ],
    "links": [
@@ -11668,9 +11666,9 @@
    "what": "Tex-Mex a burgery (řetězec)",
    "card_facts": {
     "Adresa": "Carrer de l'Hostaleria 15, Port d'Alcúdia · Google Maps",
-    "Cena": "~30 € na osobu",
+    "Cena": "20–30 € na osobu (Google)",
     "Pro děti": "„ideální pro rodiny s dětmi“, neformální",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "denně 12:00–24:00 (mallorca.com)",
     "26. 10.–2. 11.": "pravděpodobně – řetězec, web ukazoval „otevřeno“"
    },
    "card_links": [
@@ -11692,8 +11690,8 @@
     "Telefon: +34 971 54 71 43",
     "Provozovatel: Boulevard Group, pobočky i v Port de Pollença, Ca'n Picafort a jinde na severu ostrova",
     "Nabídka: žebírka, gourmet/smash burgery, fajitas, tacos, burritos",
-    "Cena: cca 30 € na osobu (odhad z předchozích dat, ověřit)",
-    "Otevírací doba: neuvedena na webu, dříve uváděno denně 12:00–24:00 (ověřit)"
+    "Cena: cca 20–30 € na osobu (Google)",
+    "Otevírací doba: denně 12:00–24:00 (mallorca.com)"
    ],
    "links": [
     {
@@ -11744,7 +11742,7 @@
    "page": "jidlo.html",
    "what": "Řemeslná zmrzlinárna, třetí generace",
    "card_facts": {
-    "Adresa": "Playa de Muro, adresa ověřit · Google Maps",
+    "Adresa": "Avenida de s'Albufera 8, Playa de Muro · Google Maps",
     "Cena": "ověřit",
     "Pro děti": "zmrzlina",
     "Zavřeno": "ověřit",
@@ -11991,7 +11989,7 @@
    "experience": "U pultu se kupují čerstvé ensaimady (sladké spirálovité pečivo posypané cukrem, s náplní nebo bez), sendviče z vlastního chleba a drobné pečivo s sebou. Neplánujte posezení uvnitř – jde o pekárnu k odnesení, ne kavárnu se stoly a personál mluví hlavně katalánsky/španělsky. Cena za kus se pohybuje mezi 2–6 €, takže se dá levně nakoupit snídani nebo svačinu pro celou skupinu 12 lidí najednou, ideálně těsně po otevření kolem 7:00, kdy je výběr pečiva nejčerstvější a nejširší.",
    "access": "Carrer de la Mar 11, pár minut chůze od Plaça Major v centru Pollençy. Parkování stejné jako u U Plaça a La Scalinata – mimo historické centrum, pak pěšky; pěší trasa vede úzkými uličkami starého města.",
    "tips": "Vhodné na snídani nebo svačinu před nedělním trhem na náměstí, kdy jinde bývá fronta. V neděli 1. 11. se zeptejte, jestli mají bunyols – tradiční smažené kobližky pečené kolem svátku Tots Sants; pokud je pekárna v neděli zavřená, hledejte je i u pojízdných stánků na trhu.",
-   "warning": "Nedělní otevírací doba není ověřená – běžný provoz je pondělí až sobota, v neděli může být zavřeno, což by na 1. 11. bylo rozhodující.",
+   "warning": "Nedělní otevírací doba není ověřená a Wanderlog uvádí podnik jako trvale zavřený (ostatní zdroje o zavření nic nemají) – před cestou ověřit v Google Maps nebo telefonicky (971 53 03 36), jestli pekárna vůbec funguje.",
    "facts": [
     "Adresa: Carrer de la Mar 11, Pollença",
     "Otevřeno: Po–So cca 6:30/7:00–20:30 (neděle neověřena)",
@@ -12040,7 +12038,7 @@
     "Adresa": "Via Argentina 20, Pollença · Google Maps",
     "Cena": "2–8 €",
     "Pro děti": "vlastní dětské hřiště",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "denně 6:30–20:00 (Google)",
     "26. 10.–2. 11.": "pravděpodobně – celoroční řetězec pro místní"
    },
    "card_links": [
@@ -12056,10 +12054,10 @@
    "why": "Ze všech probíraných podniků v okolí Pollençy je Panord jediný s dětským hřištěm přímo u kavárny, takže rodiče mohou v klidu dopít kávu, zatímco se děti proběhnou. Sezónní panades a espinagades (plněné pečivo s masem nebo špenátem a rybou) patří k typicky mallorským specialitám vázaným na podzim – dobrá příležitost ochutnat je jinde než v restauraci.",
    "experience": "Kombinuje pekárnu, cukrárnu a kavárnu – u pultu se dá koupit snídaně, sendvič, kus koláče nebo zmrzlina, u stolků venku i uvnitř posedět s kávou. Vedle hřiště je to nejsnazší místo v okolí, kde rodiče v klidu sedí a děti si samy najdou zábavu, aniž by je bylo nutné hlídat u stolu. Sezónně (na podzim) prodávají tradiční panades (masové taštičky z listového těsta) a espinagades (plněné špenátem a rybou), obě typické pro mallorské podzimní svátky. Provoz je celodenní od časného rána do večera, takže sem lze zajít na snídani před výletem i na svačinu po něm.",
    "access": "Via Argentina 20, v centru Pollençy; parkování stejné jako u ostatních podniků na náměstí – mimo historické jádro, pak pár minut pěšky. Pobočka je na hlavní ulici směrem k okraji města, ne přímo na Plaça Major.",
-   "tips": "Nejlepší volba v okolí pro rodiny s malými dětmi, dá se zajít i mimo hlavní jídlo jen na svačinu; podle informací je otevřeno celý týden bez zavíracího dne. Přesné hodiny pro pobočku Pollença si před cestou ověřte telefonicky nebo na místě.",
+   "tips": "Nejlepší volba v okolí pro rodiny s malými dětmi, dá se zajít i mimo hlavní jídlo jen na svačinu; podle informací je otevřeno celý týden bez zavíracího dne. Pobočka Pollença má podle Google otevřeno denně 6:30–20:00.",
    "warning": null,
    "facts": [
-    "Otevřeno: denně, bez zavíracího dne (nespecifikováno přesně na oficiálním webu, ověřit hodiny)",
+    "Otevřeno: denně 6:30–20:00, bez zavíracího dne (Google, stav 7/2026); tel. 971 53 11 17",
     "Adresa: Via Argentina 20, Pollença",
     "Založeno: 1997 v Alcúdii (rozpor s dřívějším údajem 2012 v datech karty – opraveno podle oficiálního webu)",
     "Počet poboček na Mallorce: 7"
@@ -12392,11 +12390,11 @@
    "page": "jidlo.html",
    "what": "Rodinná restaurace od 1954: plody moře, ryby, paella",
    "card_facts": {
-    "Adresa": "u pláže d'en Repic, Port de Sóller (číslo ověřit) · Google Maps",
-    "Cena": "ověřit",
-    "Pro děti": "neověřeno",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Adresa": "u pláže d'en Repic, Passeig Platja d'en Repic 21, Port de Sóller · Google Maps",
+    "Cena": "cca 30–40 € na osobu",
+    "Pro děti": "dětské menu a terasa (recenze 2026)",
+    "Zavřeno": "Po a Út; St–Ne 12:30–22:30 (vlastní web)",
+    "26. 10.–2. 11.": "pravděpodobně – web neuvádí sezónní uzávěru; 26. 10., 27. 10. a 2. 11. jsou zavřeno (Po/Út)"
    },
    "card_links": [
     [
@@ -12473,7 +12471,7 @@
     "Adresa": "centrum Sólleru u náměstí (číslo ověřit) · Google Maps",
     "Cena": "€ – levné",
     "Pro děti": "ano – neformální kavárna, pizza",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "zdroje se liší: Út–Ne 8:00–23:00, Po zavřeno vs. denně 9:00–23:00 (Ne od 10:00)",
     "26. 10.–2. 11.": "ověřit"
    },
    "card_links": [
@@ -12549,8 +12547,8 @@
     "Adresa": "náměstí v Sóller · Google Maps",
     "Cena": "€",
     "Pro děti": "ano – neformální",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "denně 8:00–24:00 (Tablein); nepřijímá online rezervace, jen telefon",
+    "26. 10.–2. 11.": "pravděpodobně – listing uvádí denní provoz bez sezónního omezení"
    },
    "card_links": [
     [
@@ -12705,7 +12703,7 @@
     "Adresa": "u parkoviště, Santuari de Lluc · Google Maps",
     "Cena": "neuvedeno",
     "Pro děti": "dětský koutek – pro skupinu nejlepší volba v Lluc",
-    "Zavřeno": "ověřit",
+    "Zavřeno": "bez zavíracího dne; denně 9:00–23:00 (web santuária) × 8:30–22:00 (Google)",
     "26. 10.–2. 11.": "pravděpodobně – celoroční hodiny, sezónní změny neuvedeny"
    },
    "card_links": [
@@ -12729,7 +12727,7 @@
     "Telefon / WhatsApp: +34 971 517 046 / +34 626 088 286",
     "Založeno: 60. léta 20. století",
     "Adresa: Plaça dels Peregrins 6, Lluc",
-    "Otevírací doba v termínu 26. 10.–2. 11.: neuvedena na webu (ověřit)"
+    "Otevírací doba: denně 9:00–23:00 dle webu santuária (Google: 8:30–22:00), sezónní změny neuvedeny; v pátek ověřit na místě"
    ],
    "links": [
     {
@@ -12885,7 +12883,7 @@
    "experience": "Stoly jsou venku na dlážděném náměstí s výhledem na fasádu baziliky. Objednáte kávu, horkou čokoládu k namáčení, domácí koláč nebo pa amb oli – jde o svačinu, ne o oběd. Obsluha je rychlá, u stolu strávíte 20–30 minut. V létě přibývá i pamboli a pivo. Vhodné jako mezizastávka před nebo po prohlídce baziliky, ne jako hlavní jídlo dne.",
    "access": "Ze Sa Pobly do Lluc po Ma-2130/Ma-10 (cca 35–40 min). Parkování zdarma u santuária, kavárna je na hlavním náměstí kláštera, pár minut chůze od parkoviště.",
    "tips": "V úterý a ve středu tu funguje jen snídaňová nabídka – na oběd jít radši do Sa Fonda nebo Ca s'Amitger. Jinak otevřeno denně 9:00–19:00.",
-   "warning": "Oběd a večeře se podle dřívějších zdrojů podávaly jen čtvrtek–neděle; aktuální oficiální stránka uvádí jednotnou otevírací dobu 9:00–19:00 bez rozlišení dnů – rozpor mezi zdroji, na místě ověřit u obsluhy.",
+   "warning": "Oběd a večeře se podle dřívějších zdrojů podávaly jen čtvrtek–neděle; aktuální oficiální stránka santuária uvádí jednotnou otevírací dobu 9:00–19:00 bez rozlišení dnů – rozpor mezi zdroji, na místě ověřit u obsluhy (tel. +34 971 517 024).",
    "facts": [
     "Otevřeno: denně 9:00–19:00 (dle oficiálního webu, 2025)",
     "Adresa: Plaça dels Peregrins 1, Lluc",
@@ -12954,7 +12952,7 @@
    ],
    "area": "Lluc a Formentor",
    "status": "pravděpodobně",
-   "why_card": "Chléb, sušenky, zeleninové coques a ensaïmady na piknik. Sladkost „quarts de Lluc“ se ověřit nepodařilo.",
+   "why_card": "Chléb, sušenky, zeleninové coques a ensaïmady na piknik.",
    "id": "v-forn-lluc",
    "why": "V okolí kláštera není žádný jiný obchod s potravinami, takže je to jediná možnost, jak si tu doplnit zásoby na výlet po okolních stezkách (např. na Puig Roig nebo Camí Vell). Pro rodiny s dětmi je výhoda rychlost – žádné čekání na jídlo, jen nákup na cestu. Koncem října, kdy se počasí může rychle zhoršit, je praktické mít po ruce vlastní zásobu jídla nezávislou na otevírací době okolních restaurací.",
    "experience": "Malý obchod s pultem u vchodu do klášterního komplexu, hned vedle baziliky. Ke koupi je chléb, sýry, uzeniny, sušenky, zeleninové coques a ensaïmady – vše vhodné do batohu na celodenní výlet. Odbavení skupiny 12 lidí zabere jen pár minut, není tu k dispozici žádné posezení ani toalety pro zákazníky, ty jsou k dispozici o kousek dál u hlavního parkoviště nebo v návštěvnickém centru santuária.",
@@ -12964,7 +12962,7 @@
    "facts": [
     "Sortiment: chléb, sýry, uzeniny, sušenky, coques, ensaïmady",
     "Bez posezení – jen prodej přes pult",
-    "Otevírací doba v termínu 26. 10.–2. 11.: neověřeno"
+    "Otevírací doba v termínu 26. 10.–2. 11.: neověřeno (oficiální web santuária pekárnu neuvádí; zeptat se v Sa Fonda, +34 971 517 022)"
    ],
    "links": [
     {
@@ -13040,7 +13038,7 @@
     "Založeno: 1930",
     "Adresa: Carrer de Sant Pere 5, Pollença",
     "Telefon: +34 971 867 146",
-    "Otevírací doba v termínu 26. 10.–2. 11.: (ověřit)"
+    "Otevírací doba: Po zavřeno, Út–Ne 8:00–15:00 (Google přes mallorca.com, 7/2026); sezónní přestávka koncem října nepotvrzena"
    ],
    "links": [
     {
@@ -13091,11 +13089,11 @@
    "page": "jidlo.html",
    "what": "Supermarkety s hotovým jídlem s sebou",
    "card_facts": {
-    "Adresa": "Port de Pollença, adresy ověřit · Google Maps",
+    "Adresa": "Carrer del Pescador 1, Port de Pollença (pobočka Voramar) · Google Maps",
     "Cena": "€",
     "Pro děti": "sendviče, ovoce, pití",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "bez zavíracího dne; denně 8:00–21:00 (Google)",
+    "26. 10.–2. 11.": "pravděpodobně – otevřeno 7 dní v týdnu"
    },
    "card_links": [
     [
@@ -13107,13 +13105,13 @@
    "status": "ověřit",
    "why_card": "Kompletní piknik těsně před výjezdem na Formentor.",
    "id": "v-the-store",
-   "why": "Je to nejkompletnější místo pro sestavení piknikového oběda těsně před výjezdem na mys Formentor, kde kromě kiosku u majáku není žádné občerstvení na celé cca 20km trase tam a zpět. Otevírací doba do 23:00 sedm dní v týdnu funguje spolehlivě i mimo sezónu, na rozdíl od menších pekáren s omezenou provozní dobou.",
+   "why": "Je to nejkompletnější místo pro sestavení piknikového oběda těsně před výjezdem na mys Formentor, kde kromě kiosku u majáku není žádné občerstvení na celé cca 20km trase tam a zpět. Otevírací doba 8:00–21:00 sedm dní v týdnu platí podle Google i mimo sezónu, na rozdíl od menších pekáren s omezenou provozní dobou.",
    "experience": "Klasický supermarket s pultem s hotovým jídlem, pečivem a ovocem, vinotékou s mallorskými i mezinárodními víny a čerstvým pečivem přímo z vlastní pekárny. Nákup pro 12 lidí (sendviče, ovoce, pití, tortilla de patatas, čerstvé saláty) zabere do 15 minut u pultu s hotovými jídly. Součástí prodejny je i Vermutería La Rovina, tapas bar s koktejly, kdyby se skupina chtěla ještě před cestou na mys zdržet u rychlého občerstvení.",
    "access": "Ze Sa Pobly do Port de Pollença (cca 30–35 min po Ma-2130/Ma-2200). Pobočka Voramar je na Carrer del Pescador 1 / Carrer de Formentor 64, parkování na okolních ulicích.",
    "tips": "Nakoupit brzy ráno před cestou na Formentor – na mysu samotném je jen kiosek u majáku, žádné jiné občerstvení.",
    "warning": null,
    "facts": [
-    "Otevřeno: denně 9:00–23:00",
+    "Otevřeno: denně 8:00–21:00 (Google, 7/2026)",
     "Adresa: Carrer del Pescador 1 / Carrer de Formentor 64, Port de Pollença",
     "Telefon: +34 629 692 889"
    ],
@@ -13170,7 +13168,7 @@
     "Cena": "piknik zdarma, parkování zdarma",
     "Pro děti": "ano – vlastní svačina",
     "Zavřeno": "podle provozu jeskyní (od 1. 11. jen 4 prohlídky)",
-    "26. 10.–2. 11.": "ověřit hodiny, tel. +34 971 820 753"
+    "26. 10.–2. 11.": "do 31. 10. letní rozvrh (7 prohlídek 10:00–17:00), od 1. 11. zimní (4 prohlídky); tel. +34 971 820 753"
    },
    "card_links": [
     [
@@ -13186,10 +13184,10 @@
    "experience": "Po prohlídce jeskyně (trvá cca 1 hodinu a končí u jezera Lake Martel, kde je možnost přejet loďkou nebo dojít pěšky) se skupina přesune k parkovišti, kde je stín pod stromy a lavičky na vlastní jídlo z tašek. Kavárna u vchodu nabízí teplé nápoje a základní občerstvení, pokud piknik nestačí. WC jsou u pokladny/vstupu.",
    "access": "Ze Sa Pobly na východ do Porto Cristo (cca 1 h po Ma-15 a Ma-4014). Parkoviště u jeskyní je velké a zdarma, piknikové místo je hned vedle něj.",
    "tips": "Nakoupit jídlo předem v Sa Pobla nebo cestou, jíst až po prohlídce jeskyně. Od 1. listopadu jezdí jen 4 prohlídky denně – rezervovat čas online (sleva a jistota místa) a piknik naplánovat podle něj.",
-   "warning": "Od 1. listopadu se počet prohlídek omezuje na 4 denně (10:30, 12:00, 14:00, 16:00) oproti až 7 prohlídkám v sezóně do 31. 10. – pro termín 26. 10.–2. 11. ověřit, zda výlet vychází ještě do sezónního nebo už do zimního rozvrhu.",
+   "warning": "Od 1. listopadu se počet prohlídek omezuje na 4 denně (10:30, 12:00, 14:00, 15:30) oproti 7 prohlídkám do 31. 10. (10:00–17:00 bez 13:00) – do 31. 10. platí letní, 1.–2. 11. zimní rozvrh. Vstupenky online až 30 dní předem, telefonem se nerezervuje.",
    "facts": [
-    "Prohlídky 1. 11.–15. 3.: 10:30, 12:00, 14:00, 16:00",
-    "Prohlídky 16. 3.–31. 10.: 10:00–17:00 každou hodinu",
+    "Prohlídky 1. 11.–15. 3.: 10:30, 12:00, 14:00, 15:30",
+    "Prohlídky 16. 3.–31. 10.: 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00 (bez 13:00)",
     "Vstupné dospělí (13+): 18,50 € online / 19,50 € na pokladně",
     "Vstupné děti (3–12): 11,50 € online / 12,50 € na pokladně",
     "Děti 0–2 roky: zdarma",
@@ -13326,8 +13324,8 @@
     "Adresa": "Avinguda dels Pins 19, Porto Cristo (neověřeno) · Google Maps",
     "Cena": "€ – levné",
     "Pro děti": "pizza",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "Út a St zavřeno; Čt–Po 13:00–24:00 (Wanderlog, datum údaje neznámé)",
+    "26. 10.–2. 11.": "po 26. 10. a po 2. 11. podle rozvrhu otevřeno, út 27. a st 28. 10. zavřeno; po 26. 10. a po 2. 11. podle rozvrhu otevřeno, út 27. a st 28. 10. zavřeno; ověřit telefonicky +34 971 82 01 07 telefonicky +34 971 82 01 07"
    },
    "card_links": [
     [
@@ -13349,7 +13347,7 @@
     "Telefon: +34 971 82 01 07",
     "Hodnocení Google: 4,6 (400+ recenzí)",
     "Cenová kategorie: 10–20 €/os.",
-    "Provozní stav: dle Google/mallorca.com dočasně zavřeno (ověřit)"
+    "Provozní stav: dočasné zavření nepotvrzeno (mallorca.com ho neuvádí); rozvrh Čt–Po 13:00–24:00, ověřit telefonicky"
    ],
    "links": [
     {
@@ -13631,8 +13629,8 @@
     "Adresa": "Carrer de Can Sanç 10, Palma · Google Maps",
     "Cena": "€ – většina pod 10 €",
     "Pro děti": "ano – ensaïmada, čokoláda, mandlová zmrzlina",
-    "Zavřeno": "zdroje se rozcházejí: denně 8:00–21:00 × zavřeno v úterý",
-    "26. 10.–2. 11.": "ověřit (zavírací den), tel. 971 71 07 59"
+    "Zavřeno": "bez zavíracího dne; denně 8:00–21:00",
+    "26. 10.–2. 11.": "otevřeno denně 8:00–21:00 (údaj Googlu), zavírací den žádný, tel. 971 71 07 59"
    },
    "card_links": [
     [
@@ -13708,7 +13706,7 @@
     "Cena": "€",
     "Pro děti": "pečivo s sebou",
     "Zavřeno": "bez zavíracího dne; Po–So 8:00–20:30, Ne 8:00–20:00 (agregátor)",
-    "26. 10.–2. 11.": "pravděpodobně – hodiny ověřit"
+    "26. 10.–2. 11.": "pravděpodobně – otevřeno denně (Po–So 8:00–20:30, Ne 8:00–20:00)"
    },
    "card_links": [
     [
@@ -13728,7 +13726,7 @@
    "facts": [
     "Založeno: 1742",
     "Certifikace: chráněné zeměpisné označení \"Ensaïmada de Mallorca\"",
-    "Otevřeno: denně 8:00–20:00",
+    "Otevřeno: Po–So 8:00–20:30, Ne 8:00–20:00",
     "Adresa: Carrer de la Unió 15, Palma",
     "Telefon: +34 971 711 634"
    ],
@@ -13784,8 +13782,8 @@
     "Adresa": "Plaça de Cort, Palma · Google Maps",
     "Cena": "€",
     "Pro děti": "zmrzlina",
-    "Zavřeno": "ověřit",
-    "26. 10.–2. 11.": "ověřit"
+    "Zavřeno": "bez zavíracího dne; Po–So 10:00–23:00, Ne 11:00–20:00",
+    "26. 10.–2. 11.": "pravděpodobně – otevřeno 7 dní v týdnu; zimní zkrácení nezjištěno"
    },
    "card_links": [
     [
@@ -13942,7 +13940,7 @@
    "why": "Splňuje hlavní kritérium: jeden dům, kde se sejdou všechny tři rodiny u jednoho stolu, a přitom dvě oddělené jednotky dávají rodinám soukromí. Sever ostrova má nejbližší mělké pláže (Playa de Muro 20 min), trhy (Sineu, Inca, Pollença do 22 min) i hory (Lluc 44 min), a Sa Pobla je celoroční městečko, které po 31. 10. nezavírá. Rodiny s dětmi dávají lokalitě 9,0; švýcarská rodina 11 lidí se 4 dětmi tu strávila 14 dní a hodnotila 9.",
    "experience": "Ráno společná snídaně, děti na dvoře u bazénu (slaná voda, koncem října spíš na koukání), večer gril na patiu – recenze chválí velký vnitřní stůl, ale uvnitř je pro 11 lidí u jídla těsno a venkovní stůl neusadí všech dvanáct. Kuchyňsky: jen tři plotýnky, které jsou pro deset lidí málo, gril funguje „tak napůl“, kávovar je překapávací, tři lednice, dvě pračky. Klimatizace je jen v ložnicích, ne v obývácích; topení Booking neuvádí vůbec. Zadní dům je podle jednoho hosta hlavně na spaní a sprchování, vybavená kuchyň je v předním. Slabiny z recenzí: tmavší pokoje, koupelny by potřebovaly renovaci, sprcha ve 2. patře v červnu 2026 zatékala, jednou zápach po kočkách v rohu obýváku, málo toaletního papíru. Sousedé vstřícní, ulice před domem stačila na tři půjčená auta.",
    "access": "Z Palmy po Ma-13 na výjezd Sa Pobla, 44 km, asi 42 min; z letiště 43 km. Dům je v obytné čtvrti naproti škole, přesto klid; parkování zdarma na ulici před domem – rodina se třemi auty vždy zaparkovala. Vlakem ze Sa Pobly do Palmy každou hodinu, 55 min, nádraží 1 km pěšky. Centrum s bary, supermarket a pekárna pár minut chůze; nejbližší restaurace Ca'n Matxet 100 m, La Poblana 400 m.",
-   "tips": "Povinná registrace všech 12 hostů včetně dětí (nový zákon na Baleárech) přes online check-in v mailu agentury; odkaz lze poslat ostatním rodinám. Bez něj agentura nepošle instrukce ke klíčům. 10., idealpropertymallorca.com/guest-area/checkin) – údaje a doklady všech 12 osob; bez něj nepošlou instrukce ke klíčům. Při předání v hotovosti kauce 100 € a ekotaxa 68,75 € (5 dospělých). Majitel bude u domu, jinak bude otevřeno s klíči uvnitř. Zeptat se na parkování tří aut, postýlku a pozdní check-out 2. 11. Přivézt vlastní toaletní papír a hadr na podlahu, vařit s rozvahou na třech plotýnkách. Noční klid 22:00–9:00.",
+   "tips": "Povinná registrace všech 12 hostů včetně dětí (nový zákon na Baleárech) přes online check-in agentury (idealpropertymallorca.com/guest-area/checkin, odkaz v mailu; lze ho poslat ostatním rodinám) – údaje a doklady všech 12 osob. Bez něj agentura nepošle instrukce ke klíčům. Při předání v hotovosti kauce 100 € a ekotaxa 68,75 € (5 dospělých). Majitel bude u domu, jinak bude otevřeno s klíči uvnitř. Zeptat se na parkování tří aut, postýlku a pozdní check-out 2. 11. Přivézt vlastní toaletní papír a hadr na podlahu, vařit s rozvahou na třech plotýnkách. Noční klid 22:00–9:00.",
    "warning": "Check-in až od 16:00 – pondělí 26. 10. je proto naplánováno v Palmě. Bazén je nevyhřívaný. Klimatizace jen v ložnicích, topení neuvedeno – při 13 °C v noci může být uvnitř chladno, ověřit.",
    "facts": [
     "Check-in / check-out: 16:00–24:00 / do 10:00 (majitel v recenzi povolil +2 h)",
