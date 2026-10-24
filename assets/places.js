@@ -16,17 +16,35 @@
     });
   }
   externalize(document);
-  let pushed = false;
+  // depth = history entries pushed by open sheets; savedY = page scroll before the first sheet opened.
+  // Scroll is restored by hand: mobile Safari otherwise jumps to the top after history.back().
+  let depth = 0, savedY = null;
+  const restoreScroll = () => { if (savedY !== null) window.scrollTo({ top: savedY, left: 0, behavior: 'instant' }); };
   function open(html, small, hash) {
+    if (!modal.classList.contains('on')) { savedY = window.scrollY; if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; }
     content.innerHTML = html; externalize(content); modal.classList.toggle('small', !!small); modal.classList.add('on');
     modal.setAttribute('aria-hidden', 'false'); box.scrollTop = 0; document.body.style.overflow = 'hidden';
-    if (hash && location.hash !== hash) { history.pushState({ sheet: hash }, '', hash); pushed = true; }
+    if (hash && location.hash !== hash) { history.pushState({ sheet: hash }, '', hash); depth++; }
   }
-  function close(fromPop) {
+  function close(fromPop, keepScroll) {
+    const wasOpen = modal.classList.contains('on');
     modal.classList.remove('on'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = '';
-    if (!fromPop && pushed) { pushed = false; history.back(); } else pushed = false;
+    if (keepScroll) savedY = null;
+    if (wasOpen) restoreScroll();
+    if (!fromPop && depth) { const n = depth; depth = 0; history.go(-n); return; } // the × closes the whole chain at once
+    depth = 0; finish();
   }
-  window.addEventListener('popstate', () => { if (!/^#[ptx]\//.test(location.hash)) { if (modal.classList.contains('on')) close(true); } else openFromHash(); });
+  let afterClose = null; // runs once the history has settled (e.g. jump to a section on the same page)
+  function finish() {
+    const fn = afterClose; afterClose = null;
+    restoreScroll(); setTimeout(() => { restoreScroll(); savedY = null; if (fn) fn(); }, 0);
+    // back to 'auto' only after the browser's own traversal restore would have run
+    setTimeout(() => { if ('scrollRestoration' in history && !modal.classList.contains('on')) history.scrollRestoration = 'auto'; }, 300);
+  }
+  window.addEventListener('popstate', () => {
+    if (/^#[ptx]\//.test(location.hash)) { depth = Math.max(depth - 1, 0); openFromHash(); return; }
+    if (modal.classList.contains('on')) close(true); else finish();
+  });
   window.openModal = open;
   modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('.x')) close(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
@@ -113,7 +131,7 @@
   };
   content.addEventListener('click', e => {
     const b = e.target.closest('[data-star]'); if (b) { const on = toggleShortlist(b.dataset.star); b.textContent = on ? '★ V mém výběru' : '☆ Do mého výběru'; b.classList.toggle('on', on); return; }
-    const f = e.target.closest('[data-fly]'); if (f && typeof map !== 'undefined') { const c = coords[f.dataset.fly]; close(); document.getElementById('mapa').scrollIntoView(); map.flyTo(c, 13); return; }
+    const f = e.target.closest('[data-fly]'); if (f && typeof map !== 'undefined') { const c = coords[f.dataset.fly]; afterClose = () => { document.getElementById('mapa').scrollIntoView(); map.flyTo(c, 13); }; close(false, true); return; }
   });
 
   // ---------- triggers ----------
@@ -238,6 +256,13 @@
     return true;
   }
   content.addEventListener('click', e => {
+    const g = e.target.closest('a[href*="#"]');
+    if (g && !e.defaultPrevented && g.target !== '_blank') { // same-page section link: close the sheet first, then scroll there
+      const path = p => p.replace(/\/index\.html$/, '/');
+      const u = new URL(g.href, location.href), id = decodeURIComponent(u.hash.slice(1));
+      const el = path(u.pathname) === path(location.pathname) && !/^[ptx]\//.test(id) && !(places[id] && !g.closest('.links')) && document.getElementById(id);
+      if (el) { e.preventDefault(); afterClose = () => { el.scrollIntoView({ behavior: 'instant' }); history.replaceState(null, '', u.hash); }; close(false, true); return; }
+    }
     const b = e.target.closest('.frag-back'); if (b) { const prev = stack.pop(); if (prev) { content.innerHTML = prev; box.scrollTop = 0; } else close(); }
   });
   function isSheetable(a) {
